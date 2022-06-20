@@ -1,0 +1,13 @@
+{
+  "key_hello1": "Hello World",
+  "key_btn_login": "<i class='fas fa-sign-in-alt'></i> Sign In",
+  "key_title_hero": "Development and manufacture of seals and gaskets",
+  "key_subtitle_hero": "High performance sealing",
+  "key_menu_inicio": "Home",
+  "key_menu_empresa": "Company",
+  "key_menu_productos": "Products",
+  "key_menu_contacto": "Contact",
+  "key_btn_catalogo": "Digital catalog",
+  "key_btn_informacion_tecnica": "Technical information",
+  "key_btn_nuevos_productos": "New products"
+}
