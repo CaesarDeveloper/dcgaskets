@@ -47,7 +47,7 @@ export default class NavBar {
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle text-white i18nelement" data-bs-toggle="dropdown" data-i18n="key_menu_empresa" href="#" id="Home">Empresa</a>
                   <ul class="dropdown-menu">
-                    <li> <a class="dropdown-item i18nelement" href="#" data-i18n="key_submenu_empresa_video"><i class="fa fa-play"></i>  Ver video </a></li>
+                    <li> <a class="dropdown-item i18nelement" href="#" data-i18n="key_submenu_empresa_video" data-bs-toggle="modal" data-bs-target="#modalCompany"><i class="fa fa-play"></i>  Ver video</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">

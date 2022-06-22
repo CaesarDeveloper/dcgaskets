@@ -157,7 +157,7 @@ nav {
   font-weight: 500;
   font-size: 1rem;
   padding: 5px 16px;
-  background: #dc3545 !important;
+  /* background: #dc3545 !important; */
 }
 
 .our_solution_content h1 {
@@ -468,6 +468,18 @@ input#menuToggle {
   #menuArea {
     display: block;
   }
+
+  /* #buttonsContainer {
+    display: grid;
+  } */
+
+  /* #btnInformacionTecnica {
+    margin-top: 15px;
+  }
+
+  #btnNuevosProductos {
+    margin-top: 15px;
+  } */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -1097,4 +1109,56 @@ a > span:after {
   background-position: right bottom;
   border: 0;
   line-height: 1.92;
+}
+
+.btn-grad-blue:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.btn-grad-gray {
+  color: #ffffff;
+  background: linear-gradient(150deg, #aeaeae 0%, #252b31 50%, #b3becb 100%);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-size: 260% 100%;
+  background-position: right bottom;
+  border: 0;
+  line-height: 1.92;
+}
+
+.btn-grad-gray:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.btn-grad-red {
+  color: #ffffff;
+  background: linear-gradient(150deg, #c51e59 0%, #861326 50%, #dd1838 100%);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-size: 260% 100%;
+  background-position: right bottom;
+  border: 0;
+  line-height: 1.92;
+}
+
+.btn-grad-red:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.company-text-description {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.pd-20-company-video {
+  padding: 20px;
 }

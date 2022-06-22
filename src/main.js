@@ -9,6 +9,7 @@ import NavBar from './components/navbar.js';
 import Hero from './components/hero.js';
 import WhatsAppWidget from './components/whatsappwidget.js';
 import ModalLogin from './components/modalLogin.js';
+import ModalCompany from './components/modalCompany';
 import SectionProducts from './components/sectionProducts.js';
 import SectionDevelopment from './components/sectionDevelopment.js';
 import SectionBanner from './components/sectionBanner.js';
@@ -49,6 +50,8 @@ import json_es from './assets/i18n/es.json';
                 btnLoginText: 'Iniciar sesión',
             });
 
+            const modalCompany = new ModalCompany();
+
             const footer = new Footer({
                 company: 'DC Gaskets',
                 year: new Date().getFullYear()
@@ -78,6 +81,8 @@ import json_es from './assets/i18n/es.json';
 
                 document.getElementById("app").insertAdjacentHTML("afterbegin", hero.render());
                 document.getElementById("app").insertAdjacentHTML("afterbegin", whatsappWidget.render());
+
+                document.getElementById("app").insertAdjacentHTML("afterbegin", modalCompany.render());
                 document.getElementById("app").insertAdjacentHTML("afterbegin", modalLogin.render());
                 document.getElementById("app").insertAdjacentHTML("beforeend", footer.render());
 

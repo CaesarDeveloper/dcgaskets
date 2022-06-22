@@ -9,11 +9,11 @@ export default class SectionProducts {
                 <div class="section_our_solution" style="padding-top:50px;padding-bottom:50px;">
                     <div class="row">
                         <div class="title text-center pb-5 pt-3">
-                            <h1 class="fw-bold display-5 i18nelement" data-i18n="key_products_title" style="padding-top: 50px;">¿Qué estas buscando?</h1>
-                            <div class="container mt-5">
-                                <a class="btn btn-danger btn-lg me-3 i18nelement" data-i18n="key_btn_catalogo" href="#">Catalogo electrónico</a>
-                                <a class="btn btn-secondary btn-lg me-3 i18nelement" data-i18n="key_btn_informacion_tecnica" href="#">Información técnica</a>
-                                <a class="btn btn-grad-blue me-3 btn-lg i18nelement" data-i18n="key_btn_nuevos_productos" href="#">Nuevos productos</a>
+                            <h1 class="fw-bold display-4 i18nelement" data-i18n="key_products_title" style="padding-top: 50px;">¿Qué estas buscando?</h1>
+                            <div class="container mt-5" id="buttonsContainer">
+                                <a id="btnCatalogoElectrinico" class="btn btn-grad-red me-3 i18nelement" data-i18n="key_btn_catalogo" href="#">Catalogo electrónico</a>
+                                <a id="btnInformacionTecnica" class="btn btn-grad-gray me-3 i18nelement" data-i18n="key_btn_informacion_tecnica" href="#">Información técnica</a>
+                                <a id="btnNuevosProductos" class="btn btn-grad-blue me-3 i18nelement" data-i18n="key_btn_nuevos_productos" href="#">Nuevos productos</a>
                             </div>
                         </div>
 
@@ -34,7 +34,7 @@ export default class SectionProducts {
                                     distracted by the readable content of a page when looking at
                                     its layout.
                                 </p>
-                                <button type="button" class="read_more_btn i18nelement" data-i18n="key_section_product_btn_details" data-bs-toggle="modal" data-bs-target="#productoModal">
+                                <button type="button" class="btn-grad-red i18nelement" data-i18n="key_section_product_btn_details" data-bs-toggle="modal" data-bs-target="#productoModal">
                                     Ver detalles
                                 </button>
                                 </div>
@@ -59,7 +59,7 @@ export default class SectionProducts {
                                     distracted by the readable content of a page when looking at
                                     its layout.
                                 </p>
-                                <button type="button" class="read_more_btn i18nelement" data-i18n="key_section_product_btn_details">
+                                <button type="button" class="btn-grad-red i18nelement" data-i18n="key_section_product_btn_details">
                                     Ver detalles
                                 </button>
                                 </div>
@@ -84,7 +84,7 @@ export default class SectionProducts {
                                     distracted by the readable content of a page when looking at
                                     its layout.
                                 </p>
-                                <button type="button" class="read_more_btn i18nelement" data-i18n="key_section_product_btn_details">
+                                <button type="button" class="btn-grad-red i18nelement" data-i18n="key_section_product_btn_details">
                                     Ver detalles
                                 </button>
                                 </div>
