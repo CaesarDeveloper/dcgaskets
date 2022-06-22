@@ -1,13 +1,22 @@
 {
   "key_hello1": "Hello World",
   "key_btn_login": "<i class='fas fa-sign-in-alt'></i> Sign In",
-  "key_title_hero": "Development and manufacture of seals and gaskets",
-  "key_subtitle_hero": "High performance sealing",
+  "key_title_hero": "High performance sealing",
+  "key_subtitle_hero": "Innovation and sealing technology for the automotive industry.",
   "key_menu_inicio": "Home",
   "key_menu_empresa": "Company",
+  "key_submenu_empresa_video": "<i class='fa fa-play'></i> Watch video",
   "key_menu_productos": "Products",
   "key_menu_contacto": "Contact",
   "key_btn_catalogo": "Digital catalog",
   "key_btn_informacion_tecnica": "Technical information",
-  "key_btn_nuevos_productos": "New products"
+  "key_btn_nuevos_productos": "New products",
+  "key_products_title": "What are you looking for?",
+  "key_section_development_title": "R&D",
+  "key_section_development_description": "With our engineering and product development, DC Gaskets manufactures products designed to meet the most challenging demands in each engine to achieve their maximum performance.",
+  "key_section_banner": "We do it under pressure.",
+  "key_section_product_1": "Engine gaskets",
+  "key_section_product_2": "Engine gaskets",
+  "key_section_product_3": "Pistons",
+  "key_section_product_btn_details": "View details"
 }

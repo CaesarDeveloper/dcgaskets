@@ -1,13 +1,22 @@
 {
   "key_hello1": "Hola mundo",
   "key_btn_login": "<i class='fas fa-sign-in-alt'></i> Iniciar sesión",
-  "key_title_hero": "Desarrollo y fabricación de juntas y empaques",
-  "key_subtitle_hero": "Sellado de alto desempeño",
+  "key_title_hero": "Sellado de alto desempeño",
+  "key_subtitle_hero": "Innovación y tecnología de sellado para la industria automotriz.",
   "key_menu_inicio": "Inicio",
   "key_menu_empresa": "Empresa",
+  "key_submenu_empresa_video": "<i class='fa fa-play'></i> Ver video",
   "key_menu_productos": "Productos",
   "key_menu_contacto": "Contactos",
   "key_btn_catalogo": "Catálogo electrónico",
   "key_btn_informacion_tecnica": "Información técnica",
-  "key_btn_nuevos_productos": "Nuevos productos"
+  "key_btn_nuevos_productos": "Nuevos productos",
+  "key_products_title": "¿Qué estas buscando?",
+  "key_section_development_title": "Desarrollos",
+  "key_section_development_description": "DC Gaskets en su ingeniería y desarrollo de productos, crea juntas y empaques diseñados para satisfacer las demandas más exigentes de cada motor para conseguir su máximo desempeño.",
+  "key_section_banner": "Lo hacemos posible bajo presión.",
+  "key_section_product_1": "Juntas",
+  "key_section_product_2": "Empaques",
+  "key_section_product_3": "Pistones",
+  "key_section_product_btn_details": "Ver detalles"
 }

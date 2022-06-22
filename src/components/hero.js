@@ -22,12 +22,12 @@ export default class Hero {
                         <h1 class="i18nelement display-2 fw-bold text-focus-in" data-i18n="key_title_hero"> 
                           ${this.title}                           
                         </h1>                   
-                        <p class="i18nelement lead mb-0 display-7 text-focus-in" data-i18n="key_subtitle_hero"> ${this.subtitle} </p>                      
-                        <div class="container mt-5">
+                        <p class="i18nelement lead mb-0 display-7 text-focus-in mt-5" data-i18n="key_subtitle_hero"> ${this.subtitle} </p>                      
+                        <!-- <div class="container mt-5">
                             <a class="btn btn-danger me-3 i18nelement" data-i18n="key_btn_catalogo" href="#">Catalogo electrónico</a>
                             <a class="btn btn-outline-transparent me-3 i18nelement" data-i18n="key_btn_informacion_tecnica" href="#">Información técnica</a>
                             <a class="btn btn-primary me-3 i18nelement" data-i18n="key_btn_nuevos_productos" href="#">Nuevos productos</a>
-                        </div>
+                        </div> -->
                       </div>
                     </div>
                   </div>

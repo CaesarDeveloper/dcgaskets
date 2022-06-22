@@ -14,7 +14,8 @@ module.exports = defineConfig({
     server: {
         fs: {
             // Allow serving files from one level up to the project root
-            allow: ['./public']
+            allow: ['./public'],
+            strict: false,
         }
     },
     resolve: {

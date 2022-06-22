@@ -10,6 +10,10 @@ import Hero from './components/hero.js';
 import WhatsAppWidget from './components/whatsappwidget.js';
 import ModalLogin from './components/modalLogin.js';
 import SectionProducts from './components/sectionProducts.js';
+import SectionDevelopment from './components/sectionDevelopment.js';
+import SectionBanner from './components/sectionBanner.js';
+import SectionClients from './components/sectionClients.js';
+
 import Footer from './components/footer.js';
 
 import json_en from './assets/i18n/en.json';
@@ -24,14 +28,13 @@ import json_es from './assets/i18n/es.json';
 
         const init = () => {
 
-
             const start = new Date();
             const loadingScreen = new LoadingScreen();
             const sectionProducts = new SectionProducts();
             const nav = new NavBar();
             const hero = new Hero({
-                title: 'Desarrollo y fabricación de juntas y empaques',
-                subtitle: 'Sellado de alto desempeño',
+                title: 'Innovación y tecnología de sellado para la industria automotriz.',
+                subtitle: '',
                 actionButtonText: 'Learn More'
             });
 
@@ -51,7 +54,9 @@ import json_es from './assets/i18n/es.json';
                 year: new Date().getFullYear()
             });
 
-
+            const sectionDevelopment = new SectionDevelopment();
+            const sectionBanner = new SectionBanner();
+            const sectionClients = new SectionClients();
 
             try {
                 console.log('Iniciando app...');
@@ -64,7 +69,13 @@ import json_es from './assets/i18n/es.json';
 
                 document.getElementById("app").insertAdjacentHTML("afterbegin", nav.render());
 
+
+                document.getElementById("app").insertAdjacentHTML("afterbegin", sectionClients.render());
+                document.getElementById("app").insertAdjacentHTML("afterbegin", sectionBanner.render());
+                document.getElementById("app").insertAdjacentHTML("afterbegin", sectionDevelopment.render());
                 document.getElementById("app").insertAdjacentHTML("afterbegin", sectionProducts.render());
+
+
                 document.getElementById("app").insertAdjacentHTML("afterbegin", hero.render());
                 document.getElementById("app").insertAdjacentHTML("afterbegin", whatsappWidget.render());
                 document.getElementById("app").insertAdjacentHTML("afterbegin", modalLogin.render());
@@ -175,6 +186,30 @@ import json_es from './assets/i18n/es.json';
                 nav.classList.remove('bg-dark-transparent', 'shadow');
             }
         });
+
+        const counter = document.querySelectorAll('.counter_value');
+        const speed = 1200; // The lower the slower
+        counter.forEach(counter_value => {
+            const updateCount = () => {
+                const target = +counter_value.getAttribute('data-target');
+                const count = +counter_value.innerText;
+                const inc = target / speed;
+                // Check if target is reached
+                if (count < target) {
+                    // Add inc to count and output in counter_value
+                    counter_value.innerText = (count + inc).toFixed(0);
+                    // Call function every ms
+                    setTimeout(updateCount, 1);
+                } else {
+                    counter_value.innerText = target;
+                }
+            };
+            updateCount();
+        });
+
+        ScrollReveal().reveal('#containerVideo');
+        ScrollReveal().reveal('#productos');
+
 
     });
 
