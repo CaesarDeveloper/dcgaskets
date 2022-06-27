@@ -1,7 +1,7 @@
 {
   "key_hello1": "Hello World",
   "key_btn_login": "<i class='fas fa-sign-in-alt'></i> Sign In",
-  "key_title_hero": "High performance sealing",
+  "key_title_hero": "High performance <span class='bg-gradient-text'>sealing<span>",
   "key_subtitle_hero": "Innovation and sealing technology for the automotive industry.",
   "key_menu_inicio": "Home",
   "key_menu_empresa": "Company",

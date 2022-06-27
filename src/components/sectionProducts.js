@@ -10,11 +10,28 @@ export default class SectionProducts {
                     <div class="row">
                         <div class="title text-center pb-5 pt-3">
                             <h1 class="fw-bold display-4 i18nelement" data-i18n="key_products_title" style="padding-top: 50px;">¿Qué estas buscando?</h1>
-                            <div class="container mt-5" id="buttonsContainer">
+                            <!-- <div class="container mt-5" id="buttonsContainer">
                                 <a id="btnCatalogoElectrinico" class="btn btn-grad-red me-3 i18nelement" data-i18n="key_btn_catalogo" href="#">Catalogo electrónico</a>
                                 <a id="btnInformacionTecnica" class="btn btn-grad-gray me-3 i18nelement" data-i18n="key_btn_informacion_tecnica" href="#">Información técnica</a>
                                 <a id="btnNuevosProductos" class="btn btn-grad-blue me-3 i18nelement" data-i18n="key_btn_nuevos_productos" href="#">Nuevos productos</a>
+                            </div> -->
+
+
+                            <div class="container-block container-flexbox bg-light mt-5">
+                                <div class="item-col-3">
+                                    <a id="btnCatalogoElectrinico" class="btn btn-grad-red me-3 i18nelement" data-i18n="key_btn_catalogo" href="#" style="width:100%;">Catalogo electrónico</a>
+                                </div>
+
+                                <div class="item-col-3">
+                                    <a id="btnInformacionTecnica" class="btn btn-grad-gray me-3 i18nelement" data-i18n="key_btn_informacion_tecnica" href="#" style="width:100%;">Información técnica</a>
+                                </div>
+
+                                <div class="item-col-3">
+                                    <a id="btnNuevosProductos" class="btn btn-grad-blue me-3 i18nelement" data-i18n="key_btn_nuevos_productos" href="#" style="width:100%;">Nuevos productos</a>
+                                </div>
+                                
                             </div>
+
                         </div>
 
                         <div class="col-lg-4 col-md-4 col-sm-4">

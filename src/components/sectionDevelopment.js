@@ -12,17 +12,14 @@ export default class SectionDevelopment {
                     <div class="col-lg-5">
                         <div class="mb-4 mb-lg-0">
                             <h1 class="feature-title display-6 fw-bold position-relative i18nelement" data-i18n="key_section_development_title">Desarrollos</h1>
-                            <p class="text-muted fs-5 lh-lg my-4 py-lg-3 i18nelement" data-i18n="key_section_development_description">DC Gaskets en su ingeniería y desarrollo de productos, crea juntas y empaques diseñados para satisfacer las demandas más exigentes de cada motor para conseguir su máximo desempeño.</p>
+                            <p class="fs-5 lh-lg my-4 py-lg-3 i18nelement" data-i18n="key_section_development_description">DC Gaskets en su ingeniería y desarrollo de productos, crea juntas y empaques diseñados para satisfacer las demandas más exigentes de cada motor para conseguir su máximo desempeño.</p>
                             <!-- <p class="text-muted lh-lg mb-0">Aliquam erat volutpat. Aliquam diam nunc, pretium in sed
                                 pharetra at libero. Aenean quis fringilla erat rhoncus arcu. Nunc risus risus, porttitor sed
                                 urna amet.</p> -->
                         </div>
                     </div>
                     <!--end col-->
-
                     
-
-
                     <div class="col-lg-7">
                         <div class="row justify-content-center">
                             <div class="col-xl-5 col-md-6 mt-4">

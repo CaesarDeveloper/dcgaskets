@@ -1,7 +1,7 @@
 {
   "key_hello1": "Hola mundo",
   "key_btn_login": "<i class='fas fa-sign-in-alt'></i> Iniciar sesión",
-  "key_title_hero": "Sellado de alto desempeño",
+  "key_title_hero": "Sellado de alto <span class='bg-gradient-text'>desempeño<span>",
   "key_subtitle_hero": "Innovación y tecnología de sellado para la industria automotriz.",
   "key_menu_inicio": "Inicio",
   "key_menu_empresa": "Empresa",
