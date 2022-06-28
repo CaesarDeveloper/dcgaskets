@@ -9,6 +9,11 @@ import "./main.css";
 import "./responsive.css";
 import LoadingScreen from './components/loadingScreen.js'
 import App from "./components/app.js";
+
+import imgJuntas from './assets/images/icono_gasket.png';
+import imgEmpaques from './assets/images/icono_empaque.png';
+import imgPistones from './assets/images/icono_piston.png';
+import ModalProduct from './components/modalProduct.js';
 import json_en from './assets/i18n/en.json';
 import json_es from './assets/i18n/es.json';
 
@@ -21,6 +26,28 @@ import json_es from './assets/i18n/es.json';
             const start = new Date();
             const loadingScreen = new LoadingScreen();
             const app = new App();
+
+            const modalProductJuntas = new ModalProduct({
+                modalId: "modalJuntas",
+                productType: "Juntas",
+                productImage: imgJuntas,
+                productDetails: ""
+            });
+
+            const modalProductEmpaques = new ModalProduct({
+                modalId: "modalEmpaques",
+                productType: "Empaques",
+                productImage: imgEmpaques,
+                productDetails: ""
+            });
+
+            const modalProductPistones = new ModalProduct({
+                modalId: "modalPistones",
+                productType: "Pistones",
+                productImage: imgPistones,
+                productDetails: ""
+            });
+
             try {
                 console.log('Iniciando app...');
                 i18Jsons.push(json_es);
@@ -28,6 +55,87 @@ import json_es from './assets/i18n/es.json';
                 document.body.insertAdjacentHTML("afterbegin", loadingScreen.render());
                 document.querySelector('body').classList.add('stop-scrolling');
                 document.getElementById("app").insertAdjacentHTML("afterbegin", app.render());
+
+                document.getElementById("app").insertAdjacentHTML("afterbegin", modalProductJuntas.render());
+                document.getElementById("app").insertAdjacentHTML("afterbegin", modalProductEmpaques.render());
+                document.getElementById("app").insertAdjacentHTML("afterbegin", modalProductPistones.render());
+
+                let nav = document.querySelector('nav');
+                window.addEventListener('scroll', function () {
+                    if (window.pageYOffset > 100) {
+                        nav.classList.add('bg-dark-transparent', 'shadow');
+                    } else {
+                        nav.classList.remove('bg-dark-transparent', 'shadow');
+                    }
+                });
+
+                const swiper = new Swiper('.swiper', {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                    grabCursor: true,
+                    breakpoints: {
+                        320: {
+                            slidesPerView: 2,
+                            spaceBetween: 20
+                        },
+                        480: {
+                            slidesPerView: 3,
+                            spaceBetween: 30
+                        },
+                        1200: {
+                            slidesPerView: 6,
+                            spaceBetween: 40
+                        }
+                    }
+                })
+
+                document.getElementById('btnViewDetailsJuntas').addEventListener('click', function () {
+                    console.log("Click en juntas");
+                    $("#modalJuntas").modal("show");
+                });
+
+                document.getElementById('btnViewDetailsEmpaques').addEventListener('click', function () {
+                    console.log("Click en empaques");
+                    $("#modalEmpaques").modal("show");
+                });
+
+                document.getElementById('btnViewDetailsPistones').addEventListener('click', function () {
+                    console.log("Click en pistones");
+                    $("#modalPistones").modal("show");
+                });
+
+
+                document.getElementById('mobileMenuInicio').addEventListener('click', function () {
+                    if (document.getElementById("menuToggle").checked) {
+                        document.getElementById("menuToggle").checked = false;
+                    }
+                });
+
+                document.getElementById('mobileMenuEmpresa').addEventListener('click', function () {
+                    if (document.getElementById("menuToggle").checked) {
+                        document.getElementById("menuToggle").checked = false;
+                    }
+                });
+
+                document.getElementById('mobileMenuProductos').addEventListener('click', function () {
+                    if (document.getElementById("menuToggle").checked) {
+                        document.getElementById("menuToggle").checked = false;
+                    }
+                });
+
+                document.getElementById('mobileMenuContact').addEventListener('click', function () {
+                    if (document.getElementById("menuToggle").checked) {
+                        document.getElementById("menuToggle").checked = false;
+                    }
+                });
+
+
+
+
+
+
+
+
             } catch (error) {
                 console.error(error);
             } finally {
@@ -107,42 +215,5 @@ import json_es from './assets/i18n/es.json';
 
     $(document).ready(function () {
         DCGaskets.init();
-
-        let nav = document.querySelector('nav');
-        window.addEventListener('scroll', function () {
-            if (window.pageYOffset > 100) {
-                nav.classList.add('bg-dark-transparent', 'shadow');
-            } else {
-                nav.classList.remove('bg-dark-transparent', 'shadow');
-            }
-        });
-
-
-        const swiper = new Swiper('.swiper', {
-            // Default parameters
-            slidesPerView: 2,
-            spaceBetween: 10,
-            grabCursor: true,
-
-            // Responsive breakpoints
-            breakpoints: {
-                // when window width is >= 320px
-                320: {
-                    slidesPerView: 2,
-                    spaceBetween: 20
-                },
-                // when window width is >= 480px
-                480: {
-                    slidesPerView: 3,
-                    spaceBetween: 30
-                },
-                // when window width is >= 1200px
-                1200: {
-                    slidesPerView: 6,
-                    spaceBetween: 40
-                }
-            }
-        })
-
     });
 })(jQuery);

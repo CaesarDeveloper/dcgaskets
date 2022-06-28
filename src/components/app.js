@@ -36,6 +36,7 @@ export default class App {
 
         this.modalCompany = new ModalCompany();
 
+
         this.socialWidget = new SocialAppWidget({
             phone: '524777106000',
             message: 'Mensaje default para sporte de DC Gaskets'

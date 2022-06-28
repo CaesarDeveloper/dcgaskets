@@ -18,10 +18,10 @@ export default class NavBar {
                 <label for="menuToggle"></label>
                 <div class="menuContent">
                   <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Empresa</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#" id="mobileMenuInicio">Inicio</a></li>
+                    <li><a href="#" id="mobileMenuEmpresa" data-bs-toggle="modal" data-bs-target="#modalCompany">Empresa</a></li>
+                    <li><a href="#productosSection" id="mobileMenuProductos">Productos</a></li>
+                    <li><a href="#contactSection" id="mobileMenuContact">Contacto</a></li>
                   </ul>
                 </div>
               </div>

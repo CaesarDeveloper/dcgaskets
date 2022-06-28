@@ -3,6 +3,7 @@ import imgEmpaques from '../assets/images/icono_empaque.png';
 import imgPistones from '../assets/images/icono_piston.png';
 
 export default class SectionProducts {
+
     render() {
         return /*html*/ `
            <section class="container" id="productosSection">
@@ -46,7 +47,7 @@ export default class SectionProducts {
                                     distracted by the readable content of a page when looking at
                                     its layout.
                                 </p>
-                                <button type="button" class="btn-grad-red i18nelement" data-i18n="key_section_product_btn_details" data-bs-toggle="modal" data-bs-target="#productoModal">
+                                <button id="btnViewDetailsJuntas" type="button" class="btn-grad-red i18nelement" data-i18n="key_section_product_btn_details">
                                     Ver detalles
                                 </button>
                                 </div>
@@ -71,7 +72,7 @@ export default class SectionProducts {
                                     distracted by the readable content of a page when looking at
                                     its layout.
                                 </p>
-                                <button type="button" class="btn-grad-red i18nelement" data-i18n="key_section_product_btn_details">
+                                <button id="btnViewDetailsEmpaques" type="button" class="btn-grad-red i18nelement" data-i18n="key_section_product_btn_details">
                                     Ver detalles
                                 </button>
                                 </div>
@@ -96,7 +97,7 @@ export default class SectionProducts {
                                     distracted by the readable content of a page when looking at
                                     its layout.
                                 </p>
-                                <button type="button" class="btn-grad-red i18nelement" data-i18n="key_section_product_btn_details">
+                                <button id="btnViewDetailsPistones" ype="button" class="btn-grad-red i18nelement" data-i18n="key_section_product_btn_details">
                                     Ver detalles
                                 </button>
                                 </div>
