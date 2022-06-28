@@ -6,6 +6,7 @@
  * DCGaskets: @init, @i18Loader, @updateContent, @niceSelectInit
  * ---------------------------------------------- */
 import "./main.css";
+import "./responsive.css";
 import LoadingScreen from './components/loadingScreen.js'
 import App from "./components/app.js";
 import json_en from './assets/i18n/en.json';
