@@ -3,7 +3,7 @@ export default class ModalCompany {
         return /*html*/ `
             <!-- FOOTER -->
             <div class="modal fade" id="modalCompany" tabindex="-1" aria-labelledby="modalCompanyLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title text-center" id="modalCompanyLabel"><i class="fa-solid fa-building-columns"></i> DC Gaskets</h5>

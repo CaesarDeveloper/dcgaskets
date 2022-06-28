@@ -1,33 +1,27 @@
-import imgJuntas from '../assets/images/juntas.jpg';
-import imgEmpaques from '../assets/images/empaques.jpg';
-import imgPistones from '../assets/images/pistones.jpg';
+import imgJuntas from '../assets/images/icono_gasket.png';
+import imgEmpaques from '../assets/images/icono_empaque.png';
+import imgPistones from '../assets/images/icono_piston.png';
 
 export default class SectionProducts {
     render() {
         return /*html*/ `
-           <section class="container" id="productos">
+           <section class="container" id="productosSection">
                 <div class="section_our_solution" style="padding-top:50px;padding-bottom:50px;">
                     <div class="row">
                         <div class="title text-center pb-5 pt-3">
                             <h1 class="fw-bold display-4 i18nelement" data-i18n="key_products_title" style="padding-top: 50px;">¿Qué estas buscando?</h1>
-                            <!-- <div class="container mt-5" id="buttonsContainer">
-                                <a id="btnCatalogoElectrinico" class="btn btn-grad-red me-3 i18nelement" data-i18n="key_btn_catalogo" href="#">Catalogo electrónico</a>
-                                <a id="btnInformacionTecnica" class="btn btn-grad-gray me-3 i18nelement" data-i18n="key_btn_informacion_tecnica" href="#">Información técnica</a>
-                                <a id="btnNuevosProductos" class="btn btn-grad-blue me-3 i18nelement" data-i18n="key_btn_nuevos_productos" href="#">Nuevos productos</a>
-                            </div> -->
-
 
                             <div class="container-block container-flexbox bg-light mt-5">
                                 <div class="item-col-3">
-                                    <a id="btnCatalogoElectrinico" class="btn btn-grad-red me-3 i18nelement" data-i18n="key_btn_catalogo" href="#" style="width:100%;">Catalogo electrónico</a>
+                                    <a id="btnCatalogoElectrinico" class="btn btn-lg btn-grad-red me-3 i18nelement" data-i18n="key_btn_catalogo" href="https://www.dcp.com.mx/varios/CatalogoElectronico.jsp" target="_blank" style="width:100%;">Catalogo electrónico</a>
                                 </div>
 
                                 <div class="item-col-3">
-                                    <a id="btnInformacionTecnica" class="btn btn-grad-gray me-3 i18nelement" data-i18n="key_btn_informacion_tecnica" href="#" style="width:100%;">Información técnica</a>
+                                    <a id="btnInformacionTecnica" class="btn btn-lg btn-grad-gray me-3 i18nelement" data-i18n="key_btn_informacion_tecnica" href="https://www.dcp.com.mx/imgs/ProdNuevos/3.jpg" target="_blank" style="width:100%;">Información técnica</a>
                                 </div>
 
                                 <div class="item-col-3">
-                                    <a id="btnNuevosProductos" class="btn btn-grad-blue me-3 i18nelement" data-i18n="key_btn_nuevos_productos" href="#" style="width:100%;">Nuevos productos</a>
+                                    <a id="btnNuevosProductos" class="btn btn-lg btn-grad-blue me-3 i18nelement" data-i18n="key_btn_nuevos_productos" href="https://www.dcp.com.mx/publica/Principal/esp/noticias.jsp" target="_blank" style="width:100%;">Nuevos productos</a>
                                 </div>
                                 
                             </div>

@@ -1,4 +1,4 @@
-import logo_dc from '../assets/images/logo_gaskets.png';
+import LOGO_DCGASKETS from '../assets/images/logo_gaskets.png';
 
 export default class NavBar {
 
@@ -7,7 +7,7 @@ export default class NavBar {
     return /*html*/ `
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
           <div class="container">
-            <a class="navbar-brand" href="#"><img src="${logo_dc}" alt="Logo DC" width="80"/></a>
+            <a class="navbar-brand" href="#"><img src="${LOGO_DCGASKETS}" alt="Logo DC" width="120"/></a>
             <div id="menuArea">
               <input type="checkbox" id="menuToggle"/>
               <label for="menuToggle" class="menuOpenLabel">
@@ -51,10 +51,10 @@ export default class NavBar {
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_productos" href="#productos" id="About">Productos</a>
+                  <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_productos" href="#productosSection" id="About">Productos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_contacto" href="#" id="Contact">Contacto</a>
+                  <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_contacto" href="#contactSection" id="Contact">Contacto</a>
                 </li>                
                 <li class="nav-item">
                     <button class="btn btn-danger ms-5 i18nelement" data-i18n="key_btn_login" data-bs-toggle="modal" data-bs-target="#exampleModal">Iniciar sesión</button>

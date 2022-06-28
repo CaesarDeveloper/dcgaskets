@@ -6,7 +6,7 @@ export default class SectionBanner {
                     <div class="row">
                     <div class="col-md-12">
                         <div class="bg-dark rounded py-1 all-text-white">
-                            <h2 class="alt-font p-2 p-sm-5 text-center text-white i18nelement" data-i18n="key_section_banner">
+                            <h2 class="p-2 p-sm-5 text-center text-white i18nelement" data-i18n="key_section_banner">
                                 Lo hacemos posible bajo presión
                             </h2>
                         </div>

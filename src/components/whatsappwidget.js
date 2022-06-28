@@ -9,7 +9,7 @@ export default class WhatsAppWidget {
         return /*html*/ `
                <a
                     href="https://api.whatsapp.com/send/?phone=${this.phone}&text=${this.message}"
-                    class="float"
+                    class="float box-shadow-light"
                     target="_blank"
                 >
                     <i class="fa-brands fa-whatsapp my-float"></i>

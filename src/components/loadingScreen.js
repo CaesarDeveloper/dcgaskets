@@ -9,7 +9,9 @@ export default class LoadingScreen {
                         <span class="leaf3"></span>
                         <span class="leaf4"></span>
                     </div>
-                    <span class="loading fw-bold" data-name="Loading">DC <span style="color: #e63a56">GASKETS</span></span>
+                    <span class="loading fw-bold" data-name="Loading">DC
+                        <span style="color: #e63a56">GASKETS</span>
+                    </span>
                 </div>
         </div>
         `;

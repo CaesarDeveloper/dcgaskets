@@ -16,8 +16,21 @@
   "key_section_development_description": "With our engineering and product development, DC Gaskets manufactures products designed to meet the most challenging demands in each engine to achieve their maximum performance.",
   "key_section_banner": "We do it under pressure.",
   "key_section_product_1": "Engine gaskets",
-  "key_section_product_2": "Engine gaskets",
+  "key_section_product_2": "Engine seals",
   "key_section_product_3": "Pistons",
   "key_section_product_btn_details": "View details",
-  "key_company_description": "For over 60 years in DC Gaskets we have manufactured high-quality automotive gaskets, evolved innovating with materials, providing sealing solutions for the international market; with state-of-the-art technology in our production processes, we ensure top quality with continuous improvement highlighting our technological supremacy with our DC Graph TechSeal®. <br><br> By 2010, we installed a new manufacturing line, significantly increasing our operations, which was necessary to meet rapidly increasing demand for automotive PISTONS in national and international markets, facilitating company’s successful growth strategy. <br><br> In DC Gaskets we constantly innovate and improve, always seeking to satisfy customer’s expectations with an exclusive service, having a considerable level of coverage according to the market needs. Our goal is to deliver world-class gaskets built with security, technology and trust."
+  "key_company_description": "For over 60 years in DC Gaskets we have manufactured high-quality automotive gaskets, evolved innovating with materials, providing sealing solutions for the international market; with state-of-the-art technology in our production processes, we ensure top quality with continuous improvement highlighting our technological supremacy with our DC Graph TechSeal®. <br><br> By 2010, we installed a new manufacturing line, significantly increasing our operations, which was necessary to meet rapidly increasing demand for automotive PISTONS in national and international markets, facilitating company’s successful growth strategy. <br><br> In DC Gaskets we constantly innovate and improve, always seeking to satisfy customer’s expectations with an exclusive service, having a considerable level of coverage according to the market needs. Our goal is to deliver world-class gaskets built with security, technology and trust.",
+  "key_title_login_modal": "<i class='fa-solid fa-shield'></i> Authentication",
+  "key_user_login_modal": "User",
+  "key_password_login_modal": "Password",
+  "key_remember_login_modal": "Remember",
+  "key_forgotpassword_login_modal": "Forgot password?",
+  "key_btn_cancel_login_modal": "Cancel",
+  "key_client_section_title": "Customers",
+  "key_client_section_description": "We have the most complete line, 1 out of 3 mechanics prefer DC",
+  "key_client_section_title_logos": "Some of our customers",
+  "key_footer_section_right_reserved": "All rights reserved",
+  "key_footer_section_right_terms_conditions": "Terms of use",
+  "key_footer_and": "and",
+  "key_footer_section_privacy_declaration": "Privacy statement"
 }

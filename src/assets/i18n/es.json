@@ -7,7 +7,7 @@
   "key_menu_empresa": "Empresa",
   "key_submenu_empresa_video": "<i class='fa fa-play'></i> Ver video",
   "key_menu_productos": "Productos",
-  "key_menu_contacto": "Contactos",
+  "key_menu_contacto": "Contacto",
   "key_btn_catalogo": "Catálogo electrónico",
   "key_btn_informacion_tecnica": "Información técnica",
   "key_btn_nuevos_productos": "Nuevos productos",
@@ -19,5 +19,18 @@
   "key_section_product_2": "Empaques",
   "key_section_product_3": "Pistones",
   "key_section_product_btn_details": "Ver detalles",
-  "key_company_description": "Fabricando juntas y empaques automotrices por más de 6 décadas, en DC Gaskets hemos evolucionado e innovado en el mercado nacional e internacional con materiales de alta gama, brindando soluciones de sellado con tecnología de punta, asegurando una máxima calidad en los productos destacando nuestra supremacía tecnológica con DC Graph TechSeal®. <br><br> En el año 2010 inauguramos una nueva línea de producción, incrementando significativamente nuestras operaciones, lo cual era necesario para satisfacer la creciente demanda de PISTONES automotrices en los mercados nacionales e internacionales, facilitando la exitosa estrategia de crecimiento de nuestra empresa. <br><br> DC Gaskets es sinónimo de innovación y mejora constante, buscando siempre cumplir las expectativas del cliente brindando un servicio exclusivo, teniendo un nivel de cobertura considerable acorde a las necesidades del mercado. Nuestro objetivo es ofrecer productos de clase mundial fabricados con seguridad, tecnología y confianza."
+  "key_company_description": "Fabricando juntas y empaques automotrices por más de 6 décadas, en DC Gaskets hemos evolucionado e innovado en el mercado nacional e internacional con materiales de alta gama, brindando soluciones de sellado con tecnología de punta, asegurando una máxima calidad en los productos destacando nuestra supremacía tecnológica con DC Graph TechSeal®. <br><br> En el año 2010 inauguramos una nueva línea de producción, incrementando significativamente nuestras operaciones, lo cual era necesario para satisfacer la creciente demanda de PISTONES automotrices en los mercados nacionales e internacionales, facilitando la exitosa estrategia de crecimiento de nuestra empresa. <br><br> DC Gaskets es sinónimo de innovación y mejora constante, buscando siempre cumplir las expectativas del cliente brindando un servicio exclusivo, teniendo un nivel de cobertura considerable acorde a las necesidades del mercado. Nuestro objetivo es ofrecer productos de clase mundial fabricados con seguridad, tecnología y confianza.",
+  "key_title_login_modal": "<i class='fa-solid fa-shield'></i> Autenticación",
+  "key_user_login_modal": "Usuario",
+  "key_password_login_modal": "Contraseña",
+  "key_remember_login_modal": "Recordarme",
+  "key_forgotpassword_login_modal": "¿Has olvidado tu contraseña?",
+  "key_btn_cancel_login_modal": "Cancelar",
+  "key_client_section_title": "Clientes",
+  "key_client_section_description": "Tenemos la linea mas completa, 1 de cada 3 mecanicos prefieren DC",
+  "key_client_section_title_logos": "Algunos de nuestros clientes",
+  "key_footer_section_right_reserved": "Derechos Reservados",
+  "key_footer_section_right_terms_conditions": "Términos de uso",
+  "key_footer_and": "y",
+  "key_footer_section_privacy_declaration": "Declaración de Privacidad"
 }

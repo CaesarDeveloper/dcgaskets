@@ -1,6 +1,6 @@
 import HEADER_VID_DCGASKETS from '../assets/video/HEADER_VID_DCGASKETS.mp4';
 
-export default class Hero {
+export default class HeaderVideo {
 
   constructor(props) {
     this.title = props.title;
@@ -19,18 +19,14 @@ export default class Hero {
                   <div class="container h-100" id="containerVideo">
                     <div class="d-flex h-100 text-center align-items-center">
                       <div class="w-100 text-white">
-                        <h1 class="i18nelement display-1 fw-bold text-focus-in" data-i18n="key_title_hero"> 
+                        <h1 id="titleHeader" class="i18nelement display-1 fw-bold text-focus-in" data-i18n="key_title_hero" style="font-size: 6em;"> 
                           ${this.title}                           
-                        </h1>                   
-                        <p class="i18nelement lead mb-0 text-focus-in mt-5" data-i18n="key_subtitle_hero"> ${this.subtitle} </p>                      
-                        <!-- <div class="container mt-5">
-                            <a class="btn btn-danger me-3 i18nelement" data-i18n="key_btn_catalogo" href="#">Catalogo electrónico</a>
-                            <a class="btn btn-outline-transparent me-3 i18nelement" data-i18n="key_btn_informacion_tecnica" href="#">Información técnica</a>
-                            <a class="btn btn-primary me-3 i18nelement" data-i18n="key_btn_nuevos_productos" href="#">Nuevos productos</a>
-                        </div> -->
+                        </h1>
+                        <h3 id="subtitleHeader" class="i18nelement mb-0 text-focus-in mt-5" data-i18n="key_subtitle_hero"> ${this.subtitle} </h3>                        
+
                       </div>
                     </div>
-                  </div>
+                  </div>                
                 <!-- </main> -->
               </header>
         `;
