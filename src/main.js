@@ -16,12 +16,6 @@ import json_es from './assets/i18n/es.json';
 
     let i18Jsons = [];
 
-    Object.assign(window, {
-        $: jQuery,
-        jQuery
-    })
-
-
     const DCGaskets = (() => {
         const init = () => {
             const start = new Date();

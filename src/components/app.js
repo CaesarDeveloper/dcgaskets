@@ -1,6 +1,6 @@
 import NavBar from './navbar';
 import HeaderVideo from './headerVideo.js';
-import WhatsAppWidget from './whatsappwidget.js';
+import SocialAppWidget from './socialwidget.js';
 import ModalLogin from './modalLogin.js';
 import ModalCompany from './modalCompany';
 import SectionProducts from './sectionProducts.js';
@@ -36,7 +36,7 @@ export default class App {
 
         this.modalCompany = new ModalCompany();
 
-        this.whatsappWidget = new WhatsAppWidget({
+        this.socialWidget = new SocialAppWidget({
             phone: '524777106000',
             message: 'Mensaje default para sporte de DC Gaskets'
         });
@@ -60,7 +60,7 @@ export default class App {
             ${this.modalCompany.render()}
 
             <!-- Widget declaration -->
-            ${this.whatsappWidget.render()}
+            ${this.socialWidget.render()}
         `;
     }
 }
