@@ -19,7 +19,7 @@ export default class HeaderVideo {
                   <div class="container h-100" id="containerVideo">
                     <div class="d-flex h-100 text-center align-items-center">
                       <div class="w-100 text-white">
-                        <h1 id="titleHeader" class="i18nelement display-1 fw-bold text-focus-in" data-i18n="key_title_hero" style="font-size: 6em;"> 
+                        <h1 id="titleHeader" class="i18nelement display-1 fw-bold text-focus-in" data-i18n="key_title_hero"> 
                           ${this.title}                           
                         </h1>
                         <h3 id="subtitleHeader" class="i18nelement mb-0 text-focus-in mt-5" data-i18n="key_subtitle_hero"> ${this.subtitle} </h3>                        
