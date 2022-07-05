@@ -86,6 +86,9 @@ import json_es from './assets/i18n/es.json';
                             slidesPerView: 6,
                             spaceBetween: 40
                         }
+                    },
+                    autoplay: {
+                        delay: 3000,
                     }
                 })
 
@@ -128,12 +131,6 @@ import json_es from './assets/i18n/es.json';
                         document.getElementById("menuToggle").checked = false;
                     }
                 });
-
-
-
-
-
-
 
 
             } catch (error) {

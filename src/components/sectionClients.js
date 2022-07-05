@@ -1,4 +1,14 @@
 import img2 from '../assets/images/02.jpg';
+import cliente1 from '../assets/images/cliente1.jpg';
+import cliente2 from '../assets/images/cliente2.png';
+import cliente3 from '../assets/images/cliente3.png';
+import cliente4 from '../assets/images/cliente4.jpeg';
+import cliente5 from '../assets/images/cliente5.png';
+import cliente6 from '../assets/images/cliente6.jpg';
+import cliente7 from '../assets/images/cliente7.jpg';
+import cliente8 from '../assets/images/cliente8.png';
+import cliente9 from '../assets/images/cliente9.png';
+
 
 export default class SectionClients {
     render() {
@@ -37,28 +47,28 @@ export default class SectionClients {
                         <div class="swiper-wrapper d-flex align-items-center text-center" style="cursor: grab; transform: translate3d(-222.667px, 0px, 0px); transition-duration: 0ms;" id="swiper-wrapper-787857f5a4314e39" aria-live="polite">
                             <!-- Slides-->
                             <div class="swiper-slide lc-block swiper-slide-prev" style="width: 182.667px; margin-right: 40px;" role="group" aria-label="1 / 8">
-                                <img class="img-fluid" src="https://cdn.livecanvas.com/media/logos/ipsum/logoipsum-logo-1.svg" loading="lazy">
+                                <img class="img-fluid" src="${cliente1}" loading="lazy">
                             </div>
                             <div class="swiper-slide lc-block swiper-slide-active" style="width: 182.667px; margin-right: 40px;" role="group" aria-label="2 / 8">
-                                <img class="img-fluid" src="https://cdn.livecanvas.com/media/logos/ipsum/logoipsum-logo-2.svg" loading="lazy">
+                                <img class="img-fluid" src="${cliente2}" loading="lazy">
                             </div>
                             <div class="swiper-slide lc-block swiper-slide-next" style="width: 182.667px; margin-right: 40px;" role="group" aria-label="3 / 8">
-                                <img class="img-fluid" src="https://cdn.livecanvas.com/media/logos/ipsum/logoipsum-logo-3.svg" loading="lazy">
+                                <img class="img-fluid" src="${cliente3}" loading="lazy">
                             </div>
                             <div class="swiper-slide lc-block" style="width: 182.667px; margin-right: 40px;" role="group" aria-label="4 / 8">
-                                <img class="img-fluid" src="https://cdn.livecanvas.com/media/logos/ipsum/logoipsum-logo-4.svg" loading="lazy">
+                                <img class="img-fluid" src="${cliente4}" loading="lazy">
                             </div>
                             <div class="swiper-slide lc-block" style="width: 182.667px; margin-right: 40px;" role="group" aria-label="5 / 8">
-                                <img class="img-fluid" src="https://cdn.livecanvas.com/media/logos/ipsum/logoipsum-logo-6.svg" loading="lazy">
+                                <img class="img-fluid" src="${cliente5}" loading="lazy">
                             </div>
                             <div class="swiper-slide lc-block" style="width: 182.667px; margin-right: 40px;" role="group" aria-label="6 / 8">
-                                <img class="img-fluid" src="https://cdn.livecanvas.com/media/logos/ipsum/logoipsum-logo-8.svg" loading="lazy">
+                                <img class="img-fluid" src="${cliente6}" loading="lazy">
                             </div>
                             <div class="swiper-slide lc-block" style="width: 182.667px; margin-right: 40px;" role="group" aria-label="7 / 8">
-                                <img class="img-fluid" src="https://cdn.livecanvas.com/media/logos/ipsum/logoipsum-logo-10.svg" loading="lazy">
+                                <img class="img-fluid" src="${cliente7}" loading="lazy">
                             </div>
                             <div class="swiper-slide lc-block" style="width: 182.667px; margin-right: 40px;" role="group" aria-label="8 / 8">
-                                <img class="img-fluid" src="https://cdn.livecanvas.com/media/logos/ipsum/logoipsum-logo-12.svg" loading="lazy">
+                                <img class="img-fluid" src="${cliente8}" loading="lazy">
                             </div>
                         </div>
                     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>

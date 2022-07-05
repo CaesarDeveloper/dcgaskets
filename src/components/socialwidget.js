@@ -1,8 +1,11 @@
 export default class SocialAppWidget {
 
     constructor(props) {
-        this.phone = props.phone;
-        this.message = props.message;
+        this.linkedin = props.linkedin;
+        this.instagram = props.instagram;
+        this.facebook = props.facebook;
+        this.wsphone = props.wsphone;
+        this.wsmessage = props.wsmessage;
     }
 
     render() {
@@ -24,18 +27,18 @@ export default class SocialAppWidget {
                     </label>
                     <div class="fab-wheel">
 
-                        <a class="fab-action fab-action-1" href="https://es-la.facebook.com/DCGaskets/" target="_blank">
+                        <a class="fab-action fab-action-1" href="${this.linkedin}" target="_blank">
                             <i class="fab fa-linkedin"></i>
                         </a>
 
-                        <a class="fab-action fab-action-2" href="https://www.instagram.com/dcgaskets/?hl=es-la" target="_blank">
+                        <a class="fab-action fab-action-2" href="${this.instagram}" target="_blank">
                             <i class="fab fa-instagram"></i>
                         </a>
 
-                        <a class="fab-action fab-action-3" href="https://es-la.facebook.com/DCGaskets/" target="_blank">
+                        <a class="fab-action fab-action-3" href="${this.facebook}" target="_blank">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a class="fab-action fab-action-4" href="https://api.whatsapp.com/send/?phone=${this.phone}&text=${this.message}" target="_blank">
+                        <a class="fab-action fab-action-4" href="https://api.whatsapp.com/send/?phone=${this.wsphone}&text=${this.wsmessage}" target="_blank">
                             <i class="fab fa-whatsapp"></i>
                         </a>
                     </div>

@@ -38,8 +38,11 @@ export default class App {
 
 
         this.socialWidget = new SocialAppWidget({
-            phone: '524777106000',
-            message: 'Mensaje default para sporte de DC Gaskets'
+            linkedin: 'https://mx.linkedin.com/company/dc-gaskets',
+            instagram: 'https://www.instagram.com/dcgaskets/?hl=es-la',
+            facebook: 'https://es-la.facebook.com/DCGaskets/',
+            wsphone: '524777106000',
+            wsmessage: 'Mensaje default para sporte de DC Gaskets'
         });
 
         this.sectionContact = new SectionContact();
