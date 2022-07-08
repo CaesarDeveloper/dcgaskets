@@ -6,7 +6,12 @@ const {
     defineConfig
 } = require('vite')
 
+import removeConsole from 'vite-plugin-remove-console';
+
 module.exports = defineConfig({
+    plugins: [
+        removeConsole()
+    ],
     base: '',
     esbuild: {
         drop: ['console', 'debugger'],
