@@ -780,7 +780,7 @@ a > span:after {
 }
 /* Override custom modal */
 .modal-content {
-  background: #e9ecf4 !important;
+  background: #e9ecf4 !important;  
 }
 .modal-header {
   margin: 10px !important;
@@ -1014,7 +1014,6 @@ a > span:after {
 .company-text-description {
   font-size: 1.2em;
   text-align: justify;
-  margin-top: 20px;
 }
 .pd-20-company-video {
   padding: 20px;

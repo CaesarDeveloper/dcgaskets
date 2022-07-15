@@ -1,6 +1,6 @@
-import img1 from '../assets/images/01.jpg';
-import img2 from '../assets/images/02.jpg';
-import img3 from '../assets/images/03.jpg';
+import img1 from '../assets/images/IMG_1.jpg';
+import img2 from '../assets/images/IMG_2.jpg';
+import img3 from '../assets/images/IMG_3.jpg';
 import img4 from '../assets/images/04.jpg';
 
 export default class SectionDevelopment {
@@ -20,7 +20,7 @@ export default class SectionDevelopment {
                             <div class="col-xl-5 col-md-6 mt-4">
                                 <div class="card text-white bg-gradient-info border-0 mt-md-5 bg-none">
                                     <div class="card-body border-15">
-                                        <img src="${img4}" alt="" width="100%" class="border-15 box-shadow-light">
+                                        <img src="${img1}" alt="" width="100%" class="border-15 box-shadow-light" style="filter: brightness(1.2);">
                                     </div>
                                 </div>
                             </div>
@@ -28,7 +28,7 @@ export default class SectionDevelopment {
                             <div class="col-xl-5 col-md-6 mt-4">
                                 <div class="card text-white bg-gradient-purple border-0 bg-none">
                                     <div class="card-body border-15">
-                                        <img src="${img3}" alt="" width="100%" class="border-15 box-shadow-light">
+                                        <img src="${img2}" alt="" width="100%" class="border-15 box-shadow-light" style="filter: brightness(1.4);">
                                     </div>
                                 </div>
                             </div>
@@ -36,7 +36,7 @@ export default class SectionDevelopment {
                             <div class="col-xl-5 col-md-6 mt-4">
                                 <div class="card text-white bg-gradient-warning border-0 bg-none">
                                     <div class="card-body border-15">
-                                        <img src="${img2}" alt="" width="100%" class="border-15 box-shadow-light">
+                                        <img src="${img3}" alt="" width="100%" class="border-15 box-shadow-light" style="filter: brightness(1.3);">
                                     </div>
                                 </div>
                             </div>
@@ -44,7 +44,7 @@ export default class SectionDevelopment {
                             <div class="col-xl-5 col-md-6 mt-4">
                                 <div class="card text-white bg-gradient-green border-0 mt-md-1 bg-none">
                                     <div class="card-body">
-                                        <img src="${img1}" alt="" width="100%" class="border-15 box-shadow-light">
+                                        <img src="${img4}" alt="" width="100%" class="border-15 box-shadow-light">
                                     </div>
                                 </div>
                             </div>

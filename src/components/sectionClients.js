@@ -1,4 +1,5 @@
 import img2 from '../assets/images/02.jpg';
+import VIDEO_DRON from '../assets/video/VID-DRON-WA0005.mp4';
 import cliente1 from '../assets/images/cliente1.png';
 import cliente2 from '../assets/images/cliente2.png';
 import cliente3 from '../assets/images/cliente3.png';
@@ -22,13 +23,14 @@ export default class SectionClients {
                 <div class="container">
                     <div class="row row align-items-center">
                         <div class="col-md-7">
-                            <h1 class="mt-3 fw-bold i18nelement" data-i18n="key_client_section_title">Clientes</h1>
-                            <p class="lead text-black my-5 i18nelement" data-i18n="key_client_section_description">
+                            <h3 class="text-black my-5 i18nelement" data-i18n="key_client_section_description">
                                 Tenemos la linea mas completa, 1 de cada 3 mecanicos prefieren DC
-                            </p>
+                            </h3>
                         </div>
-                        <div class="col-md-5">
-                            <img src="${img2}" class="border-15 box-shadow-light" alt="client" width="100%">
+                        <div class="col-md-5">                            
+                            <video class="border-15 box-shadow-light" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" width="100%">
+                                <source src="${VIDEO_DRON}" type="video/mp4"/>
+                            </video>
                         </div>
                     </div>
                 </div>

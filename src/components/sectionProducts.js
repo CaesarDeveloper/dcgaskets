@@ -10,7 +10,7 @@ export default class SectionProducts {
                 <div class="section_our_solution" style="padding-top:50px;padding-bottom:50px;">
                     <div class="row">
                         <div class="title text-center pb-5 pt-3">
-                            <h1 class="fw-bold display-4 i18nelement" data-i18n="key_products_title" style="padding-top: 50px;">¿Qué estas buscando?</h1>                            
+                            <h1 class="fw-bold display-4 i18nelement" data-i18n="key_products_title">¿Qué estas buscando?</h1>                            
                             <div class="container-block container-flexbox bg-light mt-5">
                                 <div class="item-col-3">
                                     <a id="btnCatalogoElectrinico" class="btn btn-lg btn-grad-red me-3 i18nelement" data-i18n="key_btn_catalogo" href="https://www.dcp.com.mx/varios/CatalogoElectronico.jsp" target="_blank" style="width:100%;">Catalogo electrónico</a>
