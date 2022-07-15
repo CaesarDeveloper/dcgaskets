@@ -1,7 +1,7 @@
 import img1 from '../assets/images/IMG_1.jpg';
 import img2 from '../assets/images/IMG_2.jpg';
 import img3 from '../assets/images/IMG_3.jpg';
-import img4 from '../assets/images/04.jpg';
+import img4 from '../assets/images/IMG_4.jpg';
 
 export default class SectionDevelopment {
     render() {
@@ -44,7 +44,7 @@ export default class SectionDevelopment {
                             <div class="col-xl-5 col-md-6 mt-4">
                                 <div class="card text-white bg-gradient-green border-0 mt-md-1 bg-none">
                                     <div class="card-body">
-                                        <img src="${img4}" alt="" width="100%" class="border-15 box-shadow-light">
+                                        <img src="${img4}" alt="" width="100%" class="border-15 box-shadow-light" style="height: 297px;object-fit: cover;">
                                     </div>
                                 </div>
                             </div>
