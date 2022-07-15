@@ -3,11 +3,19 @@
   #menuArea {
     display: block;
   }
+
+  #modalContentCompany {
+    height: auto;
+  }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   #menuArea {
     display: block;
+  }
+
+  #modalContentCompany {
+    height: auto;
   }
 }
 /* Large devices (desktops, 992px and up) */
@@ -15,17 +23,29 @@
   #menuArea {
     display: none;
   }
+
+  #modalContentCompany {
+    height: 485px !important;
+  }
 }
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   #menuArea {
     display: none;
   }
+
+   #modalContentCompany {
+    height: 485px !important;
+  }
 }
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
   #menuArea {
     display: none;
+  }
+
+  #modalContentCompany {
+    height: 485px !important;
   }
 }
 
