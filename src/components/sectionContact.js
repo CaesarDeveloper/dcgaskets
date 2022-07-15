@@ -2,7 +2,7 @@ export default class SectionContact {
     render() {
         return /*html*/ `           
             <div class="container mt-5 mb-5" id="contactSection">
-                <div class="row align-items-center">
+                <div class="row">
                     <div class="col-md-6">
                         <div class="lc-block mb-4">
                             <div class="ratio ratio-4x3 min-vh-50" lc-helper="gmap-embed">
@@ -12,17 +12,19 @@ export default class SectionContact {
                     </div><!-- /col -->
                     <div class="col-md-6 px-5">
                         <div class="lc-block mb-4">
-                            <div editable="rich">
+                            <div class="text-black">
                                 <h2 class="display-6 fw-bolder i18nelement" data-i18n="key_menu_contacto">Contacto<p></p>
                                     <p></p>
                                 </h2>
                             </div>
                         </div>
                         <div class="lc-block mb-4">
-                            <div editable="rich">
-                                <p class="lead">Blvd. Aeropuerto 1255, Fraccionamiento el Dorado, Predio Rancho Alegre, 37670 León, Gto.</p>
-                                <p class="lead">+52 477 710 6000 </p>
-                                <p class="lead">soporte@dcp.com.mx / soportetecnico@dcp.com.mx</p>
+                            <div class="text-black">
+                                <p class="lead">Blvd. Aeropuerto 1255, Fraccionamiento el Dorado, Col.Predio Rancho Alegre, C.P. 37670 León, Gto. México</p>
+                                <p class="lead">Manufacturas Diversas S.A. De C.V. Tel.(477) 710 6000. <br>Lada sin costo 01 (800) 710 5020</p>
+                                <p class="lead">USA CONTACT: Toll Free - 1 877 676 7704 <br> Phone 321 221 0443 <br>email: cs@dcp.com.mx</p>
+                                <p class="lead">MÉXICO: +52 (477) 710 6007 ventas@dcp.com.mx</p>
+                                <p class="lead">SERVICIO TÉCNICO  477 710 60 00 Ext.173 soportetecnico@dcp.com.mx</p>
 
                             </div>
                         </div>                       
