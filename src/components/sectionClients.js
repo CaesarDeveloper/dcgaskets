@@ -1,4 +1,3 @@
-import img2 from '../assets/images/02.jpg';
 import VIDEO_DRON from '../assets/video/VID-DRON-WA0005.mp4';
 import cliente1 from '../assets/images/cliente1.png';
 import cliente2 from '../assets/images/cliente2.png';

@@ -3,6 +3,7 @@ import HeaderVideo from './headerVideo.js';
 import SocialAppWidget from './socialwidget.js';
 import ModalLogin from './modalLogin.js';
 import ModalCompany from './modalCompany';
+import ModalProduct from './modalProduct.js';
 import ModalNewTechnology from './modalNewTechnology';
 import SectionProducts from './sectionProducts.js';
 import SectionDevelopment from './sectionDevelopment.js';
@@ -11,6 +12,10 @@ import SectionClients from './sectionClients.js';
 import SectionContact from './sectionContact.js';
 import Footer from './footer.js';
 
+
+import imgJuntas from '../assets/images/icono_gasket.png';
+import imgEmpaques from '../assets/images/icono_empaque.png';
+import imgPistones from '../assets/images/icono_piston.png';
 export default class App {
 
     constructor() {
@@ -36,8 +41,29 @@ export default class App {
         });
 
         this.modalCompany = new ModalCompany();
-        this.ModalNewTechnology = new ModalNewTechnology();
 
+        this.modalProductJuntas = new ModalProduct({
+            modalId: "modalJuntas",
+            productType: "Juntas",
+            productImage: imgJuntas,
+            productDetails: ""
+        });
+
+        this.modalProductEmpaques = new ModalProduct({
+            modalId: "modalEmpaques",
+            productType: "Empaques",
+            productImage: imgEmpaques,
+            productDetails: ""
+        });
+
+        this.modalProductPistones = new ModalProduct({
+            modalId: "modalPistones",
+            productType: "Pistones",
+            productImage: imgPistones,
+            productDetails: ""
+        });
+
+        this.ModalNewTechnology = new ModalNewTechnology();
 
         this.socialWidget = new SocialAppWidget({
             linkedin: 'https://mx.linkedin.com/company/dc-gaskets',
@@ -64,6 +90,9 @@ export default class App {
             <!-- Modal declarations -->
             ${this.modalLogin.render()}
             ${this.modalCompany.render()}
+            ${this.modalProductJuntas.render()}
+            ${this.modalProductEmpaques.render()}
+            ${this.modalProductPistones.render()}
             ${this.ModalNewTechnology.render()}
 
             <!-- Widget declaration -->

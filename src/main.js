@@ -9,11 +9,6 @@ import "./main.css";
 import "./responsive.css";
 import LoadingScreen from './components/loadingScreen.js'
 import App from "./components/app.js";
-
-import imgJuntas from './assets/images/icono_gasket.png';
-import imgEmpaques from './assets/images/icono_empaque.png';
-import imgPistones from './assets/images/icono_piston.png';
-import ModalProduct from './components/modalProduct.js';
 import json_en from './assets/i18n/en.json';
 import json_es from './assets/i18n/es.json';
 
@@ -25,28 +20,7 @@ import json_es from './assets/i18n/es.json';
         const init = () => {
             const start = new Date();
             const loadingScreen = new LoadingScreen();
-            const app = new App();
-
-            const modalProductJuntas = new ModalProduct({
-                modalId: "modalJuntas",
-                productType: "Juntas",
-                productImage: imgJuntas,
-                productDetails: ""
-            });
-
-            const modalProductEmpaques = new ModalProduct({
-                modalId: "modalEmpaques",
-                productType: "Empaques",
-                productImage: imgEmpaques,
-                productDetails: ""
-            });
-
-            const modalProductPistones = new ModalProduct({
-                modalId: "modalPistones",
-                productType: "Pistones",
-                productImage: imgPistones,
-                productDetails: ""
-            });
+            const app = new App();            
 
             try {
                 console.log('Iniciando app...');
@@ -55,10 +29,6 @@ import json_es from './assets/i18n/es.json';
                 document.body.insertAdjacentHTML("afterbegin", loadingScreen.render());
                 document.querySelector('body').classList.add('stop-scrolling');
                 document.getElementById("app").insertAdjacentHTML("afterbegin", app.render());
-
-                document.getElementById("app").insertAdjacentHTML("afterbegin", modalProductJuntas.render());
-                document.getElementById("app").insertAdjacentHTML("afterbegin", modalProductEmpaques.render());
-                document.getElementById("app").insertAdjacentHTML("afterbegin", modalProductPistones.render());
 
                 let nav = document.querySelector('nav');
                 window.addEventListener('scroll', function () {
@@ -93,17 +63,14 @@ import json_es from './assets/i18n/es.json';
                 })
 
                 document.getElementById('btnViewDetailsJuntas').addEventListener('click', function () {
-                    console.log("Click en juntas");
                     $("#modalJuntas").modal("show");
                 });
 
                 document.getElementById('btnViewDetailsEmpaques').addEventListener('click', function () {
-                    console.log("Click en empaques");
                     $("#modalEmpaques").modal("show");
                 });
 
                 document.getElementById('btnViewDetailsPistones').addEventListener('click', function () {
-                    console.log("Click en pistones");
                     $("#modalPistones").modal("show");
                 });
 
