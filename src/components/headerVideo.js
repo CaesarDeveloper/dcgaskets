@@ -1,5 +1,4 @@
-// import HEADER_VID_DCGASKETS from '../assets/video/HEADER_VID_DCGASKETS.mp4';
-import HEADER_VID_DCGASKETS_ALT from '../assets/video/HEADER_VID_DCGASKETS_ALT.mp4';
+import HEADER_VID_DCGASKETS_ALT from '../assets/video/HEADER_VID_DCGASKETS_ALT_2.mp4';
 
 export default class HeaderVideo {
 

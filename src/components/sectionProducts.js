@@ -42,14 +42,10 @@ export default class SectionProducts {
                                 <h3 class="i18nelement" data-i18n="key_section_product_1">Juntas</h3>
                                 </div>
                                 <div class="solu_description">
-                                <p>
-                                    It is a long established fact that a reader will be
-                                    distracted by the readable content of a page when looking at
-                                    its layout.
-                                </p>
-                                <button id="btnViewDetailsJuntas" type="button" class="btn-grad-red i18nelement" data-i18n="key_section_product_btn_details">
-                                    Ver detalles
-                                </button>
+                                    <p class="i18nelement" data-i18n="key_section_product_subtitle_1"></p>
+                                    <button id="btnViewDetailsJuntas" type="button" class="btn-grad-red i18nelement" data-i18n="key_section_product_btn_details">
+                                        Ver detalles
+                                    </button>
                                 </div>
                             </div>
                             </div>
@@ -67,14 +63,10 @@ export default class SectionProducts {
                                 <h3 class="i18nelement" data-i18n="key_section_product_2">Empaques</h3>
                                 </div>
                                 <div class="solu_description">
-                                <p>
-                                    It is a long established fact that a reader will be
-                                    distracted by the readable content of a page when looking at
-                                    its layout.
-                                </p>
-                                <button id="btnViewDetailsEmpaques" type="button" class="btn-grad-red i18nelement" data-i18n="key_section_product_btn_details">
-                                    Ver detalles
-                                </button>
+                                    <p class="i18nelement" data-i18n="key_section_product_subtitle_2"></p>
+                                    <button id="btnViewDetailsEmpaques" type="button" class="btn-grad-red i18nelement" data-i18n="key_section_product_btn_details">
+                                        Ver detalles
+                                    </button>
                                 </div>
                             </div>
                             </div>
@@ -89,17 +81,13 @@ export default class SectionProducts {
                                     <img src="${imgPistones}" alt="">
                                 </div>
                                 <div class="solu_title">
-                                <h3 class="i18nelement" data-i18n="key_section_product_3">Pistones</h3>
+                                    <h3 class="i18nelement" data-i18n="key_section_product_3">Pistones</h3>
                                 </div>
                                 <div class="solu_description">
-                                <p>
-                                    It is a long established fact that a reader will be
-                                    distracted by the readable content of a page when looking at
-                                    its layout.
-                                </p>
-                                <button id="btnViewDetailsPistones" ype="button" class="btn-grad-red i18nelement" data-i18n="key_section_product_btn_details">
-                                    Ver detalles
-                                </button>
+                                    <p class="i18nelement" data-i18n="key_section_product_subtitle_3"></p>
+                                    <button id="btnViewDetailsPistones" ype="button" class="btn-grad-red i18nelement" data-i18n="key_section_product_btn_details">
+                                        Ver detalles
+                                    </button>
                                 </div>
                             </div>
                             </div>

@@ -1386,6 +1386,7 @@ a.fab-action:hover {
 
 .product {
   background-color: #d8dbe1;
+  height: 100%;
 }
 
 .brand {
@@ -1439,3 +1440,12 @@ label.radio input:checked + span {
 .cart i {
   margin-right: 10px;
 }
+
+
+/* .modal:nth-of-type(even) {
+    z-index: 1062 !important;
+}
+.modal-backdrop.show:nth-of-type(even) {
+    z-index: 1061 !important;
+} */
+    

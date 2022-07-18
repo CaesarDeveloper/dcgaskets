@@ -131,8 +131,7 @@ import json_es from './assets/i18n/es.json';
                         document.getElementById("menuToggle").checked = false;
                     }
                 });
-
-
+                
             } catch (error) {
                 console.error(error);
             } finally {
@@ -142,7 +141,7 @@ import json_es from './assets/i18n/es.json';
                     document.querySelector('body').classList.remove('stop-scrolling');
                 }, 3000);
                 niceSelectInit();
-                i18Loader();
+                i18Loader();                
             }
         }
 
@@ -211,6 +210,6 @@ import json_es from './assets/i18n/es.json';
 
 
     $(document).ready(function () {
-        DCGaskets.init();
+        DCGaskets.init();        
     });
 })(jQuery);

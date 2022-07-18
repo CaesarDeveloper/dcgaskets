@@ -3,6 +3,7 @@ import HeaderVideo from './headerVideo.js';
 import SocialAppWidget from './socialwidget.js';
 import ModalLogin from './modalLogin.js';
 import ModalCompany from './modalCompany';
+import ModalNewTechnology from './modalNewTechnology';
 import SectionProducts from './sectionProducts.js';
 import SectionDevelopment from './sectionDevelopment.js';
 import SectionBanner from './sectionBanner.js';
@@ -35,6 +36,7 @@ export default class App {
         });
 
         this.modalCompany = new ModalCompany();
+        this.ModalNewTechnology = new ModalNewTechnology();
 
 
         this.socialWidget = new SocialAppWidget({
@@ -62,6 +64,7 @@ export default class App {
             <!-- Modal declarations -->
             ${this.modalLogin.render()}
             ${this.modalCompany.render()}
+            ${this.ModalNewTechnology.render()}
 
             <!-- Widget declaration -->
             ${this.socialWidget.render()}
