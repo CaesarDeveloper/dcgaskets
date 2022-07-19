@@ -18,9 +18,9 @@ export default class ModalProduct {
                 this.datai18n = "key_section_product_1";
                 this.descriptionProducto = `
                     <li class="i18nelement" data-i18n="key_section_product_modal_juntas_descriptiton_1">Junta de Cabeza en Multilámina o Grafito con materiales premium en su recubrimientos epóxico termo estable y resistente a la temperatura que ayuda al anclaje de su segundo recubrimientos de silicón para lograr un sellado eficiente.</li>
-                    <li class="i18nelement" data-i18n="key_section_product_modal_juntas_descriptiton_2">Multilamina con acero de alta resistencia al igual que sus recubrimientos tales como: Viton®, NBR y Silicón.</li>
                     <li class="i18nelement" data-i18n="key_section_product_modal_juntas_descriptiton_3">Mayor ADAPATACIÓN a SUPERFICIES, con su menor densidad permite un SELLADO ÓPTIMO</li>
-                    <li class="i18nelement" data-i18n="key_section_product_modal_juntas_descriptiton_4">DESCUBRE NUEVA TECNOLOGÍA DCGraf <button type='button' class='btn btn-primary'>AQUÍ</button></li>
+                    <li class="i18nelement" data-i18n="key_section_product_modal_juntas_descriptiton_2">Multilamina con acero de alta resistencia al igual que sus recubrimientos tales como: Viton®, NBR y Silicón.</li>                    
+                    <p class="mt-3 i18nelement" data-i18n="key_section_product_modal_juntas_descriptiton_4">DESCUBRE NUEVA TECNOLOGÍA DCGraf <button type='button' class='btn btn-primary'>AQUÍ</button></p>
                 `;
             break;
 
