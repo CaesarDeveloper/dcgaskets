@@ -6,7 +6,7 @@
 
   #modalContentCompany {
     height: auto;
-  }
+  }  
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -36,6 +36,10 @@
 
    #modalContentCompany {
     height: 485px !important;
+  }
+
+  #bgVideoDCGaskets {
+    width: 100%;
   }
 }
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -80,5 +84,10 @@
 
   .scroll-wrap {
     bottom: 11.5vw;
+  }
+
+  #bgVideoDCGaskets {
+    width: auto;
+    height: 100%;
   }
 }

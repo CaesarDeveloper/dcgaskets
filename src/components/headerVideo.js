@@ -13,7 +13,7 @@ export default class HeaderVideo {
               <header>
                 <!-- <main id="content"> -->
                   <div class="overlay" id="videoOverlay"></div>                
-                  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="videoHeader">
+                  <video id="bgVideoDCGaskets" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="videoHeader">
                     <source src="${HEADER_VID_DCGASKETS_ALT}" type="video/mp4"/>
                   </video>
                   <div class="container h-100" id="containerVideo">
