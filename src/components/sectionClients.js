@@ -22,9 +22,9 @@ export default class SectionClients {
                 <div class="container">
                     <div class="row row align-items-center">
                         <div class="col-md-7">
-                            <h3 class="text-black my-5 i18nelement" data-i18n="key_client_section_description">
+                            <p class="fs-5 lh-lg my-4 py-lg-3 i18nelement" data-i18n="key_client_section_description">
                                 Tenemos la linea mas completa, 1 de cada 3 mecanicos prefieren DC
-                            </h3>
+                            </p>
                         </div>
                         <div class="col-md-5">                            
                             <video class="border-15 box-shadow-light" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" width="100%">

@@ -8,6 +8,14 @@ export default class NavBar {
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
           <div class="container">
             <a class="navbar-brand" href="#"><img src="${LOGO_DCGASKETS}" alt="Logo DC" width="120"/></a>
+
+            <div id="langContainerMobile" class="" style="right: 25%;position: absolute;">
+                <select class="small langSelector" name="lang">
+                    <option value="es"> Español</option>
+                    <option value="en"> English</option>
+                </select>
+            </div>
+
             <div id="menuArea">
               <input type="checkbox" id="menuToggle"/>
               <label for="menuToggle" class="menuOpenLabel">
@@ -60,7 +68,7 @@ export default class NavBar {
                     <button class="btn btn-danger ms-5 i18nelement" data-i18n="key_btn_login" data-bs-toggle="modal" data-bs-target="#exampleModal">Iniciar sesión</button>
                 </li>
                 <li class="nav-item ms-5">
-                    <select class="small" id="langSelector" name="lang">
+                    <select class="small langSelector" id="langSelector" name="lang">
                         <option value="es"> Español</option>
                         <option value="en"> English</option>
                     </select>

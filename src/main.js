@@ -131,22 +131,23 @@ import json_es from './assets/i18n/es.json';
             i18next.on("languageChanged", () => {
                 updateContent();
             });
-            const langSelector = document.getElementById("langSelector");
-            langSelector.removeAttribute("disabled");
 
-            $('#langSelector').on('change', function (e) {
+            $('.langSelector').on('change', function (e) {
                 i18next.changeLanguage(e.target.value);
-
+        
                 switch (e.target.value) {
                     case "es":
+                        $(".nice-select>.current").prepend('');
                         $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-mx"></i> ');
                         break;
 
                     case "en":
+                        $(".nice-select>.current").prepend('');
                         $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-us"></i> ');
                         break;
 
                     default:
+                        $(".nice-select>.current").prepend('');
                         $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-mx"></i> ');
                         break;
                 }
@@ -164,7 +165,7 @@ import json_es from './assets/i18n/es.json';
         }
 
         const niceSelectInit = () => {
-            $("#langSelector").niceSelect();
+            $(".langSelector").niceSelect();
             $(".nice-select>ul.list>li.option[data-value='en']").prepend('<i class="flag-icon flag-icon-us"></i> ');
             $(".nice-select>ul.list>li.option[data-value='es']").prepend('<i class="flag-icon flag-icon-mx"></i> ');
             $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-mx"></i> ');
