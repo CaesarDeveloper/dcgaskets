@@ -6,11 +6,13 @@ export default class HeaderVideo {
     this.title = props.title;
     this.subtitle = props.subtitle;
     this.actionButtonText = props.actionButtonText;
+    this.show = props.show;
+    this.showVideo = this.show == true ? this.showVideo = "block"  : 'none';
   }
 
   render() {
     return /*html*/ `
-              <header>
+              <header style="display:${this.showVideo}">
                 <!-- <main id="content"> -->
                   <div class="overlay" id="videoOverlay"></div>                
                   <video id="bgVideoDCGaskets" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="videoHeader">

@@ -7,8 +7,7 @@
  * ---------------------------------------------- */
 import "./main.css";
 import "./responsive.css";
-import LoadingScreen from './components/loadingScreen.js'
-import App from "./components/app.js";
+import InfoTecnica from "./components/infotecnica";
 import json_en from './assets/i18n/en.json';
 import json_es from './assets/i18n/es.json';
 
@@ -19,16 +18,15 @@ import json_es from './assets/i18n/es.json';
     const DCGaskets = (() => {
         const init = () => {
             const start = new Date();
-            const loadingScreen = new LoadingScreen();
-            const app = new App();            
+            const app = new InfoTecnica();            
 
             try {
                 console.log('Iniciando app...');
                 i18Jsons.push(json_es);
                 i18Jsons.push(json_en);
-                document.body.insertAdjacentHTML("afterbegin", loadingScreen.render());
                 document.querySelector('body').classList.add('stop-scrolling');
-                document.getElementById("app").insertAdjacentHTML("afterbegin", app.render());
+                document.getElementById("app").insertAdjacentHTML("afterbegin", app.render());                
+
 
                 let nav = document.querySelector('nav');
                 window.addEventListener('scroll', function () {
@@ -37,30 +35,7 @@ import json_es from './assets/i18n/es.json';
                     } else {
                         nav.classList.remove('bg-dark-transparent', 'shadow');
                     }
-                });
-
-                const swiper = new Swiper('.swiper', {
-                    slidesPerView: 2,
-                    spaceBetween: 10,
-                    grabCursor: true,
-                    breakpoints: {
-                        320: {
-                            slidesPerView: 2,
-                            spaceBetween: 20
-                        },
-                        480: {
-                            slidesPerView: 3,
-                            spaceBetween: 30
-                        },
-                        1200: {
-                            slidesPerView: 6,
-                            spaceBetween: 40
-                        }
-                    },
-                    autoplay: {
-                        delay: 3000,
-                    }
-                })
+                });             
 
                 document.getElementById('btnViewDetailsJuntas').addEventListener('click', function () {
                     $("#modalJuntas").modal("show");
@@ -104,7 +79,6 @@ import json_es from './assets/i18n/es.json';
             } finally {
                 console.log('App iniciada...', start.getMilliseconds());
                 setTimeout(() => {
-                    loadingScreen.dissmiss();
                     document.querySelector('body').classList.remove('stop-scrolling');
                 }, 3000);
                 niceSelectInit();

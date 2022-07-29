@@ -2,12 +2,16 @@ import LOGO_DCGASKETS from '../assets/images/logo_gaskets.png';
 
 export default class NavBar {
 
+  constructor(props){
+    this.dark = props.dark;
+    this.color = this.dark == true ? this.color = "#000000"  : '';
+  }  
 
   render() {
     return /*html*/ `
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" style="background-color:${this.color}">
           <div class="container">
-            <a class="navbar-brand" href="#"><img src="${LOGO_DCGASKETS}" alt="Logo DC" width="120"/></a>
+            <a class="navbar-brand" href="/"><img src="${LOGO_DCGASKETS}" alt="Logo DC" width="120"/></a>
 
             <div id="langContainerMobile" class="" style="right: 25%;position: absolute;">
                 <select class="small langSelector" name="lang">
@@ -62,10 +66,16 @@ export default class NavBar {
                   <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_productos" href="#productosSection" id="About">Productos</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link text-white hover-1" href="#noticiasSection" id="About">Noticias</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_contacto" href="#contactSection" id="Contact">Contacto</a>
                 </li>                
                 <li class="nav-item">
                     <button class="btn btn-danger ms-5 i18nelement" data-i18n="key_btn_login" data-bs-toggle="modal" data-bs-target="#exampleModal">Iniciar sesión</button>
+                </li>
+                <li class="nav-item">
+                    <a href="portalproveedores.html" class="btn btn-primary ms-3">Proveedores</a>
                 </li>
                 <li class="nav-item ms-5">
                     <select class="small langSelector" id="langSelector" name="lang">

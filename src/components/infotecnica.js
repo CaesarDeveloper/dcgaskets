@@ -6,6 +6,9 @@ import ModalCompany from './modalCompany';
 import ModalProduct from './modalProduct.js';
 import ModalNewTechnology from './modalNewTechnology';
 import SectionProducts from './sectionProducts.js';
+import SectionInfoTecnica from "./sectionInfoTecnica.js";
+
+
 import SectionDevelopment from './sectionDevelopment.js';
 import SectionBanner from './sectionBanner.js';
 import SectionClients from './sectionClients.js';
@@ -17,17 +20,20 @@ import Footer from './footer.js';
 import imgJuntas from '../assets/images/icono_gasket.png';
 import imgEmpaques from '../assets/images/icono_empaque.png';
 import imgPistones from '../assets/images/icono_piston.png';
-export default class App {
+export default class InfoTecnica {
 
     constructor() {
-        this.nav = new NavBar({dark: false});
+        this.nav = new NavBar({dark: true});
         this.headerVideo = new HeaderVideo({
             title: 'Innovación y tecnología de sellado para la industria automotriz.',
             subtitle: '',
             actionButtonText: 'Learn More',
-            show: true
+            show: false
         });
         this.sectionProducts = new SectionProducts();
+
+        this.SectionInfoTecnica = new SectionInfoTecnica();
+
         this.sectionDevelopment = new SectionDevelopment();
         this.sectionBanner = new SectionBanner();
         this.sectionClients = new SectionClients();
@@ -83,22 +89,14 @@ export default class App {
     render() {
         return /*html*/ `
             ${this.nav.render()}
-            ${this.headerVideo.render()}
-            ${this.sectionProducts.render()}
-            ${this.sectionDevelopment.render()}
-            ${this.sectionBanner.render()}
-            ${this.sectionClients.render()}
-            ${this.sectionNews.render()}
-            ${this.sectionContact.render()}
+            ${this.headerVideo.render()}          
+            ${this.SectionInfoTecnica.render()}            
+           
             ${this.footer.render()}
 
             <!-- Modal declarations -->
             ${this.modalLogin.render()}
             ${this.modalCompany.render()}
-            ${this.modalProductJuntas.render()}
-            ${this.modalProductEmpaques.render()}
-            ${this.modalProductPistones.render()}
-            ${this.ModalNewTechnology.render()}
 
             <!-- Widget declaration -->
             ${this.socialWidget.render()}

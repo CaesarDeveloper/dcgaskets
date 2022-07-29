@@ -28,7 +28,7 @@ export default class SectionDevelopment {
                             <div class="col-xl-5 col-md-6 mt-4">
                                 <div class="card text-white bg-gradient-purple border-0 bg-none">
                                     <div class="card-body border-15">
-                                        <img src="${img2}" alt="" width="100%" class="border-15 box-shadow-light" style="filter: brightness(1.4);">
+                                        <img src="${img2}" alt="" width="100%" class="border-15 box-shadow-light">
                                     </div>
                                 </div>
                             </div>
@@ -36,7 +36,7 @@ export default class SectionDevelopment {
                             <div class="col-xl-5 col-md-6 mt-4">
                                 <div class="card text-white bg-gradient-warning border-0 bg-none">
                                     <div class="card-body border-15">
-                                        <img src="${img3}" alt="" width="100%" class="border-15 box-shadow-light" style="filter: brightness(1.3);">
+                                        <img src="${img3}" alt="" width="100%" class="border-15 box-shadow-light">
                                     </div>
                                 </div>
                             </div>

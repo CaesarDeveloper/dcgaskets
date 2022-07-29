@@ -17,7 +17,7 @@ export default class SectionProducts {
                                 </div>
 
                                 <div class="item-col-3">
-                                    <a id="btnInformacionTecnica" class="btn btn-lg btn-grad-gray me-3 i18nelement" data-i18n="key_btn_informacion_tecnica" href="https://www.dcp.com.mx/imgs/ProdNuevos/3.jpg" target="_blank" style="width:100%;">Información técnica</a>
+                                    <a id="btnInformacionTecnica" class="btn btn-lg btn-grad-gray me-3 i18nelement" data-i18n="key_btn_informacion_tecnica" href="informaciontecnica.html" style="width:100%;">Información técnica</a>
                                 </div>
 
                                 <div class="item-col-3">
@@ -25,8 +25,6 @@ export default class SectionProducts {
                                 </div>
                                 
                             </div>
-
-                            <img src="https://uploads-ssl.webflow.com/620ad2336e1661b45ed12787/620d43290b69933875a8d445_dots.svg" loading="lazy" alt="" class="dots-container">
 
                         </div>
 

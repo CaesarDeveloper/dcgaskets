@@ -6,7 +6,7 @@ export default class Footer {
     }
     render() {
         return /*html*/`
-            <section class="bg-dark text-light">
+            <section class="bg-dark text-light" style="bottom: 0;position: relative;width: 100%;">
                 <div class="py-5 container">
                     <div class="row">
                         <div class="col-12">

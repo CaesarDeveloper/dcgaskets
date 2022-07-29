@@ -7,8 +7,7 @@
  * ---------------------------------------------- */
 import "./main.css";
 import "./responsive.css";
-import LoadingScreen from './components/loadingScreen.js'
-import App from "./components/app.js";
+import LoginProveedores from "./components/loginProveedores";
 import json_en from './assets/i18n/en.json';
 import json_es from './assets/i18n/es.json';
 
@@ -19,92 +18,19 @@ import json_es from './assets/i18n/es.json';
     const DCGaskets = (() => {
         const init = () => {
             const start = new Date();
-            const loadingScreen = new LoadingScreen();
-            const app = new App();            
+            const app = new LoginProveedores();            
 
             try {
                 console.log('Iniciando app...');
                 i18Jsons.push(json_es);
                 i18Jsons.push(json_en);
-                document.body.insertAdjacentHTML("afterbegin", loadingScreen.render());
                 document.querySelector('body').classList.add('stop-scrolling');
                 document.getElementById("app").insertAdjacentHTML("afterbegin", app.render());
-
-                let nav = document.querySelector('nav');
-                window.addEventListener('scroll', function () {
-                    if (window.pageYOffset > 100) {
-                        nav.classList.add('bg-dark-transparent', 'shadow');
-                    } else {
-                        nav.classList.remove('bg-dark-transparent', 'shadow');
-                    }
-                });
-
-                const swiper = new Swiper('.swiper', {
-                    slidesPerView: 2,
-                    spaceBetween: 10,
-                    grabCursor: true,
-                    breakpoints: {
-                        320: {
-                            slidesPerView: 2,
-                            spaceBetween: 20
-                        },
-                        480: {
-                            slidesPerView: 3,
-                            spaceBetween: 30
-                        },
-                        1200: {
-                            slidesPerView: 6,
-                            spaceBetween: 40
-                        }
-                    },
-                    autoplay: {
-                        delay: 3000,
-                    }
-                })
-
-                document.getElementById('btnViewDetailsJuntas').addEventListener('click', function () {
-                    $("#modalJuntas").modal("show");
-                });
-
-                document.getElementById('btnViewDetailsEmpaques').addEventListener('click', function () {
-                    $("#modalEmpaques").modal("show");
-                });
-
-                document.getElementById('btnViewDetailsPistones').addEventListener('click', function () {
-                    $("#modalPistones").modal("show");
-                });
-
-
-                document.getElementById('mobileMenuInicio').addEventListener('click', function () {
-                    if (document.getElementById("menuToggle").checked) {
-                        document.getElementById("menuToggle").checked = false;
-                    }
-                });
-
-                document.getElementById('mobileMenuEmpresa').addEventListener('click', function () {
-                    if (document.getElementById("menuToggle").checked) {
-                        document.getElementById("menuToggle").checked = false;
-                    }
-                });
-
-                document.getElementById('mobileMenuProductos').addEventListener('click', function () {
-                    if (document.getElementById("menuToggle").checked) {
-                        document.getElementById("menuToggle").checked = false;
-                    }
-                });
-
-                document.getElementById('mobileMenuContact').addEventListener('click', function () {
-                    if (document.getElementById("menuToggle").checked) {
-                        document.getElementById("menuToggle").checked = false;
-                    }
-                });
-                
             } catch (error) {
                 console.error(error);
             } finally {
                 console.log('App iniciada...', start.getMilliseconds());
                 setTimeout(() => {
-                    loadingScreen.dissmiss();
                     document.querySelector('body').classList.remove('stop-scrolling');
                 }, 3000);
                 niceSelectInit();
