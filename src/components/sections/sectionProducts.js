@@ -17,7 +17,7 @@ export default class SectionProducts {
                                 </div>
 
                                 <div class="item-col-3">
-                                    <a id="btnInformacionTecnica" class="btn btn-lg btn-grad-gray me-3 i18nelement" data-i18n="key_btn_informacion_tecnica" href="/informaciontecnica/index.html" style="width:100%;">Información técnica</a>
+                                    <a id="btnInformacionTecnica" class="btn btn-lg btn-grad-gray me-3 i18nelement" data-i18n="key_btn_informacion_tecnica" href="informaciontecnica.html" style="width:100%;">Información técnica</a>
                                 </div>
 
                                 <div class="item-col-3">

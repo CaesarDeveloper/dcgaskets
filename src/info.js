@@ -35,20 +35,7 @@ import json_es from './assets/i18n/es.json';
                     } else {
                         nav.classList.remove('bg-dark-transparent', 'shadow');
                     }
-                });             
-
-                document.getElementById('btnViewDetailsJuntas').addEventListener('click', function () {
-                    $("#modalJuntas").modal("show");
                 });
-
-                document.getElementById('btnViewDetailsEmpaques').addEventListener('click', function () {
-                    $("#modalEmpaques").modal("show");
-                });
-
-                document.getElementById('btnViewDetailsPistones').addEventListener('click', function () {
-                    $("#modalPistones").modal("show");
-                });
-
 
                 document.getElementById('mobileMenuInicio').addEventListener('click', function () {
                     if (document.getElementById("menuToggle").checked) {
