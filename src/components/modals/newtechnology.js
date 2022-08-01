@@ -1,4 +1,4 @@
-import VID_DC_GRAF_WEB from '../assets/video/VID_DC_GRAF_WEB.mp4';
+import VID_DC_GRAF_WEB from '../../assets/video/VID_DC_GRAF_WEB.mp4';
 export default class ModalNewTechnology {
     render() {
         return /*html*/ `

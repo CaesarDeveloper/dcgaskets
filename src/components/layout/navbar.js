@@ -1,4 +1,4 @@
-import LOGO_DCGASKETS from '../assets/images/logo_gaskets.png';
+import LOGO_DCGASKETS from '../../assets/images/logo_gaskets.png';
 
 export default class NavBar {
 
@@ -55,7 +55,7 @@ export default class NavBar {
               <div class="mx-auto"></div>
               <ul class="navbar-nav">            
                 <li class="nav-item active">                  
-                  <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_inicio" href="#" id="Inicio">Inicio</a>
+                  <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_inicio" href="/#" id="Inicio">Inicio</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle text-white i18nelement" data-bs-toggle="dropdown" data-i18n="key_menu_empresa" href="#" id="Home">Empresa</a>
@@ -64,20 +64,17 @@ export default class NavBar {
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_productos" href="#productos">Productos</a>
+                  <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_productos" href="/#productos">Productos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white hover-1" href="#noticias" id="About">Noticias</a>
+                  <a class="nav-link text-white hover-1" href="/#noticias" id="About">Noticias</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_contacto" href="#contacto" id="Contact">Contacto</a>
+                  <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_contacto" href="/#contacto" id="Contact">Contacto</a>
                 </li>                
                 <li class="nav-item">
                     <button class="btn btn-danger ms-5 i18nelement" data-i18n="key_btn_login" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar sesión</button>
-                </li>
-                <li class="nav-item">
-                    <a href="https://www.dcp.com.mx/proveedores/portalProveedor.jsp" class="btn btn-primary ms-3"><i class="fa-solid fa-building-user"></i> Proveedores</a>
-                </li>
+                </li>                
                 <li class="nav-item ms-5">
                     <select class="small langSelector" id="langSelector" name="lang">
                         <option value="es"> Español</option>

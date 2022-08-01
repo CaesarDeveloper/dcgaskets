@@ -5,10 +5,10 @@
  * Main script to render DC Gaskets webpage.
  * DCGaskets: @init, @i18Loader, @updateContent, @niceSelectInit
  * ---------------------------------------------- */
-import "./main.css";
-import "./responsive.css";
+import "./assets/css/main.css";
+import "./assets/css/responsive.css";
 import LoadingScreen from './components/loadingScreen.js'
-import App from "./components/app.js";
+import App from "./components/pages/index.js";
 import json_en from './assets/i18n/en.json';
 import json_es from './assets/i18n/es.json';
 
@@ -27,7 +27,7 @@ import json_es from './assets/i18n/es.json';
                 i18Jsons.push(json_es);
                 i18Jsons.push(json_en);
                 document.body.insertAdjacentHTML("afterbegin", loadingScreen.render());
-                document.querySelector('body').classList.add('stop-scrolling');
+                // document.querySelector('body').classList.add('stop-scrolling');
                 document.getElementById("app").insertAdjacentHTML("afterbegin", app.render());
 
                 let nav = document.querySelector('nav');
@@ -124,7 +124,20 @@ import json_es from './assets/i18n/es.json';
                 console.log('App iniciada...', start.getMilliseconds());
                 setTimeout(() => {
                     loadingScreen.dissmiss();
-                    document.querySelector('body').classList.remove('stop-scrolling');
+                    // document.querySelector('body').classList.remove('stop-scrolling');
+                    
+                    if (window.location.href.indexOf("productos") > -1) {
+                        window.location = '/#productos';
+                    }
+
+                    if (window.location.href.indexOf("noticias") > -1) {
+                        window.location = '/#noticias';
+                    }
+
+                    if (window.location.href.indexOf("contacto") > -1) {
+                        window.location = '/#contacto';
+                    }
+
                 }, 3000);
                 niceSelectInit();
                 i18Loader();                

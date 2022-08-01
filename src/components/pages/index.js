@@ -1,22 +1,22 @@
-import NavBar from './navbar';
-import HeaderVideo from './headerVideo.js';
-import SocialAppWidget from './socialwidget.js';
-import ModalLogin from './modalLogin.js';
-import ModalCompany from './modalCompany';
-import ModalProduct from './modalProduct.js';
-import ModalNewTechnology from './modalNewTechnology';
-import SectionProducts from './sections/sectionProducts.js';
-import SectionDevelopment from './sections/sectionDevelopment.js';
-import SectionBanner from './sections/sectionBanner.js';
-import SectionClients from './sections/sectionClients.js';
-import SectionNews from './sections/sectionNews.js';
-import SectionContact from './sections/sectionContact.js';
-import Footer from './footer.js';
+import NavBar from '../../components/layout/navbar.js';
+import HeaderVideo from '../../components/layout/headerVideo.js';
+import SocialAppWidget from '../socialwidget.js';
+import ModalLogin from '../../components/modals/login.js';
+import ModalCompany from '../../components/modals/company.js';
+import ModalProduct from '../../components/modals/product.js';
+import ModalNewTechnology from '../../components/modals/newtechnology';
+import SectionProducts from '../../components/sections/products.js';
+import SectionDevelopment from '../../components/sections/development.js';
+import SectionBanner from '../../components/sections/banner.js';
+import SectionClients from '../../components/sections/clients.js';
+import SectionNews from '../../components/sections/news.js';
+import SectionContact from '../../components/sections/contact.js';
+import Footer from '../../components/layout/footer.js';
 
 
-import imgJuntas from '../assets/images/icono_gasket.png';
-import imgEmpaques from '../assets/images/icono_empaque.png';
-import imgPistones from '../assets/images/icono_piston.png';
+import imgJuntas from '../../assets/images/icono_gasket.png';
+import imgEmpaques from '../../assets/images/icono_empaque.png';
+import imgPistones from '../../assets/images/icono_piston.png';
 export default class App {
 
     constructor() {

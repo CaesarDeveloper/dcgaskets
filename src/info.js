@@ -5,9 +5,9 @@
  * Main script to render DC Gaskets webpage.
  * DCGaskets: @init, @i18Loader, @updateContent, @niceSelectInit
  * ---------------------------------------------- */
-import "./main.css";
-import "./responsive.css";
-import InfoTecnica from "./components/infotecnica.js";
+import "./assets/css/main.css";
+import "./assets/css/responsive.css";
+import InfoTecnica from "./components/pages/informaciontecnica.js";
 import json_en from './assets/i18n/en.json';
 import json_es from './assets/i18n/es.json';
 

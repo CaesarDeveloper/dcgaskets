@@ -1,9 +1,9 @@
-import NavBar from './navbar';
-import HeaderVideo from './headerVideo.js';
-import SocialAppWidget from './socialwidget.js';
-import ModalLogin from './modalLogin.js';
-import SectionInfoTecnica from "./sections/sectionInfoTecnica.js";
-import Footer from './footer.js';
+import NavBar from '../../components/layout/navbar';
+import HeaderVideo from '../../components/layout/headerVideo.js';
+import SocialAppWidget from '../socialwidget.js';
+import ModalLogin from '../../components/modals/login.js';
+import SectionInfoTecnica from "../../components/sections/infotecnica.js";
+import Footer from '../../components/layout/footer.js';
 export default class InfoTecnica {
 
     constructor() {

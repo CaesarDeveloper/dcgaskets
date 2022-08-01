@@ -1,4 +1,4 @@
-import LOGO_DCGASKETS from '../assets/images/logo_gaskets.png';
+import LOGO_DCGASKETS from '../../assets/images/logo_gaskets.png';
 export default class Footer {
     constructor(props) {
         this.company = props.company;
