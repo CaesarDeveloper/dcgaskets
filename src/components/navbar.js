@@ -32,8 +32,9 @@ export default class NavBar {
                   <ul>
                     <li><a href="#" id="mobileMenuInicio">Inicio</a></li>
                     <li><a href="#" id="mobileMenuEmpresa" data-bs-toggle="modal" data-bs-target="#modalCompany">Empresa</a></li>
-                    <li><a href="#productosSection" id="mobileMenuProductos">Productos</a></li>
-                    <li><a href="#contactSection" id="mobileMenuContact">Contacto</a></li>
+                    <li><a href="#productos" id="mobileMenuProductos">Productos</a></li>
+                    <li><a href="#noticias" id="mobileMenuNoticias">Noticias</a></li>
+                    <li><a href="#contacto" id="mobileMenuContact">Contacto</a></li>
                   </ul>
                 </div>
               </div>
@@ -63,19 +64,19 @@ export default class NavBar {
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_productos" href="#productosSection" id="About">Productos</a>
+                  <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_productos" href="#productos">Productos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white hover-1" href="#noticiasSection" id="About">Noticias</a>
+                  <a class="nav-link text-white hover-1" href="#noticias" id="About">Noticias</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_contacto" href="#contactSection" id="Contact">Contacto</a>
+                  <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_contacto" href="#contacto" id="Contact">Contacto</a>
                 </li>                
                 <li class="nav-item">
-                    <button class="btn btn-danger ms-5 i18nelement" data-i18n="key_btn_login" data-bs-toggle="modal" data-bs-target="#exampleModal">Iniciar sesión</button>
+                    <button class="btn btn-danger ms-5 i18nelement" data-i18n="key_btn_login" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar sesión</button>
                 </li>
                 <li class="nav-item">
-                    <a href="portalproveedores.html" class="btn btn-primary ms-3">Proveedores</a>
+                    <a href="portalproveedores.html" class="btn btn-primary ms-3"><i class="fa-solid fa-building-user"></i> Proveedores</a>
                 </li>
                 <li class="nav-item ms-5">
                     <select class="small langSelector" id="langSelector" name="lang">

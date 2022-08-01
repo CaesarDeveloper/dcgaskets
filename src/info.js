@@ -7,7 +7,7 @@
  * ---------------------------------------------- */
 import "./main.css";
 import "./responsive.css";
-import InfoTecnica from "./components/infotecnica";
+import InfoTecnica from "./components/infotecnica.js";
 import json_en from './assets/i18n/en.json';
 import json_es from './assets/i18n/es.json';
 

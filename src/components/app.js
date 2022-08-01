@@ -5,12 +5,12 @@ import ModalLogin from './modalLogin.js';
 import ModalCompany from './modalCompany';
 import ModalProduct from './modalProduct.js';
 import ModalNewTechnology from './modalNewTechnology';
-import SectionProducts from './sectionProducts.js';
-import SectionDevelopment from './sectionDevelopment.js';
-import SectionBanner from './sectionBanner.js';
-import SectionClients from './sectionClients.js';
-import SectionNews from './sectionNews.js';
-import SectionContact from './sectionContact.js';
+import SectionProducts from './sections/sectionProducts.js';
+import SectionDevelopment from './sections/sectionDevelopment.js';
+import SectionBanner from './sections/sectionBanner.js';
+import SectionClients from './sections/sectionClients.js';
+import SectionNews from './sections/sectionNews.js';
+import SectionContact from './sections/sectionContact.js';
 import Footer from './footer.js';
 
 
@@ -82,6 +82,7 @@ export default class App {
 
     render() {
         return /*html*/ `
+        <div id="content">
             ${this.nav.render()}
             ${this.headerVideo.render()}
             ${this.sectionProducts.render()}
@@ -102,6 +103,7 @@ export default class App {
 
             <!-- Widget declaration -->
             ${this.socialWidget.render()}
+        </div>
         `;
     }
 }

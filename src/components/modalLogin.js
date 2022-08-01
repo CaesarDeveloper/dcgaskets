@@ -9,11 +9,11 @@ export default class ModalLogin {
     render() {
         return /*html*/ `
             <!-- FOOTER -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title text-center i18nelement" data-i18n="key_title_login_modal" id="exampleModalLabel"><i class="fas fa-sign-in-alt"></i> ${this.title}</h5>
+                        <h5 class="modal-title text-center i18nelement" data-i18n="key_title_login_modal" id="loginModalLabel"><i class="fas fa-sign-in-alt"></i> ${this.title}</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">

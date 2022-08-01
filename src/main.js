@@ -20,7 +20,7 @@ import json_es from './assets/i18n/es.json';
         const init = () => {
             const start = new Date();
             const loadingScreen = new LoadingScreen();
-            const app = new App();            
+            const app = new App();
 
             try {
                 console.log('Iniciando app...');
@@ -93,12 +93,31 @@ import json_es from './assets/i18n/es.json';
                     }
                 });
 
+                document.getElementById('mobileMenuNoticias').addEventListener('click', function () {
+                    if (document.getElementById("menuToggle").checked) {
+                        document.getElementById("menuToggle").checked = false;
+                    }
+                });                
+
                 document.getElementById('mobileMenuContact').addEventListener('click', function () {
                     if (document.getElementById("menuToggle").checked) {
                         document.getElementById("menuToggle").checked = false;
                     }
                 });
-                
+
+                setTimeout(() => {
+                    let modalNewTech = new bootstrap.Modal(document.getElementById("modalNewTechnology"), {});
+
+                    document.getElementById('btnModalNewTech').addEventListener('click', function () {
+                        console.log("Click en modal");
+                        modalNewTech.show();
+                    });
+
+                    document.getElementById('btnCloseModalNewTech').addEventListener('click', function () {
+                        modalNewTech.hide();
+                    });
+                }, 3000);                
+
             } catch (error) {
                 console.error(error);
             } finally {

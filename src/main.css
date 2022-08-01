@@ -1526,3 +1526,7 @@ label.radio input:checked + span {
 		height: 40%;
 	}
 }
+
+:target {
+  scroll-margin-top: 85px;
+}
