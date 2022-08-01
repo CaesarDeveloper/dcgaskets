@@ -2,7 +2,7 @@ import NavBar from './navbar';
 import HeaderVideo from './headerVideo.js';
 import SocialAppWidget from './socialwidget.js';
 import ModalLogin from './modalLogin.js';
-import SectionInfoTecnica from "../components/sections/sectionInfoTecnica.js";
+import SectionInfoTecnica from "./sections/sectionInfoTecnica.js";
 import Footer from './footer.js';
 export default class InfoTecnica {
 
