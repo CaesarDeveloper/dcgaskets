@@ -76,7 +76,7 @@ export default class NavBar {
                     <button class="btn btn-danger ms-5 i18nelement" data-i18n="key_btn_login" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar sesión</button>
                 </li>
                 <li class="nav-item">
-                    <a href="portalproveedores.html" class="btn btn-primary ms-3"><i class="fa-solid fa-building-user"></i> Proveedores</a>
+                    <a href="https://www.dcp.com.mx/proveedores/portalProveedor.jsp" class="btn btn-primary ms-3"><i class="fa-solid fa-building-user"></i> Proveedores</a>
                 </li>
                 <li class="nav-item ms-5">
                     <select class="small langSelector" id="langSelector" name="lang">
