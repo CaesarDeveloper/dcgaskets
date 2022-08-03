@@ -1474,7 +1474,7 @@ label.radio input:checked + span {
   -webkit-transition: 0.2s ease-in;
   -o-transition: 0.2s ease-in;
   transition: 0.2s ease-in;
-  height: 55%;
+  height: 60%;
 }
 
 .blog-home5 .b-h-box .card-title {
@@ -1490,13 +1490,13 @@ label.radio input:checked + span {
 }
 
 .blog-home5 .b-h-box:hover {
-  color: #8d97ad;
+  color: #828ca1;
 }
 
 .blog-home5 .b-h-box:hover .card-img-overlay {
   height: 100%;
   background: #ffffff;
-  border: 3px solid rgba(120, 130, 140, 0.13);
+  border: 2px solid rgba(120, 130, 140, 0.13);
 }
 
 .blog-home5 .b-h-box:hover .card-title {
