@@ -11,6 +11,18 @@ import InfoTecnica from "./components/pages/informaciontecnica.js";
 import json_en from './assets/i18n/en.json';
 import json_es from './assets/i18n/es.json';
 
+import BOLETINES_PDF_1 from "./assets/files/boletines_tecnicos/Cambio_de_sellos_de_valvula.pdf?url";
+import BOLETINES_PDF_2 from "./assets/files/boletines_tecnicos/Procedimiento_instalacion_reten.pdf?url";
+import BOLETINES_PDF_3 from "./assets/files/boletines_tecnicos/Soluciona_tu_fuga.jpg";
+
+import TABLAS_CONVERSIONES_PDF_1 from "./assets/files/tablas_conversiones/tablas_para_conversiones1.jpg";
+import TABLAS_CONVERSIONES_PDF_2 from "./assets/files/tablas_conversiones/tablas_para_conversiones2.jpg";
+import TABLAS_CONVERSIONES_PDF_3 from "./assets/files/tablas_conversiones/tablas_para_conversiones3.jpg";
+
+import TABLAS_TECNICAS_PDF_1 from "./assets/files/tablas_tecnicas/tabla_nacional_2022_cv.pdf?url";
+import TABLAS_TECNICAS_PDF_2 from "./assets/files/tablas_tecnicas/tabla_americanos_2022_cv.pdf?url";
+import TABLAS_TECNICAS_PDF_3 from "./assets/files/tablas_tecnicas/tabla_asiaticas_2022.pdf?url";
+
 (($) => {
 
     let i18Jsons = [];
@@ -37,6 +49,35 @@ import json_es from './assets/i18n/es.json';
                     }
                 });
 
+                    
+                document.getElementById('btnViewDetailsBoletinesTecnicos').addEventListener('click', function () {
+                    $("#modalBoletinesTecnicos").modal("show");
+                });
+
+                document.getElementById('btnViewDetailsTablasConversiones').addEventListener('click', function () {
+                    $("#modalTablaConversiones").modal("show");
+                });
+
+                document.getElementById('btnViewDetailsTablasTecnicas').addEventListener('click', function () {
+                    $("#modalTablaTecnica").modal("show");
+                });                
+
+                document.getElementById('btnDescargarBoletines').addEventListener('click', function () {
+                    var urls = [BOLETINES_PDF_1, BOLETINES_PDF_2, BOLETINES_PDF_3];
+                    downloadFiles(urls)
+                });
+
+                document.getElementById('btnDescargarTablasConversiones').addEventListener('click', function () {
+                    var urls = [TABLAS_CONVERSIONES_PDF_1, TABLAS_CONVERSIONES_PDF_2, TABLAS_CONVERSIONES_PDF_3];
+                    downloadFiles(urls)
+                });
+
+                document.getElementById('btnDescargarTablasTecnicas').addEventListener('click', function () {
+                    var urls = [TABLAS_TECNICAS_PDF_1, TABLAS_TECNICAS_PDF_2, TABLAS_TECNICAS_PDF_3];
+                    downloadFiles(urls)
+                });                
+                
+
                 document.getElementById('mobileMenuInicio').addEventListener('click', function () {
                     if (document.getElementById("menuToggle").checked) {
                         document.getElementById("menuToggle").checked = false;
@@ -60,6 +101,8 @@ import json_es from './assets/i18n/es.json';
                         document.getElementById("menuToggle").checked = false;
                     }
                 });
+
+                
                 
             } catch (error) {
                 console.error(error);
@@ -70,6 +113,21 @@ import json_es from './assets/i18n/es.json';
                 }, 3000);
                 niceSelectInit();
                 i18Loader();                
+            }
+        }
+
+        const downloadFiles = (urls) => {
+
+            for (const url of urls) {   // here's the for..of statement                
+                let a = document.createElement("a");
+                a.setAttribute('href', url);
+                a.setAttribute('download', '');
+                a.setAttribute('target', '_blank');
+                a.click();
+            }
+
+            if (urls.length == 0) {
+                // clearInterval();
             }
         }
 

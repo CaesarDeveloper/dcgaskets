@@ -1,7 +1,7 @@
 
-import PORTADA_TABLAS_TECNICAS from '../../assets/images/informaciontecnica/juntasempaques/TABLA_TECNICA.jpeg';
-import PORTADA_TABLAS_DE_CONVERSIONES from '../../assets/images/informaciontecnica/juntasempaques/TABLA_DE_CONVERSIONES.jpeg';
-import PORTADA_BOLETINES_TECNICOS from '../../assets/images/informaciontecnica/juntasempaques/BOLETINES_TECNICOS.jpeg';
+import PORTADA_TABLAS_TECNICAS from '../../assets/images/informaciontecnica/juntasempaques/TABLA_TECNICA.png';
+import PORTADA_TABLAS_DE_CONVERSIONES from '../../assets/images/informaciontecnica/juntasempaques/TABLA_DE_CONVERSIONES.jpg';
+import PORTADA_BOLETINES_TECNICOS from '../../assets/images/informaciontecnica/juntasempaques/BOLETINES_TECNICOS.jpg';
 import PORTADA_CONSEJOS_TECNICOS from '../../assets/images/informaciontecnica/juntasempaques/CONSEJOS_TECNICOS.jpg';
 export default class SectionInfoTecnica {
 
@@ -27,7 +27,7 @@ export default class SectionInfoTecnica {
                             <div class="card-img-overlay overflow-hidden border-15">
                             <h2 class="my-3 fw-bold">Tablas técnicas</h2>
                             <div class="d-flex align-items-center">
-                                <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal">Ver detalles</button>
+                                <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal" id="btnViewDetailsTablasTecnicas">Ver detalles</button>
                             </div>
                             <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>-->
                             </div>
@@ -41,7 +41,7 @@ export default class SectionInfoTecnica {
                             <div class="card-img-overlay overflow-hidden border-15">
                             <h2 class="fw-bold">Tablas de conversiones</h2>
                             <div class="d-flex align-items-center">
-                                <button class="btn btn-grad-red overflow-hidden text-white px-3 py-1 font-weight-normal">Ver detalles</button>                                
+                                <button class="btn btn-grad-red overflow-hidden text-white px-3 py-1 font-weight-normal" id="btnViewDetailsTablasConversiones">Ver detalles</button>                                
                             </div>                            
                             <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>-->
                             </div>
@@ -56,7 +56,7 @@ export default class SectionInfoTecnica {
                                 <h2 class="fw-bold">Boletines técnicos</h2>
                                 <p class="">Procedimientos y mejoras en la instalción de piezas automotrices, soluciones mecanicas</p>
                                 <div class="d-flex align-items-center">
-                                    <button class="btn btn-grad-red overflow-hidden text-white px-3 py-1 font-weight-normal">Ver detalles</button>                                    
+                                    <button class="btn btn-grad-red overflow-hidden text-white px-3 py-1 font-weight-normal" id="btnViewDetailsBoletinesTecnicos">Ver detalles</button>                                    
                                 </div>
                                 <br/><br/>
                             </div>

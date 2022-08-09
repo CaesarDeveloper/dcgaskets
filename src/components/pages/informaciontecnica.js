@@ -2,6 +2,9 @@ import NavBar from '../../components/layout/navbar';
 import HeaderVideo from '../../components/layout/headerVideo.js';
 import SocialAppWidget from '../socialwidget.js';
 import ModalLogin from '../../components/modals/login.js';
+import ModalCompany from "../../components/modals/company.js";
+import ModalInfoTecnica from "../../components/modals/infotecnica.js";
+
 import SectionInfoTecnica from "../../components/sections/infotecnica.js";
 import Footer from '../../components/layout/footer.js';
 export default class InfoTecnica {
@@ -27,6 +30,27 @@ export default class InfoTecnica {
             btnLoginText: 'Iniciar sesión',
         });
 
+        this.modalCompany = new ModalCompany();
+
+        this.modalBoletinesTecnicos = new ModalInfoTecnica({
+            modalId: "modalBoletinesTecnicos",
+            productType: "Boletines técnicos",
+            downloadId: "btnDescargarBoletines"
+        });
+
+         this.modalTablaConversiones = new ModalInfoTecnica({
+            modalId: "modalTablaConversiones",
+            productType: "Tablas de conversiones",
+            downloadId: "btnDescargarTablasConversiones"
+        });
+
+         this.modalTablaTecnica = new ModalInfoTecnica({
+            modalId: "modalTablaTecnica",
+            productType: "Tablas técnicas",
+            downloadId: "btnDescargarTablasTecnicas"
+        });
+
+
         this.socialWidget = new SocialAppWidget({
             linkedin: 'https://mx.linkedin.com/company/dc-gaskets',
             instagram: 'https://www.instagram.com/dcgaskets/?hl=es-la',
@@ -44,6 +68,11 @@ export default class InfoTecnica {
 
             <!-- Modal declarations -->
             ${this.modalLogin.render()}
+            ${this.modalCompany.render()}
+            ${this.modalBoletinesTecnicos.render()}
+            ${this.modalTablaConversiones.render()}
+            ${this.modalTablaTecnica.render()}
+            
 
             <!-- Widget declaration -->
             ${this.socialWidget.render()}
