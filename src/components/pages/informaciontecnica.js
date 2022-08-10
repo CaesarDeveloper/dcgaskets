@@ -38,16 +38,22 @@ export default class InfoTecnica {
             downloadId: "btnDescargarBoletines"
         });
 
-         this.modalTablaConversiones = new ModalInfoTecnica({
+        this.modalTablaConversiones = new ModalInfoTecnica({
             modalId: "modalTablaConversiones",
             productType: "Tablas de conversiones",
             downloadId: "btnDescargarTablasConversiones"
         });
 
-         this.modalTablaTecnica = new ModalInfoTecnica({
+        this.modalTablaTecnica = new ModalInfoTecnica({
             modalId: "modalTablaTecnica",
             productType: "Tablas técnicas",
             downloadId: "btnDescargarTablasTecnicas"
+        });
+
+        this.modalConsejosTecnicos = new ModalInfoTecnica({
+            modalId: "modalConsejosTecnicos",
+            productType: "Consejos técnicos",
+            downloadId: "btnDescargarConsejosTecnicos"
         });
 
 
@@ -72,7 +78,7 @@ export default class InfoTecnica {
             ${this.modalBoletinesTecnicos.render()}
             ${this.modalTablaConversiones.render()}
             ${this.modalTablaTecnica.render()}
-            
+            ${this.modalConsejosTecnicos.render()}
 
             <!-- Widget declaration -->
             ${this.socialWidget.render()}

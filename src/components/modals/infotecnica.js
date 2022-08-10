@@ -10,6 +10,9 @@ import TABLAS_TECNICAS_PDF_1 from '../../assets/files/tablas_tecnicas/tabla_naci
 import TABLAS_TECNICAS_PDF_2 from '../../assets/files/tablas_tecnicas/tabla_americanos_2022_cv.pdf?url';
 import TABLAS_TECNICAS_PDF_3 from '../../assets/files/tablas_tecnicas/tabla_asiaticas_2022.pdf?url';
 
+import CONSEJOS_TECNICOS_PDF_1 from '../../assets/files/consejos_tecnicos/limpieza_de_orificios_roscados.pdf?url';
+import CONSEJOS_TECNICOS_PDF_2 from '../../assets/files/consejos_tecnicos/tips_y_cuidado_de_los_retenes.pdf?url';
+
 
 export default class ModalInfoTecnica {
 
@@ -71,6 +74,19 @@ export default class ModalInfoTecnica {
                   </div>
                 `;
             break;
+
+            case 'modalConsejosTecnicos':
+               this.pdfContent = `
+                  <div class="col-md-4" style="align-self: center;">
+                      <object data="${CONSEJOS_TECNICOS_PDF_1}" width="100%" height="500"></object>
+                  </div>
+                  <div class="col-md-4" style="align-self: center;">
+                        <object data="${CONSEJOS_TECNICOS_PDF_2}" width="100%" height="500"></object>
+                  </div>
+                `;
+            break;
+
+            
 
             default:
                 break;

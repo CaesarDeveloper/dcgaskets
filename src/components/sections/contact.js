@@ -35,19 +35,7 @@ export default class SectionContact {
             <div class="container mt-5 mb-5" id="contacto">
 
                 <div class="container">
-                    <h2 class="display-6 fw-bolder centered i18nelement" data-i18n="key_menu_contacto" style="
-                        z-index: 222;
-                        display: flex;
-                        justify-content: center;
-                        flex-direction: column;
-                        align-items: center;
-                        position: absolute;
-                        text-align: center;
-                        margin: auto;
-                        left: calc(50% - 80px);
-                        margin-top: 55px;
-                        color: #fff;
-                    ">Contacto</h2>
+                    <h2 class="display-6 fw-bolder centered i18nelement" data-i18n="key_menu_contacto" style="">Contacto</h2>
                     <img class="rounded box-shadow-light mb-4" src="${IMG_EMPRESA_CONTACT}" width="100%" style="
                         position: relative;
                         height: 170px;

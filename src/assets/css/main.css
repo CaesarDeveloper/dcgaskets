@@ -1523,10 +1523,18 @@ label.radio input:checked + span {
 
 @media (max-width:768px) {
 	.blog-home5 .b-h-box .card-img-overlay {
-		height: 40%;
+		height: 55%;
 	}
 }
 
 :target {
   scroll-margin-top: 85px;
+}
+
+
+
+.img-technical-info{
+  height: 335px;
+  filter: brightness(45%);
+  object-fit: cover;
 }

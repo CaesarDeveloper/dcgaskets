@@ -19,13 +19,14 @@ export default class SectionInfoTecnica {
                         <!-- Column -->
                     </div>
                     <!-- Row  -->
-                    <div class="" style="display: grid;grid-template-columns: repeat(2, 1fr);grid-auto-rows: auto;grid-gap: 1rem;">
+                    <div class="documents-container">
                         <!-- Column -->
 
                         <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
-                            <img class="card-img border-15" src="${PORTADA_TABLAS_TECNICAS}" alt="Card image" style="height: 335px;filter: brightness(45%);">
+                            <img class="card-img border-15 img-technical-info" src="${PORTADA_TABLAS_TECNICAS}" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
-                            <h2 class="my-3 fw-bold">Tablas técnicas</h2>
+                            <h2 class="fw-bold">Tablas técnicas</h2>
+                            <h6>Tablas nacionales y americanas</h6>
                             <div class="d-flex align-items-center">
                                 <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal" id="btnViewDetailsTablasTecnicas">Ver detalles</button>
                             </div>
@@ -37,9 +38,10 @@ export default class SectionInfoTecnica {
                         <!-- Column -->
 
                         <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
-                            <img class="card-img border-15" src="${PORTADA_TABLAS_DE_CONVERSIONES}" alt="Card image" style="height: 335px;filter: brightness(45%);">
+                            <img class="card-img border-15 img-technical-info" src="${PORTADA_TABLAS_DE_CONVERSIONES}" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
                             <h2 class="fw-bold">Tablas de conversiones</h2>
+                            <h6>Conversiones en medidas Newton-Metro a Libras-Pie, conversiones Litros-Pulgadas</h6>
                             <div class="d-flex align-items-center">
                                 <button class="btn btn-grad-red overflow-hidden text-white px-3 py-1 font-weight-normal" id="btnViewDetailsTablasConversiones">Ver detalles</button>                                
                             </div>                            
@@ -51,10 +53,10 @@ export default class SectionInfoTecnica {
                         <!-- Column -->
 
                         <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
-                            <img class="card-img border-15" src="${PORTADA_BOLETINES_TECNICOS}" alt="Card image" style="height: 335px;filter: brightness(45%);">
+                            <img class="card-img border-15 img-technical-info" src="${PORTADA_BOLETINES_TECNICOS}" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
                                 <h2 class="fw-bold">Boletines técnicos</h2>
-                                <p class="">Procedimientos y mejoras en la instalción de piezas automotrices, soluciones mecanicas</p>
+                                <h6>Procedimientos y mejoras en la instalción de piezas automotrices, soluciones mecanicas</h6>
                                 <div class="d-flex align-items-center">
                                     <button class="btn btn-grad-red overflow-hidden text-white px-3 py-1 font-weight-normal" id="btnViewDetailsBoletinesTecnicos">Ver detalles</button>                                    
                                 </div>
@@ -67,11 +69,12 @@ export default class SectionInfoTecnica {
                         <!-- Column -->
 
                         <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
-                            <img class="card-img border-15" src="${PORTADA_CONSEJOS_TECNICOS}" alt="Card image" style="height: 335px;filter: brightness(45%);">
+                            <img class="card-img border-15 img-technical-info" src="${PORTADA_CONSEJOS_TECNICOS}" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
-                            <h2 class="my-3 fw-bold">Consejos técnicos</h2>
+                            <h2 class="fw-bold">Consejos técnicos</h2>
+                            <h6>Te apoyamos con nuestras mejores prácticas</h6>
                             <div class="d-flex align-items-center">
-                                <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal">Ver detalles</button>                                
+                                <button class="btn btn-grad-red overflow-hidden text-white px-3 py-1 font-weight-normal" id="btnViewDetailsConsejosTecnicos">Ver detalles</button>                                
                             </div>                            
                             <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>-->
                             </div>
@@ -90,11 +93,11 @@ export default class SectionInfoTecnica {
                         <!-- Column -->
                     </div>
 
-                    <div class="" style="display: grid;grid-template-columns: repeat(2, 1fr);grid-auto-rows: auto;grid-gap: 1rem;">
+                    <div class="documents-container">
                         <!-- Column -->
 
                         <div class="card b-h-box position-relative font-14 mb-4 border-15">
-                            <img class="card-img border-15" src="http://via.placeholder.com/640x360" alt="Card image">
+                            <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
                             <div class="d-flex align-items-center">
                                 <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal">Ver detalles</button>
@@ -108,7 +111,7 @@ export default class SectionInfoTecnica {
                         <!-- Column -->
 
                         <div class="card b-h-box position-relative font-14 mb-4 border-15">
-                            <img class="card-img border-15" src="http://via.placeholder.com/640x360" alt="Card image">
+                            <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
                             <div class="d-flex align-items-center">
                                 <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal">Ver detalles</button>
@@ -122,7 +125,7 @@ export default class SectionInfoTecnica {
                         <!-- Column -->
 
                         <div class="card b-h-box position-relative font-14 mb-4 border-15">
-                            <img class="card-img border-15" src="http://via.placeholder.com/640x360" alt="Card image">
+                            <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
                             <div class="d-flex align-items-center">
                                 <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal">Ver detalles</button>
@@ -136,7 +139,7 @@ export default class SectionInfoTecnica {
                         <!-- Column -->
 
                         <div class="card b-h-box position-relative font-14 mb-4 border-15">
-                            <img class="card-img border-15" src="http://via.placeholder.com/640x360" alt="Card image">
+                            <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
                             <div class="d-flex align-items-center">
                                 <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal">Ver detalles</button>

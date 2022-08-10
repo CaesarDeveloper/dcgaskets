@@ -23,6 +23,11 @@ import TABLAS_TECNICAS_PDF_1 from "./assets/files/tablas_tecnicas/tabla_nacional
 import TABLAS_TECNICAS_PDF_2 from "./assets/files/tablas_tecnicas/tabla_americanos_2022_cv.pdf?url";
 import TABLAS_TECNICAS_PDF_3 from "./assets/files/tablas_tecnicas/tabla_asiaticas_2022.pdf?url";
 
+import CONSEJOS_TECNICOS_PDF_1 from "./assets/files/consejos_tecnicos/limpieza_de_orificios_roscados.pdf?url";
+import CONSEJOS_TECNICOS_PDF_2 from "./assets/files/consejos_tecnicos/tips_y_cuidado_de_los_retenes.pdf?url";
+
+
+
 (($) => {
 
     let i18Jsons = [];
@@ -60,7 +65,13 @@ import TABLAS_TECNICAS_PDF_3 from "./assets/files/tablas_tecnicas/tabla_asiatica
 
                 document.getElementById('btnViewDetailsTablasTecnicas').addEventListener('click', function () {
                     $("#modalTablaTecnica").modal("show");
-                });                
+                });
+
+                document.getElementById('btnViewDetailsConsejosTecnicos').addEventListener('click', function () {
+                    $("#modalConsejosTecnicos").modal("show");
+                });
+                
+                
 
                 document.getElementById('btnDescargarBoletines').addEventListener('click', function () {
                     var urls = [BOLETINES_PDF_1, BOLETINES_PDF_2, BOLETINES_PDF_3];
@@ -75,8 +86,12 @@ import TABLAS_TECNICAS_PDF_3 from "./assets/files/tablas_tecnicas/tabla_asiatica
                 document.getElementById('btnDescargarTablasTecnicas').addEventListener('click', function () {
                     var urls = [TABLAS_TECNICAS_PDF_1, TABLAS_TECNICAS_PDF_2, TABLAS_TECNICAS_PDF_3];
                     downloadFiles(urls)
-                });                
-                
+                });
+
+                document.getElementById('btnDescargarConsejosTecnicos').addEventListener('click', function () {
+                    var urls = [CONSEJOS_TECNICOS_PDF_1, CONSEJOS_TECNICOS_PDF_2];
+                    downloadFiles(urls)
+                });
 
                 document.getElementById('mobileMenuInicio').addEventListener('click', function () {
                     if (document.getElementById("menuToggle").checked) {
