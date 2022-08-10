@@ -48,7 +48,7 @@ export default class SectionContact {
                         margin-top: 55px;
                         color: #fff;
                     ">Contacto</h2>
-                    <img class="rounded box-shadow-light mb-4" src="/src/assets/images/empresacontacto.png" width="100%" style="
+                    <img class="rounded box-shadow-light mb-4" src="${IMG_EMPRESA_CONTACT}" width="100%" style="
                         position: relative;
                         height: 170px;
                         filter: brightness(53%);
