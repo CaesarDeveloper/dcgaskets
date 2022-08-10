@@ -85,7 +85,7 @@ export default class SectionInfoTecnica {
                     <div class="row justify-content-center mt-5 mb-5">
                         <!-- Column -->
                         <div class="col-md-8 text-center">
-                            <h2 class="fw-bold display-4 mb-3">Juntas y empaques</h2>
+                            <h2 class="fw-bold display-4 mb-3">Pistones</h2>
                         </div>
                         <!-- Column -->
                     </div>
