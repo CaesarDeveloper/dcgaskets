@@ -51,10 +51,10 @@ export default class SectionContact {
                     </div>
                     <br />
                     <div class="col-md-6">
-                        <h4 class="mb-3">Contáctanos</h4>
+                        <h4 class="mb-3 i18nelement" data-i18n="key_contact_us">Contáctanos</h4>
                         <form class="my-form">
                             <div class="mb-3">
-                                <label for="form-area">Nombre</label>                                
+                                <label for="form-area" class="i18nelement" data-i18n="key_contact_area">Área</label>                                
                                 <select class="form-select">
                                     <option value="1" selected>Ventas y atención al cliente</option>
                                     <option value="2">Soporte técnico</option>
@@ -62,22 +62,22 @@ export default class SectionContact {
                                 </select>
                             </div>
                             <div class="mb-3">
-                                <label for="form-name">Nombre</label>
+                                <label for="form-name" class="i18nelement" data-i18n="key_contact_nombre">Nombre</label>
                                 <input type="email" class="form-control" id="form-name" placeholder="">
                             </div>
                             <div class="mb-3">
-                                <label for="form-subject">Teléfono</label>
+                                <label for="form-subject" class="i18nelement" data-i18n="key_contact_telefono">Teléfono</label>
                                 <input type="text" class="form-control" id="form-subject" placeholder="">
                             </div>
                             <div class="mb-3">
-                                <label for="form-email">Email</label>
+                                <label for="form-email" class="i18nelement" data-i18n="key_contact_email">Email</label>
                                 <input type="email" class="form-control" id="form-email" placeholder="">
                             </div>                            
                             <div class="mb-3">
-                                <label for="form-message">Mensaje</label>
+                                <label for="form-message" class="i18nelement" data-i18n="key_contact_mensaje">Mensaje</label>
                                 <textarea class="form-control" id="form-message" placeholder="" rows="4"></textarea>
                             </div>
-                            <button class="btn btn-danger btn-lg mt-3" type="button" style="width:100%;"><i class="fa-solid fa-paper-plane"></i> Enviar</button>                
+                            <button class="btn btn-danger btn-lg mt-3 i18nelement" data-i18n="key_contact_enviar" type="button" style="width:100%;"><i class="fa-solid fa-paper-plane"></i> Enviar</button>                
                         </form>
                         
                         <div class="row mt-5">

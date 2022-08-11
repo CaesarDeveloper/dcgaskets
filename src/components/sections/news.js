@@ -8,7 +8,7 @@ export default class SectionNews {
                 <div class="row justify-content-center">
                   <!-- Column -->
                   <div class="col-md-8 text-center">
-                    <h2 class="display-6 fw-bolder mb-3">Noticias</h2>
+                    <h2 class="display-6 fw-bolder mb-3 i18nelement" data-i18n="key_noticias_menu">Noticias</h2>
                   </div>
                   <!-- Column -->
                 </div>

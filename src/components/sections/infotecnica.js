@@ -72,7 +72,7 @@ export default class SectionInfoTecnica {
                         <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
                             <img class="card-img border-15 img-technical-info" src="${PORTADA_CONSEJOS_TECNICOS}" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
-                            <h2 class="fw-bold i18nelement" data-i18n="key_title_boletinestecnicos">Consejos técnicos</h2>
+                            <h2 class="fw-bold i18nelement" data-i18n="key_title_consejostecnicos">Consejos técnicos</h2>
                             <h6 class="i18nelement" data-i18n="key_subtitle_consejostecnicos">Te apoyamos con nuestras mejores prácticas</h6>
                             <div class="d-flex align-items-center">
                                 <button class="btn btn-grad-red overflow-hidden text-white px-3 py-1 font-weight-normal i18nelement" data-i18n="key_section_product_btn_details" id="btnViewDetailsConsejosTecnicos">Ver detalles</button>                                

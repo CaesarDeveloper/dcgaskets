@@ -71,5 +71,19 @@
   "key_modal_title_boletinestecnicos": "<i class='fa-solid fa-file-lines'></i>  Boletines técnicos",
   "key_modal_title_consejostecnicos": "<i class='fa-solid fa-file-lines'></i>  Consejos técnicos",
 
-  "key_title_technicalinfo_juntas_empaques": "Juntas y empaques"  
+  "key_title_technicalinfo_juntas_empaques": "Juntas y empaques",
+
+  "key_noticias_menu": "Noticias",
+
+  "key_contact_us": "Contáctanos",
+
+  "key_contact_area": "Área",
+  "key_contact_nombre": "Nombre",
+  "key_contact_telefono": "Teléfono",
+  "key_contact_email": "Email",
+  "key_contact_mensaje": "Mensaje",
+  "key_contact_enviar": "Enviar"
+
+
 }
+

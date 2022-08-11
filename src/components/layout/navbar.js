@@ -30,11 +30,11 @@ export default class NavBar {
                 <label for="menuToggle"></label>
                 <div class="menuContent">
                   <ul>
-                    <li><a href="#" id="mobileMenuInicio">Inicio</a></li>
-                    <li><a href="#" id="mobileMenuEmpresa" data-bs-toggle="modal" data-bs-target="#modalCompany">Empresa</a></li>
-                    <li><a href="#productos" id="mobileMenuProductos">Productos</a></li>
-                    <li><a href="#noticias" id="mobileMenuNoticias">Noticias</a></li>
-                    <li><a href="#contacto" id="mobileMenuContact">Contacto</a></li>
+                    <li><a class="i18nelement" href="#" id="mobileMenuInicio" data-i18n="key_menu_inicio">Inicio</a></li>
+                    <li><a class="i18nelement" href="#" id="mobileMenuEmpresa" data-bs-toggle="modal" data-bs-target="#modalCompany" data-i18n="key_menu_empresa">Empresa</a></li>
+                    <li><a class="i18nelement" href="#productos" id="mobileMenuProductos" data-i18n="key_menu_productos">Productos</a></li>
+                    <li><a class="i18nelement" href="#noticias" id="mobileMenuNoticias" data-i18n="key_noticias_menu">Noticias</a></li>
+                    <li><a class="i18nelement" href="#contacto" id="mobileMenuContact" data-i18n="key_menu_contacto">Contacto</a></li>
                   </ul>
                 </div>
               </div>
@@ -67,7 +67,7 @@ export default class NavBar {
                   <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_productos" href="/#productos">Productos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white hover-1" href="/#noticias" id="About">Noticias</a>
+                  <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_noticias_menu" href="/#noticias" id="About">Noticias</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-white hover-1 i18nelement" data-i18n="key_menu_contacto" href="/#contacto" id="Contact">Contacto</a>

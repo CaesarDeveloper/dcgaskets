@@ -221,10 +221,12 @@ import json_es from './assets/i18n/es.json';
                 $(".nice-select>ul.list>li.option[data-value='es']").prepend('<i class="flag-icon flag-icon-mx"></i> ');
             }
 
-            
-            // $(".nice-select>ul.list>li.option[data-value='en']").prepend('<i class="flag-icon flag-icon-us"></i> ');
-            // $(".nice-select>ul.list>li.option[data-value='es']").prepend('<i class="flag-icon flag-icon-mx"></i> ');
-            // $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-mx"></i> ');
+            if (localStorage.getItem("lang") == null) {
+                $(".nice-select>ul.list>li.option[data-value='en']").prepend('<i class="flag-icon flag-icon-us"></i> ');
+                $(".nice-select>ul.list>li.option[data-value='es']").prepend('<i class="flag-icon flag-icon-mx"></i> ');
+                $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-mx"></i> ');    
+            }
+                        
             
         }
 

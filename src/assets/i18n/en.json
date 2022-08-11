@@ -32,7 +32,7 @@
   "key_section_product_modal_empaques_descriptiton_1": "Intake / Exhaust / Plenum Manifolds and other gaskets manufactured in graphite and special fibers of high quality and resistance to high temperatures and excellent compressibility to absorb imperfections in the surfaces to be sealed.",
   "key_section_product_modal_empaques_descriptiton_2": "Rubber gaskets and seals with high performance raw materials for automotive use such as viton, silicone, polyacrylic and nitrile.",
 
-  "key_section_product_modal_pistones_descriptiton_1": "Acabados con Diamante y maquinados en equipo de control numérico (CNC) que brindan mayor precisión.",
+  "key_section_product_modal_pistones_descriptiton_1": "Diamond finishes and machined in computer numerical control (CNC) that provide greater precision.",
   "key_section_product_modal_pistones_descriptiton_2": "Monolithic Heart that provides greater resistance due to its design cast in one piece.",
   "key_section_product_modal_pistones_descriptiton_3": "Graphitized skirts to improve piston performance.",
   "key_section_product_modal_pistones_descriptiton_4": "Manufactured under Original Equipment specifications.",
@@ -72,6 +72,17 @@
   "key_modal_title_boletinestecnicos": "<i class='fa-solid fa-file-lines'></i>  Technical bulletins",
   "key_modal_title_consejostecnicos": "<i class='fa-solid fa-file-lines'></i>  Tech Tips",
 
-  "key_title_technicalinfo_juntas_empaques": "Engine gaskets and seals"
+  "key_title_technicalinfo_juntas_empaques": "Engine gaskets and seals",
+
+  "key_noticias_menu": "News",
+
+  "key_contact_us": "Contact us",
+
+  "key_contact_area": "Support area",
+  "key_contact_nombre": "Name",
+  "key_contact_telefono": "Phone number",
+  "key_contact_email": "Email",
+  "key_contact_mensaje": "Message",
+  "key_contact_enviar": "Send"
 
 }

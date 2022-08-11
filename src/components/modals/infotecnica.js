@@ -34,7 +34,7 @@ export default class ModalInfoTecnica {
 
         switch (this.modalId) {
             case 'modalBoletinesTecnicos':
-                this.title = "key_modal_title_tablastecnicas";            
+                this.title = "key_modal_title_boletinestecnicos";            
                 this.pdfContent = `
                   <div class="col-md-4" style="align-self: center;">
                       <object data="${BOLETINES_PDF_1}" width="100%" height="500"></object>
@@ -64,7 +64,7 @@ export default class ModalInfoTecnica {
             break;
 
             case 'modalTablaTecnica':
-                this.title = "key_modal_title_boletinestecnicos";
+                this.title = "key_modal_title_tablastecnicas";
                 this.pdfContent = `
                   <div class="col-md-4" style="align-self: center;">
                       <object data="${TABLAS_TECNICAS_PDF_1}" width="100%" height="500"></object>
