@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "title_i18n_key": "key_title_tablastecnicas",
+        "subtitle_i18n_key": "key_subtitle_tablastecnicas",
+        "view_details_i18n_key": "key_section_product_btn_details",
+        "id_view_details": "btnViewDetailsTablasTecnicas"
+    },
+    {
+        "id": "2",
+        "title_i18n_key": "key_title_tablasconversiones",
+        "subtitle_i18n_key": "key_subtitle_tablasconversiones",
+        "view_details_i18n_key": "key_section_product_btn_details",
+        "id_view_details": "btnViewDetailsTablasConversiones"
+    },
+    {
+        "id": "3",
+        "title_i18n_key": "key_title_boletinestecnicos",
+        "subtitle_i18n_key": "key_subtitle_boletinestecnicos",
+        "view_details_i18n_key": "key_section_product_btn_details",
+        "id_view_details": "btnViewDetailsBoletinesTecnicos"
+    },
+    {
+        "id": "4",
+        "title_i18n_key": "key_title_consejostecnicos",
+        "subtitle_i18n_key": "key_subtitle_consejostecnicos",
+        "view_details_i18n_key": "key_section_product_btn_details",
+        "id_view_details": "btnViewDetailsConsejosTecnicos"
+    }
+]

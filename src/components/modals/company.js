@@ -1,7 +1,6 @@
 export default class ModalCompany {
     render() {
         return /*html*/ `
-            <!-- FOOTER -->
             <div class="modal fade" id="modalCompany" tabindex="-1" aria-labelledby="modalCompanyLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl modal-dialog-centered">
                     <div id="modalContentCompany" class="modal-content">

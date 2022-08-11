@@ -14,9 +14,9 @@ import SectionContact from '../../components/sections/contact.js';
 import Footer from '../../components/layout/footer.js';
 
 
-import imgJuntas from '../../assets/images/icono_gasket.png';
-import imgEmpaques from '../../assets/images/icono_empaque.png';
-import imgPistones from '../../assets/images/icono_piston.png';
+import imgJuntas from '../../assets/images/icono_gasket.webp';
+import imgEmpaques from '../../assets/images/icono_empaque.webp';
+import imgPistones from '../../assets/images/icono_piston.webp';
 export default class App {
 
     constructor() {

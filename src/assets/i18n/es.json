@@ -52,5 +52,24 @@
   "key_footer_section_right_reserved": "Derechos Reservados",
   "key_footer_section_right_terms_conditions": "Términos de uso",
   "key_footer_and": "y",
-  "key_footer_section_privacy_declaration": "Declaración de Privacidad"
+  "key_footer_section_privacy_declaration": "Declaración de Privacidad",
+
+  "key_title_tablastecnicas": "Tablas técnicas",
+  "subtitle_i18n_key": "Tablas nacionales y americanas",
+
+  "key_title_tablasconversiones": "Tablas de conversiones",
+  "key_subtitle_tablasconversiones": "Conversiones en medidas Newton-Metro a Libras-Pie, conversiones Litros-Pulgadas",
+
+  "key_title_boletinestecnicos": "Boletines técnicos",
+  "key_subtitle_boletinestecnicos": "Procedimientos y mejoras en la instalación de piezas automotrices, soluciones mecanicas",
+
+  "key_title_consejostecnicos": "Consejos técnicos",
+  "key_subtitle_consejostecnicos": "Te apoyamos con nuestras mejores prácticas",
+
+  "key_modal_title_tablastecnicas": "<i class='fa-solid fa-file-lines'></i>  Tablas técnicas",
+  "key_modal_title_tablasconversiones": "<i class='fa-solid fa-file-lines'></i>  Tablas de conversiones",
+  "key_modal_title_boletinestecnicos": "<i class='fa-solid fa-file-lines'></i>  Boletines técnicos",
+  "key_modal_title_consejostecnicos": "<i class='fa-solid fa-file-lines'></i>  Consejos técnicos",
+
+  "key_title_technicalinfo_juntas_empaques": "Juntas y empaques"  
 }

@@ -34,6 +34,7 @@ export default class ModalInfoTecnica {
 
         switch (this.modalId) {
             case 'modalBoletinesTecnicos':
+                this.title = "key_modal_title_tablastecnicas";            
                 this.pdfContent = `
                   <div class="col-md-4" style="align-self: center;">
                       <object data="${BOLETINES_PDF_1}" width="100%" height="500"></object>
@@ -48,6 +49,7 @@ export default class ModalInfoTecnica {
             break;
 
             case 'modalTablaConversiones':
+                this.title = "key_modal_title_tablasconversiones";
                 this.pdfContent = `
                   <div class="col-md-4" style="align-self: center;">
                       <object data="${TABLAS_CONVERSIONES_PDF_1}" width="100%" height="500"></object>
@@ -62,7 +64,8 @@ export default class ModalInfoTecnica {
             break;
 
             case 'modalTablaTecnica':
-               this.pdfContent = `
+                this.title = "key_modal_title_boletinestecnicos";
+                this.pdfContent = `
                   <div class="col-md-4" style="align-self: center;">
                       <object data="${TABLAS_TECNICAS_PDF_1}" width="100%" height="500"></object>
                   </div>
@@ -76,11 +79,12 @@ export default class ModalInfoTecnica {
             break;
 
             case 'modalConsejosTecnicos':
-               this.pdfContent = `
-                  <div class="col-md-4" style="align-self: center;">
+                this.title = "key_modal_title_consejostecnicos";
+                this.pdfContent = `
+                  <div class="col-md-6" style="align-self: center;">
                       <object data="${CONSEJOS_TECNICOS_PDF_1}" width="100%" height="500"></object>
                   </div>
-                  <div class="col-md-4" style="align-self: center;">
+                  <div class="col-md-6" style="align-self: center;">
                         <object data="${CONSEJOS_TECNICOS_PDF_2}" width="100%" height="500"></object>
                   </div>
                 `;
@@ -101,12 +105,12 @@ export default class ModalInfoTecnica {
                 <div class="modal-dialog modal-xl modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title text-center" id="${this.modalId}Label"><i class="fa-solid fa-file-lines"></i> ${this.productType}</h5>
+                            <h5 class="modal-title text-center i18nelement" data-i18n="${this.title}" id="${this.modalId}Label"><i class="fa-solid fa-file-lines"></i> ${this.title}</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
                            <div class="card">
-                                <div class="row">
+                                <div class="row col-md-12">
                                    ${this.pdfContent}
                                 </div>
                             </div>                                                

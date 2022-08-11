@@ -26,7 +26,7 @@ import TABLAS_TECNICAS_PDF_3 from "./assets/files/tablas_tecnicas/tabla_asiatica
 import CONSEJOS_TECNICOS_PDF_1 from "./assets/files/consejos_tecnicos/limpieza_de_orificios_roscados.pdf?url";
 import CONSEJOS_TECNICOS_PDF_2 from "./assets/files/consejos_tecnicos/tips_y_cuidado_de_los_retenes.pdf?url";
 
-
+import dataJuntasEmpaques from "./api/juntasempaques.json";
 
 (($) => {
 
@@ -43,6 +43,7 @@ import CONSEJOS_TECNICOS_PDF_2 from "./assets/files/consejos_tecnicos/tips_y_cui
                 i18Jsons.push(json_en);
                 document.querySelector('body').classList.add('stop-scrolling');
                 document.getElementById("app").insertAdjacentHTML("afterbegin", app.render());                
+                // renderCards();
 
 
                 let nav = document.querySelector('nav');
@@ -52,7 +53,7 @@ import CONSEJOS_TECNICOS_PDF_2 from "./assets/files/consejos_tecnicos/tips_y_cui
                     } else {
                         nav.classList.remove('bg-dark-transparent', 'shadow');
                     }
-                });
+                });                
 
                     
                 document.getElementById('btnViewDetailsBoletinesTecnicos').addEventListener('click', function () {
@@ -157,7 +158,7 @@ import CONSEJOS_TECNICOS_PDF_2 from "./assets/files/consejos_tecnicos/tips_y_cui
                 return acc;
             }, {});
             await i18next.init({
-                lng: "es",
+                lng: localStorage.getItem("lang") || "es",
                 debug: false,
                 resources: res
             });
@@ -171,16 +172,19 @@ import CONSEJOS_TECNICOS_PDF_2 from "./assets/files/consejos_tecnicos/tips_y_cui
         
                 switch (e.target.value) {
                     case "es":
+                        localStorage.setItem("lang", "es");
                         $(".nice-select>.current").prepend('');
                         $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-mx"></i> ');
                         break;
 
                     case "en":
+                        localStorage.setItem("lang", "en");
                         $(".nice-select>.current").prepend('');
                         $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-us"></i> ');
                         break;
 
                     default:
+                        localStorage.setItem("lang", "es");
                         $(".nice-select>.current").prepend('');
                         $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-mx"></i> ');
                         break;
@@ -199,10 +203,49 @@ import CONSEJOS_TECNICOS_PDF_2 from "./assets/files/consejos_tecnicos/tips_y_cui
         }
 
         const niceSelectInit = () => {
+            
             $(".langSelector").niceSelect();
-            $(".nice-select>ul.list>li.option[data-value='en']").prepend('<i class="flag-icon flag-icon-us"></i> ');
-            $(".nice-select>ul.list>li.option[data-value='es']").prepend('<i class="flag-icon flag-icon-mx"></i> ');
-            $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-mx"></i> ');
+
+            if (localStorage.getItem("lang") == "es") {                
+                $(".langSelector").val("es");
+                $(".langSelector").niceSelect('update');
+                $(".nice-select>.current").prepend('');
+                $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-mx"></i> ');
+                $(".nice-select>ul.list>li.option[data-value='es']").prepend('<i class="flag-icon flag-icon-mx"></i> ');
+                $(".nice-select>ul.list>li.option[data-value='en']").prepend('<i class="flag-icon flag-icon-us"></i> ');
+            } 
+
+            if (localStorage.getItem("lang") == "en") {                
+                $(".langSelector").val("en");
+                $(".langSelector").niceSelect('update');
+                $(".nice-select>.current").prepend('');
+                $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-us"></i> ');
+                $(".nice-select>ul.list>li.option[data-value='en']").prepend('<i class="flag-icon flag-icon-us"></i> ');
+                $(".nice-select>ul.list>li.option[data-value='es']").prepend('<i class="flag-icon flag-icon-mx"></i> ');
+            }
+
+            
+            // $(".nice-select>ul.list>li.option[data-value='en']").prepend('<i class="flag-icon flag-icon-us"></i> ');
+            // $(".nice-select>ul.list>li.option[data-value='es']").prepend('<i class="flag-icon flag-icon-mx"></i> ');
+            // $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-mx"></i> ');
+            
+        }
+
+         const renderCards = () => {
+            dataJuntasEmpaques.map(function(element){
+                $("#juntasEmpaquesContainer").append(
+                    `<div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
+                            <img class="card-img border-15 img-technical-info" src="" alt="Card image">
+                            <div class="card-img-overlay overflow-hidden border-15">
+                                <h2 class="fw-bold">Tablas técnicas</h2>
+                                <h6>Tablas nacionales y americanas</h6>
+                                <div class="d-flex align-items-center">
+                                    <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal i18nelement" data-i18n="key_section_product_btn_details" id="${element.id_view_details}">Ver detalles</button>
+                                </div>
+                            </div>
+                    </div>`
+                );            
+            })
         }
 
         return {

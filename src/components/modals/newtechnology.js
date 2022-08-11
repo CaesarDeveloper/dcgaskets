@@ -2,7 +2,6 @@ import VID_DC_GRAF_WEB from '../../assets/video/VID_DC_GRAF_WEB.mp4';
 export default class ModalNewTechnology {
     render() {
         return /*html*/ `
-            <!-- FOOTER -->
             <div class="modal fade" id="modalNewTechnology" tabindex="-1" aria-labelledby="modalNewTechnologyLabel" aria-hidden="true">
                 <div class="modal-dialog modal modal-dialog-centered">
                     <div class="modal-content">

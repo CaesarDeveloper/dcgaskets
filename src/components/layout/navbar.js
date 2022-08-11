@@ -1,4 +1,4 @@
-import LOGO_DCGASKETS from '../../assets/images/logo_gaskets.png';
+import LOGO_DCGASKETS from '../../assets/images/logo_gaskets.webp';
 
 export default class NavBar {
 
@@ -11,7 +11,7 @@ export default class NavBar {
     return /*html*/ `
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" style="background-color:${this.color}">
           <div class="container">
-            <a class="navbar-brand" href="/"><img src="${LOGO_DCGASKETS}" alt="Logo DC" width="120"/></a>
+            <a class="navbar-brand" href="/"><img src="${LOGO_DCGASKETS}" alt="Logo DC" width="120" height="auto"/></a>
 
             <div id="langContainerMobile" class="" style="right: 25%;position: absolute;">
                 <select class="small langSelector" name="lang">

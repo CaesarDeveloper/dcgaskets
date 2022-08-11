@@ -17,7 +17,7 @@ export default class SectionNews {
                   <!-- Column -->
                   <div class="col-md-4">
                     <div class="card b-h-box position-relative font-14 mb-4 border-15">
-                      <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="Card image">
+                      <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="imagenNoticias">
                       <div class="card-img-overlay overflow-hidden border-15">
                         <div class="d-flex align-items-center">
                             <span class="bg-danger-gradiant badge overflow-hidden text-white px-3 py-1 font-weight-normal">DC GASKETS - MEDIUM</span>
@@ -34,7 +34,7 @@ export default class SectionNews {
                   <!-- Column -->
                   <div class="col-md-4">
                     <div class="card b-h-box position-relative font-14 mb-4 border-15">
-                      <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="Card image">
+                      <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="imagenNoticias">
                       <div class="card-img-overlay overflow-hidden border-15">
                         <div class="d-flex align-items-center">
                             <span class="bg-danger-gradiant badge overflow-hidden text-white px-3 py-1 font-weight-normal">DC GASKETS - MEDIUM</span>
@@ -51,7 +51,7 @@ export default class SectionNews {
                   <!-- Column -->
                   <div class="col-md-4">
                     <div class="card b-h-box position-relative font-14 mb-4 border-15">
-                      <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="Card image">
+                      <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="imagenNoticias">
                       <div class="card-img-overlay overflow-hidden border-15">
                         <div class="d-flex align-items-center">
                             <span class="bg-danger-gradiant badge overflow-hidden text-white px-3 py-1 font-weight-normal">DC GASKETS - MEDIUM</span>

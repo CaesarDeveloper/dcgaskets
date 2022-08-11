@@ -145,7 +145,7 @@ import json_es from './assets/i18n/es.json';
         }
 
         const i18Loader = async () => {
-
+                    
             const langs = ["es", "en"];
 
             const res = langs.reduce((acc, l, idx) => {
@@ -155,7 +155,7 @@ import json_es from './assets/i18n/es.json';
                 return acc;
             }, {});
             await i18next.init({
-                lng: "es",
+                lng: localStorage.getItem("lang") || "es",
                 debug: false,
                 resources: res
             });
@@ -169,16 +169,19 @@ import json_es from './assets/i18n/es.json';
         
                 switch (e.target.value) {
                     case "es":
+                        localStorage.setItem("lang", "es");
                         $(".nice-select>.current").prepend('');
                         $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-mx"></i> ');
                         break;
 
                     case "en":
+                        localStorage.setItem("lang", "en");
                         $(".nice-select>.current").prepend('');
                         $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-us"></i> ');
                         break;
 
                     default:
+                        localStorage.setItem("lang", "es");
                         $(".nice-select>.current").prepend('');
                         $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-mx"></i> ');
                         break;
@@ -197,10 +200,32 @@ import json_es from './assets/i18n/es.json';
         }
 
         const niceSelectInit = () => {
+            
             $(".langSelector").niceSelect();
-            $(".nice-select>ul.list>li.option[data-value='en']").prepend('<i class="flag-icon flag-icon-us"></i> ');
-            $(".nice-select>ul.list>li.option[data-value='es']").prepend('<i class="flag-icon flag-icon-mx"></i> ');
-            $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-mx"></i> ');
+
+            if (localStorage.getItem("lang") == "es") {                
+                $(".langSelector").val("es");
+                $(".langSelector").niceSelect('update');
+                $(".nice-select>.current").prepend('');
+                $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-mx"></i> ');
+                $(".nice-select>ul.list>li.option[data-value='es']").prepend('<i class="flag-icon flag-icon-mx"></i> ');
+                $(".nice-select>ul.list>li.option[data-value='en']").prepend('<i class="flag-icon flag-icon-us"></i> ');
+            } 
+
+            if (localStorage.getItem("lang") == "en") {                
+                $(".langSelector").val("en");
+                $(".langSelector").niceSelect('update');
+                $(".nice-select>.current").prepend('');
+                $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-us"></i> ');
+                $(".nice-select>ul.list>li.option[data-value='en']").prepend('<i class="flag-icon flag-icon-us"></i> ');
+                $(".nice-select>ul.list>li.option[data-value='es']").prepend('<i class="flag-icon flag-icon-mx"></i> ');
+            }
+
+            
+            // $(".nice-select>ul.list>li.option[data-value='en']").prepend('<i class="flag-icon flag-icon-us"></i> ');
+            // $(".nice-select>ul.list>li.option[data-value='es']").prepend('<i class="flag-icon flag-icon-mx"></i> ');
+            // $(".nice-select>.current").prepend('<i class="flag-icon flag-icon-mx"></i> ');
+            
         }
 
         return {

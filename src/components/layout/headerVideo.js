@@ -27,8 +27,7 @@ export default class HeaderVideo {
                         <h3 id="subtitleHeader" class="i18nelement mb-0 text-focus-in mt-5" data-i18n="key_subtitle_hero"> ${this.subtitle} </h3>                        
 
                         <div class="scroll-wrap">
-                          <a href="#productosSection" class="scroll-down w-inline-block">
-                            <!-- <img src="https://uploads-ssl.webflow.com/620ad2336e1661b45ed12787/620d4329b50be612fae0d780_bx_bx-down-arrow-alt.svg" loading="lazy" alt="Scroll down" class="scroll-image"> -->
+                          <a href="#productos" class="scroll-down w-inline-block">                            
                             <i class="fas fa-arrow-down"></i>
                           </a>
                         </div>

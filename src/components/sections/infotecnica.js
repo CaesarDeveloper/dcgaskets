@@ -3,8 +3,9 @@ import PORTADA_TABLAS_TECNICAS from '../../assets/images/informaciontecnica/junt
 import PORTADA_TABLAS_DE_CONVERSIONES from '../../assets/images/informaciontecnica/juntasempaques/TABLA_DE_CONVERSIONES.jpg';
 import PORTADA_BOLETINES_TECNICOS from '../../assets/images/informaciontecnica/juntasempaques/BOLETINES_TECNICOS.jpg';
 import PORTADA_CONSEJOS_TECNICOS from '../../assets/images/informaciontecnica/juntasempaques/CONSEJOS_TECNICOS.jpg';
-export default class SectionInfoTecnica {
 
+export default class SectionInfoTecnica {
+ 
     render() {
         return /*html*/ `
              <section class="container" id="noticiasSection" style="padding-top:50px;padding-bottom:50px;margin-top:100px;">
@@ -14,21 +15,21 @@ export default class SectionInfoTecnica {
                     <div class="row justify-content-center mb-5">
                         <!-- Column -->
                         <div class="col-md-8 text-center">
-                            <h2 class="fw-bold display-4 mb-3">Juntas y empaques</h2>
+                            <h2 class="fw-bold display-4 mb-3 i18nelement" data-i18n="key_title_technicalinfo_juntas_empaques">Juntas y empaques</h2>
                         </div>
                         <!-- Column -->
                     </div>
                     <!-- Row  -->
-                    <div class="documents-container">
-                        <!-- Column -->
-
+                    
+                    <div id="juntasEmpaquesContainer" class="documents-container">
+                        <!-- Column -->                                                                        
                         <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
                             <img class="card-img border-15 img-technical-info" src="${PORTADA_TABLAS_TECNICAS}" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
-                            <h2 class="fw-bold">Tablas técnicas</h2>
-                            <h6>Tablas nacionales y americanas</h6>
+                            <h2 class="fw-bold i18nelement" data-i18n="key_title_tablastecnicas">Tablas técnicas</h2>
+                            <h6 class="i18nelement" data-i18n="subtitle_i18n_key">Tablas nacionales y americanas</h6>
                             <div class="d-flex align-items-center">
-                                <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal" id="btnViewDetailsTablasTecnicas">Ver detalles</button>
+                                <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal i18nelement" data-i18n="key_section_product_btn_details" id="btnViewDetailsTablasTecnicas">Ver detalles</button>
                             </div>
                             <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>-->
                             </div>
@@ -40,10 +41,10 @@ export default class SectionInfoTecnica {
                         <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
                             <img class="card-img border-15 img-technical-info" src="${PORTADA_TABLAS_DE_CONVERSIONES}" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
-                            <h2 class="fw-bold">Tablas de conversiones</h2>
-                            <h6>Conversiones en medidas Newton-Metro a Libras-Pie, conversiones Litros-Pulgadas</h6>
+                            <h2 class="fw-bold i18nelement" data-i18n="key_title_tablasconversiones">Tablas de conversiones</h2>
+                            <h6 class="i18nelement" data-i18n="key_subtitle_tablasconversiones">Conversiones en medidas Newton-Metro a Libras-Pie, conversiones Litros-Pulgadas</h6>
                             <div class="d-flex align-items-center">
-                                <button class="btn btn-grad-red overflow-hidden text-white px-3 py-1 font-weight-normal" id="btnViewDetailsTablasConversiones">Ver detalles</button>                                
+                                <button class="btn btn-grad-red overflow-hidden text-white px-3 py-1 font-weight-normal i18nelement" data-i18n="key_section_product_btn_details" id="btnViewDetailsTablasConversiones">Ver detalles</button>                                
                             </div>                            
                             <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>-->
                             </div>
@@ -55,10 +56,10 @@ export default class SectionInfoTecnica {
                         <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
                             <img class="card-img border-15 img-technical-info" src="${PORTADA_BOLETINES_TECNICOS}" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
-                                <h2 class="fw-bold">Boletines técnicos</h2>
-                                <h6>Procedimientos y mejoras en la instalción de piezas automotrices, soluciones mecanicas</h6>
+                                <h2 class="fw-bold i18nelement" data-i18n="key_title_boletinestecnicos">Boletines técnicos</h2>
+                                <h6 class="i18nelement" data-i18n="key_subtitle_boletinestecnicos">Procedimientos y mejoras en la instalción de piezas automotrices, soluciones mecanicas</h6>
                                 <div class="d-flex align-items-center">
-                                    <button class="btn btn-grad-red overflow-hidden text-white px-3 py-1 font-weight-normal" id="btnViewDetailsBoletinesTecnicos">Ver detalles</button>                                    
+                                    <button class="btn btn-grad-red overflow-hidden text-white px-3 py-1 font-weight-normal i18nelement" data-i18n="key_section_product_btn_details" id="btnViewDetailsBoletinesTecnicos">Ver detalles</button>                                    
                                 </div>
                                 <br/><br/>
                             </div>
@@ -71,10 +72,10 @@ export default class SectionInfoTecnica {
                         <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
                             <img class="card-img border-15 img-technical-info" src="${PORTADA_CONSEJOS_TECNICOS}" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
-                            <h2 class="fw-bold">Consejos técnicos</h2>
-                            <h6>Te apoyamos con nuestras mejores prácticas</h6>
+                            <h2 class="fw-bold i18nelement" data-i18n="key_title_boletinestecnicos">Consejos técnicos</h2>
+                            <h6 class="i18nelement" data-i18n="key_subtitle_consejostecnicos">Te apoyamos con nuestras mejores prácticas</h6>
                             <div class="d-flex align-items-center">
-                                <button class="btn btn-grad-red overflow-hidden text-white px-3 py-1 font-weight-normal" id="btnViewDetailsConsejosTecnicos">Ver detalles</button>                                
+                                <button class="btn btn-grad-red overflow-hidden text-white px-3 py-1 font-weight-normal i18nelement" data-i18n="key_section_product_btn_details" id="btnViewDetailsConsejosTecnicos">Ver detalles</button>                                
                             </div>                            
                             <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>-->
                             </div>
@@ -88,7 +89,7 @@ export default class SectionInfoTecnica {
                     <div class="row justify-content-center mt-5 mb-5">
                         <!-- Column -->
                         <div class="col-md-8 text-center">
-                            <h2 class="fw-bold display-4 mb-3">Pistones</h2>
+                            <h2 class="fw-bold display-4 mb-3 i18nelement" data-i18n="key_section_product_3">Pistones</h2>
                         </div>
                         <!-- Column -->
                     </div>

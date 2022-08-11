@@ -9,15 +9,7 @@ export default class SocialAppWidget {
     }
 
     render() {
-        return /*html*/ `
-               <!-- <a
-                    href="https://api.whatsapp.com/send/?phone=${this.phone}&text=${this.message}"
-                    class="float box-shadow-light"
-                    target="_blank"
-                >
-                    <i class="fa-brands fa-whatsapp my-float"></i>
-                </a> -->
-                     
+        return /*html*/ `                               
                 <div class="fab-wrapper">
                     <input id="fabCheckbox" type="checkbox" class="fab-checkbox" />
                     <label class="fab-button" for="fabCheckbox">

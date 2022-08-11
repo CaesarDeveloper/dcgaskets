@@ -1,6 +1,6 @@
-import imgJuntas from '../../assets/images/icono_gasket.png';
-import imgEmpaques from '../../assets/images/icono_empaque.png';
-import imgPistones from '../../assets/images/icono_piston.png';
+import imgJuntas from '../../assets/images/icono_gasket.webp';
+import imgEmpaques from '../../assets/images/icono_empaque.webp';
+import imgPistones from '../../assets/images/icono_piston.webp';
 
 export default class SectionProducts {
 
@@ -34,7 +34,7 @@ export default class SectionProducts {
                             <div class="solution_card">
                                 <div class="hover_color_bubble"></div>
                                 <div class="so_top_icon">
-                                    <img src="${imgJuntas}" alt="">                 
+                                    <img src="${imgJuntas}" alt="imagenJuntas">                 
                                 </div>
                                 <div class="solu_title">
                                 <h3 class="i18nelement" data-i18n="key_section_product_1">Juntas</h3>
@@ -55,7 +55,7 @@ export default class SectionProducts {
                             <div class="solution_card">
                                 <div class="hover_color_bubble"></div>
                                 <div class="so_top_icon">
-                                    <img src="${imgEmpaques}" alt="">
+                                    <img src="${imgEmpaques}" alt="imagenEmpaques">
                                 </div>
                                 <div class="solu_title">
                                 <h3 class="i18nelement" data-i18n="key_section_product_2">Empaques</h3>
@@ -76,7 +76,7 @@ export default class SectionProducts {
                             <div class="solution_card">
                                 <div class="hover_color_bubble"></div>
                                 <div class="so_top_icon">
-                                    <img src="${imgPistones}" alt="">
+                                    <img src="${imgPistones}" alt="imgagenPistines">
                                 </div>
                                 <div class="solu_title">
                                     <h3 class="i18nelement" data-i18n="key_section_product_3">Pistones</h3>

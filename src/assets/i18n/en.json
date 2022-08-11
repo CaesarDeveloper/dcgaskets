@@ -52,5 +52,26 @@
   "key_footer_section_right_reserved": "All rights reserved",
   "key_footer_section_right_terms_conditions": "Terms of use",
   "key_footer_and": "and",
-  "key_footer_section_privacy_declaration": "Privacy statement"
+  "key_footer_section_privacy_declaration": "Privacy statement",
+
+
+  "key_title_tablastecnicas": "Technical tables",
+  "subtitle_i18n_key": "National and American tables",
+
+  "key_title_tablasconversiones": "Conversion tables",
+  "key_subtitle_tablasconversiones": "Newton-Meter to Foot-Pounds conversions, Liter-Inches conversions",
+
+  "key_title_boletinestecnicos": "Technical bulletins",
+  "key_subtitle_boletinestecnicos": "Procedures and improvements in the installation of automotive parts, mechanical solutions",
+
+  "key_title_consejostecnicos": "Tech Tips",
+  "key_subtitle_consejostecnicos": "We support you with our best practices",
+
+  "key_modal_title_tablastecnicas": "<i class='fa-solid fa-file-lines'></i>  Technical tables",
+  "key_modal_title_tablasconversiones": "<i class='fa-solid fa-file-lines'></i>  Conversion tables",
+  "key_modal_title_boletinestecnicos": "<i class='fa-solid fa-file-lines'></i>  Technical bulletins",
+  "key_modal_title_consejostecnicos": "<i class='fa-solid fa-file-lines'></i>  Tech Tips",
+
+  "key_title_technicalinfo_juntas_empaques": "Engine gaskets and seals"
+
 }

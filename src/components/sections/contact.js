@@ -1,4 +1,4 @@
-import IMG_EMPRESA_CONTACT from "../../assets/images/empresacontacto.png";
+import IMG_EMPRESA_CONTACT from "../../assets/images/empresacontacto.webp";
 export default class SectionContact {
     render() {
         return /*html*/ `           
@@ -39,8 +39,7 @@ export default class SectionContact {
                     <img class="rounded box-shadow-light mb-4" src="${IMG_EMPRESA_CONTACT}" width="100%" style="
                         position: relative;
                         height: 170px;
-                        filter: brightness(53%);
-                    ">
+                        filter: brightness(53%);" alt="imagenEmpresa">
                     
                 </div>                
 

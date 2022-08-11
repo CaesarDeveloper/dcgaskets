@@ -339,8 +339,8 @@ input#menuToggle {
 }
 .menuNav .menuContent {
   position: relative;
-  top: 50%;
-  font-size: 54px;
+  top: 40%;
+  font-size: 3.5rem;
   text-align: center;
   padding-bottom: 20px;
   margin-top: -170px;
@@ -359,12 +359,27 @@ input#menuToggle {
   text-transform: uppercase;
   padding: 35px 0;
 }
-.menuNav ul li a:hover {
+
+/* .menuNav ul li a:hover {
   color: #c8102e;
 }
 .menuNav ul li:hover {
   background: #e6e9ff;
+} */
+
+.menuNav ul li a:hover {
+    color: #fff;
+    font-weight: bold;
 }
+
+.menuNav ul li:hover {
+    background: #2525257d;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    /* width: 300px; */
+    margin: auto;
+}
+
 .menuEffects {
   opacity: 0;
   visibility: hidden;

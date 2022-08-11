@@ -65,7 +65,7 @@ export default class ModalProduct {
                            <div class="card">
                                 <div class="row">
                                     <div class="col-md-6" style="align-self: center;">
-                                        <img id="main-image" src="${this.productImage}" width="100%">
+                                        <img id="main-image" src="${this.productImage}" width="100%" alt="productImage">
                                     </div>
                                     <div class="col-md-6">
                                         <div class="product p-4">                                            
