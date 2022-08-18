@@ -1,5 +1,9 @@
 {
-  "version": "0.0.0",
+  "version": "1.7.4",
+  "author": {
+    "name": "César Arguijo - Front end Developer",
+    "email": "caesardev.arg@gmail.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

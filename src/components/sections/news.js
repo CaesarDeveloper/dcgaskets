@@ -1,3 +1,7 @@
+import imgEventoChihuahua from '../../assets/images/noticias/dc_pistons_capacita.webp';
+import imgEventoLasVegas from '../../assets/images/noticias/cd_pistons_las_vegas.jpeg';
+import imgEventoRujacGuadalajara from '../../assets/images/noticias/dc_expo_rujac_guadalajara.jpeg';
+
 export default class SectionNews {
     render() {
         return /*html*/ `
@@ -16,51 +20,49 @@ export default class SectionNews {
                 <div class="row mt-4">
                   <!-- Column -->
                   <div class="col-md-4">
-                    <div class="card b-h-box position-relative font-14 mb-4 border-15">
-                      <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="imagenNoticias">
+                  
+                  
+                  <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
+                      <img class="card-img border-15 img-technical-info" src="${imgEventoChihuahua}" alt="Card image">
                       <div class="card-img-overlay overflow-hidden border-15">
-                        <div class="d-flex align-items-center">
-                            <span class="bg-danger-gradiant badge overflow-hidden text-white px-3 py-1 font-weight-normal">DC GASKETS - MEDIUM</span>
-                            <div class="ml-2">
-                              <span class="ml-2">&nbsp;&nbsp;Feb 18, 2022</span>
-                            </div>
-                        </div>
-                        <h5 class="card-title my-3 font-weight-normal">Articulo #1 DC Gaskets.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+                      <span class="text-white font-weight-normal">Sep 8, 2022</span>
+                      <h3 class="fw-bold">Evento chavitar - ciudad Chihuahua Chihuahua</h3>                  
+                      <div class="d-flex align-items-center">
+                          <a href="https://kty.li/9R8ef" target="_blank" class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal">Ver evento</a>
+                      </div>
+                      <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>-->
+                      </div>
+                  </div>
+
+
+                  </div>
+                  <!-- Column -->
+                  <!-- Column -->
+                  <div class="col-md-4">
+                    <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
+                      <img class="card-img border-15 img-technical-info" src="${imgEventoLasVegas}" alt="Card image">
+                      <div class="card-img-overlay overflow-hidden border-15">
+                      <span class="text-white font-weight-normal">Nov 1 - 3, 2022</span>
+                      <h3 class="fw-bold">AAPEX 2022 Las Vegas Nevada</h3>                                           
+                      <div class="d-flex align-items-center">
+                          <a href="https://kty.li/Rk3Ss" target="_blank" class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal">Ver evento</a>
+                      </div>
+                      <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>-->
                       </div>
                     </div>
                   </div>
                   <!-- Column -->
                   <!-- Column -->
                   <div class="col-md-4">
-                    <div class="card b-h-box position-relative font-14 mb-4 border-15">
-                      <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="imagenNoticias">
+                    <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
+                      <img class="card-img border-15 img-technical-info" src="${imgEventoRujacGuadalajara}" alt="Card image">
                       <div class="card-img-overlay overflow-hidden border-15">
-                        <div class="d-flex align-items-center">
-                            <span class="bg-danger-gradiant badge overflow-hidden text-white px-3 py-1 font-weight-normal">DC GASKETS - MEDIUM</span>
-                            <div class="ml-2">
-                              <span class="ml-2">&nbsp;&nbsp;Feb 18, 2022</span>
-                            </div>
-                        </div>
-                        <h5 class="card-title my-3 font-weight-normal">Articulo #2 DC Gaskets</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+                      <span class="text-white font-weight-normal">Ago 31 - Sep 2, 2022</span>
+                      <h3 class="fw-bold">EXPO INTERNACIONAL RUJAC 2022</h3>                                           
+                      <div class="d-flex align-items-center">
+                          <a href="https://kty.li/8fYxN" target="_blank" class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal">Ver evento</a>
                       </div>
-                    </div>
-                  </div>
-                  <!-- Column -->
-                  <!-- Column -->
-                  <div class="col-md-4">
-                    <div class="card b-h-box position-relative font-14 mb-4 border-15">
-                      <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="imagenNoticias">
-                      <div class="card-img-overlay overflow-hidden border-15">
-                        <div class="d-flex align-items-center">
-                            <span class="bg-danger-gradiant badge overflow-hidden text-white px-3 py-1 font-weight-normal">DC GASKETS - MEDIUM</span>
-                            <div class="ml-2">
-                              <span class="ml-2">&nbsp;&nbsp;Feb 18, 2022</span>
-                            </div>
-                        </div>
-                        <h5 class="card-title my-3 font-weight-normal">Help out the people who really need it on time.</h5>
-                        <p class="card-text">Articulo #3 DC Gaskets</p>
+                      <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>-->
                       </div>
                     </div>
                   </div>

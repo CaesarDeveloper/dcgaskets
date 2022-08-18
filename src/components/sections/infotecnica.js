@@ -1,8 +1,13 @@
-
+// JUNTAS Y EMPAQUES
 import PORTADA_TABLAS_TECNICAS from '../../assets/images/informaciontecnica/juntasempaques/TABLA_TECNICA.png';
 import PORTADA_TABLAS_DE_CONVERSIONES from '../../assets/images/informaciontecnica/juntasempaques/TABLA_DE_CONVERSIONES.jpg';
 import PORTADA_BOLETINES_TECNICOS from '../../assets/images/informaciontecnica/juntasempaques/BOLETINES_TECNICOS.jpg';
 import PORTADA_CONSEJOS_TECNICOS from '../../assets/images/informaciontecnica/juntasempaques/CONSEJOS_TECNICOS.jpg';
+
+// PISTONES
+import PORTADA_PISTONES_BOLETINES_TECNICOS from '../../assets/images/informaciontecnica/pistones/boletines_tecnicos.jpg';
+import PORTADA_PISTONES_INFORMACION_TECNICA from '../../assets/images/informaciontecnica/pistones/informacion_tecnica.jpg';
+import PORTADA_PISTONES_CLAROS_PISTON_CILINDRO from '../../assets/images/informaciontecnica/pistones/claros_piston_cilindro.jpg';
 
 export default class SectionInfoTecnica {
  
@@ -97,60 +102,45 @@ export default class SectionInfoTecnica {
                     <div class="documents-container">
                         <!-- Column -->
 
-                        <div class="card b-h-box position-relative font-14 mb-4 border-15">
-                            <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="Card image">
+                         <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
+                            <img class="card-img border-15 img-technical-info" src="${PORTADA_PISTONES_BOLETINES_TECNICOS}" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
+                            <h2 class="fw-bold">Boletines técnicos</h2>
                             <div class="d-flex align-items-center">
-                                <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal">Ver detalles</button>
-                                
+                                <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal i18nelement" data-i18n="key_section_product_btn_details" id="btnViewDetailsPistonesBoletinesTecnicos">Ver detalles</button>
                             </div>
-                            <h4 class="my-3 font-weight-normal">Documento #1</h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+                            <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>-->
+                            </div>
+                        </div>
+                       
+                        <!-- Column -->
+                        <!-- Column -->
+
+                        <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
+                            <img class="card-img border-15 img-technical-info" src="${PORTADA_PISTONES_INFORMACION_TECNICA}" alt="Card image">
+                            <div class="card-img-overlay overflow-hidden border-15">
+                            <h2 class="fw-bold">Información tecnica</h2>
+                            <div class="d-flex align-items-center">
+                                <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal i18nelement" data-i18n="key_section_product_btn_details" id="btnViewDetailsPistonesInformacionTecnica">Ver detalles</button>
+                            </div>
+                            <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>-->
                             </div>
                         </div>
                         <!-- Column -->
                         <!-- Column -->
 
-                        <div class="card b-h-box position-relative font-14 mb-4 border-15">
-                            <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="Card image">
+                        <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
+                            <img class="card-img border-15 img-technical-info" src="${PORTADA_PISTONES_CLAROS_PISTON_CILINDRO}" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
+                            <h2 class="fw-bold">Claros pistón y cilindro</h2>
                             <div class="d-flex align-items-center">
-                                <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal">Ver detalles</button>
-                                
+                                <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal i18nelement" data-i18n="key_section_product_btn_details" id="btnViewDetailsPistonesClarosCilindro">Ver detalles</button>
                             </div>
-                            <h4 class="my-3 font-weight-normal">Documento #2</h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+                            <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>-->
                             </div>
                         </div>
-                        <!-- Column -->
                         <!-- Column -->
 
-                        <div class="card b-h-box position-relative font-14 mb-4 border-15">
-                            <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="Card image">
-                            <div class="card-img-overlay overflow-hidden border-15">
-                            <div class="d-flex align-items-center">
-                                <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal">Ver detalles</button>
-                                
-                            </div>
-                            <h4 class="my-3 font-weight-normal">Documento #3</h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                            </div>
-                        </div>
-                        <!-- Column -->                        
-                        <!-- Column -->
-
-                        <div class="card b-h-box position-relative font-14 mb-4 border-15">
-                            <img class="card-img border-15" src="https://via.placeholder.com/640x360" alt="Card image">
-                            <div class="card-img-overlay overflow-hidden border-15">
-                            <div class="d-flex align-items-center">
-                                <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal">Ver detalles</button>
-                                
-                            </div>
-                            <h4 class="my-3 font-weight-normal">Documento #4</h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                            </div>
-                        </div>
-                        <!-- Column -->  
                     </div>
             
                     

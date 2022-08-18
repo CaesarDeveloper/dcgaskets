@@ -1,7 +1,7 @@
-# template-vite-js-tailwind-v3
+# dcgasketsweb
 
-- **template of:** vite + vanilaJS
-- **tailwindcss:** v3.x
+- vite + vanilaJS
+- v3.x
 
 ## Started
 
@@ -27,9 +27,3 @@ yarn dev
 yarn build
 # or `npm run build`
 ```
-
----
-
-<p align="center">
-<img src="./powered-by-vitawind-bright.png">
-</p>

@@ -56,6 +56,24 @@ export default class InfoTecnica {
             downloadId: "btnDescargarConsejosTecnicos"
         });
 
+        this.modalPistonesBoletinesTecnicos = new ModalInfoTecnica({
+            modalId: "modalPistonesBoletinesTecnicos",
+            productType: "Boletines técnicos",
+            downloadId: "btnDescargarPistonesBoletinesTecnicos"
+        });
+
+        this.modalPistonesInformacionTecnica = new ModalInfoTecnica({
+            modalId: "modalPistonesInformacionTecnica",
+            productType: "Información técnica",
+            downloadId: "btnDescargarPistonesInformacionTecnica"
+        });
+
+        this.modalPistonesCilindro = new ModalInfoTecnica({
+            modalId: "modalPistonesCilindro",
+            productType: "Claros piston y cilindro",
+            downloadId: "btnDescargarPistoneCilindro"
+        });
+
 
         this.socialWidget = new SocialAppWidget({
             linkedin: 'https://mx.linkedin.com/company/dc-gaskets',
@@ -79,6 +97,11 @@ export default class InfoTecnica {
             ${this.modalTablaConversiones.render()}
             ${this.modalTablaTecnica.render()}
             ${this.modalConsejosTecnicos.render()}
+
+
+            ${this.modalPistonesBoletinesTecnicos.render()}
+            ${this.modalPistonesInformacionTecnica.render()}
+            ${this.modalPistonesCilindro.render()}
 
             <!-- Widget declaration -->
             ${this.socialWidget.render()}

@@ -83,6 +83,8 @@
   "key_contact_telefono": "Phone number",
   "key_contact_email": "Email",
   "key_contact_mensaje": "Message",
-  "key_contact_enviar": "Send"
+  "key_contact_enviar": "Send",
+  "key_modal_title_pistones_informaciontecnica": "<i class='fa-solid fa-file-lines'></i>  Technical information",
 
+  "key_modal_title_pistones_claro_cilindro": "<i class='fa-solid fa-file-lines'></i>  Piston and cylinder"
 }

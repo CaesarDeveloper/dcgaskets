@@ -1,3 +1,4 @@
+// JUNTAS Y EMPAQUES
 import BOLETINES_PDF_1 from '../../assets/files/boletines_tecnicos/Procedimiento_instalacion_reten.pdf?url';
 import BOLETINES_PDF_2 from '../../assets/files/boletines_tecnicos/Cambio_de_sellos_de_valvula.pdf?url';
 import BOLETINES_PDF_3 from '../../assets/files/boletines_tecnicos/Soluciona_tu_fuga.jpg';
@@ -13,6 +14,15 @@ import TABLAS_TECNICAS_PDF_3 from '../../assets/files/tablas_tecnicas/tabla_asia
 import CONSEJOS_TECNICOS_PDF_1 from '../../assets/files/consejos_tecnicos/limpieza_de_orificios_roscados.pdf?url';
 import CONSEJOS_TECNICOS_PDF_2 from '../../assets/files/consejos_tecnicos/tips_y_cuidado_de_los_retenes.pdf?url';
 
+
+// PISTONES
+
+import PISTONES_BOLETINES_TECNICOS_PDF_1 from '../../assets/files/pistones/ensamble_de_anillos_de_motor.pdf?url';
+
+import PISTONES_INFORMACION_TECNICA_PDF_1 from '../../assets/files/pistones/fallas_comunes_en_pistones.pdf?url';
+
+import PISTONES_CLAROS_PISTON_CILINDRO_PDF_1 from '../../assets/files/pistones/tabla_original_medidas_vento.jpg';
+import PISTONES_CLAROS_PISTON_CILINDRO_PDF_2 from '../../assets/files/pistones/tablas_piston.pdf?url';
 
 export default class ModalInfoTecnica {
 
@@ -90,7 +100,36 @@ export default class ModalInfoTecnica {
                 `;
             break;
 
-            
+
+            case 'modalPistonesBoletinesTecnicos':
+                this.title = "key_modal_title_boletinestecnicos";
+                this.pdfContent = `
+                  <div class="col-md-6" style="align-self: center;">
+                      <object data="${PISTONES_BOLETINES_TECNICOS_PDF_1}" width="100%" height="500"></object>
+                  </div>        
+                `;
+            break;
+
+            case 'modalPistonesInformacionTecnica':
+                this.title = "key_modal_title_pistones_informaciontecnica";
+                this.pdfContent = `
+                  <div class="col-md-6" style="align-self: center;">
+                      <object data="${PISTONES_INFORMACION_TECNICA_PDF_1}" width="100%" height="500"></object>
+                  </div>        
+                `;
+            break;
+
+            case 'modalPistonesCilindro':
+                this.title = "key_modal_title_pistones_claro_cilindro";
+                this.pdfContent = `
+                  <div class="col-md-6" style="align-self: center;">
+                      <object data="${PISTONES_CLAROS_PISTON_CILINDRO_PDF_1}" width="100%" height="500"></object>
+                  </div> 
+                  <div class="col-md-6" style="align-self: center;">
+                      <object data="${PISTONES_CLAROS_PISTON_CILINDRO_PDF_2}" width="100%" height="500"></object>
+                  </div>        
+                `;
+            break;
 
             default:
                 break;

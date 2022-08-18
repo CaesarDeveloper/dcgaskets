@@ -82,8 +82,9 @@
   "key_contact_telefono": "Teléfono",
   "key_contact_email": "Email",
   "key_contact_mensaje": "Mensaje",
-  "key_contact_enviar": "Enviar"
+  "key_contact_enviar": "Enviar",
+  "key_modal_title_pistones_informaciontecnica": "<i class='fa-solid fa-file-lines'></i>  Información técnica",
 
-
+  "key_modal_title_pistones_claro_cilindro": "<i class='fa-solid fa-file-lines'></i>  Claros pistón y cilindro"
 }
 

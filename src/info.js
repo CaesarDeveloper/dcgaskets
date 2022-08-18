@@ -26,6 +26,16 @@ import TABLAS_TECNICAS_PDF_3 from "./assets/files/tablas_tecnicas/tabla_asiatica
 import CONSEJOS_TECNICOS_PDF_1 from "./assets/files/consejos_tecnicos/limpieza_de_orificios_roscados.pdf?url";
 import CONSEJOS_TECNICOS_PDF_2 from "./assets/files/consejos_tecnicos/tips_y_cuidado_de_los_retenes.pdf?url";
 
+
+import PISTONES_BOLETINES_TECNICOS_PDF_1 from './assets/files/pistones/ensamble_de_anillos_de_motor.pdf?url';
+
+import PISTONES_INFORMACION_TECNICA_PDF_1 from './assets/files/pistones/fallas_comunes_en_pistones.pdf?url';
+
+
+import PISTONES_CLAROS_PISTON_CILINDRO_PDF_1 from './assets/files/pistones/tabla_original_medidas_vento.jpg';
+import PISTONES_CLAROS_PISTON_CILINDRO_PDF_2 from './assets/files/pistones/tablas_piston.pdf?url';
+
+
 import dataJuntasEmpaques from "./api/juntasempaques.json";
 
 (($) => {
@@ -72,6 +82,19 @@ import dataJuntasEmpaques from "./api/juntasempaques.json";
                     $("#modalConsejosTecnicos").modal("show");
                 });
                 
+
+                document.getElementById('btnViewDetailsPistonesBoletinesTecnicos').addEventListener('click', function () {                    
+                    $("#modalPistonesBoletinesTecnicos").modal("show");
+                });
+
+
+                document.getElementById('btnViewDetailsPistonesInformacionTecnica').addEventListener('click', function () {                    
+                    $("#modalPistonesInformacionTecnica").modal("show");
+                });
+
+                document.getElementById('btnViewDetailsPistonesClarosCilindro').addEventListener('click', function () {                    
+                    $("#modalPistonesCilindro").modal("show");
+                });
                 
 
                 document.getElementById('btnDescargarBoletines').addEventListener('click', function () {
@@ -93,6 +116,25 @@ import dataJuntasEmpaques from "./api/juntasempaques.json";
                     var urls = [CONSEJOS_TECNICOS_PDF_1, CONSEJOS_TECNICOS_PDF_2];
                     downloadFiles(urls)
                 });
+
+
+                document.getElementById('btnDescargarPistonesBoletinesTecnicos').addEventListener('click', function () {
+                    var urls = [PISTONES_BOLETINES_TECNICOS_PDF_1];
+                    downloadFiles(urls)
+                });
+
+
+                document.getElementById('btnDescargarPistonesInformacionTecnica').addEventListener('click', function () {
+                    var urls = [PISTONES_INFORMACION_TECNICA_PDF_1];
+                    downloadFiles(urls)
+                });
+
+                document.getElementById('btnDescargarPistoneCilindro').addEventListener('click', function () {
+                    var urls = [PISTONES_CLAROS_PISTON_CILINDRO_PDF_1, PISTONES_CLAROS_PISTON_CILINDRO_PDF_2];
+                    downloadFiles(urls)
+                });
+                
+                
 
                 document.getElementById('mobileMenuInicio').addEventListener('click', function () {
                     if (document.getElementById("menuToggle").checked) {
