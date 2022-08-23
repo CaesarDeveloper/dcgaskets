@@ -43,7 +43,7 @@ export default class SectionNews {
                       <img class="card-img border-15 img-technical-info" src="${imgEventoLasVegas}" alt="Card image">
                       <div class="card-img-overlay overflow-hidden border-15">
                       <span class="text-white font-weight-normal">Nov 1 - 3, 2022</span>
-                      <h3 class="fw-bold">AAPEX 2022 Las Vegas, NV USA</h3>                                           
+                      <h3 class="fw-bold">AAPEX 2022 <br/>Las Vegas, NV USA</h3>                                           
                       <div class="d-flex align-items-center">
                           <a href="https://kty.li/Rk3Ss" target="_blank" class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal i18nelement" data-i18n="key_news_section_btn_verevento">Ver evento</a>
                       </div>
