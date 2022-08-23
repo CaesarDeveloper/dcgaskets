@@ -24,12 +24,12 @@
   "key_section_product_subtitle_3": "Calidad equipo original. Aplicaciones de los motores más recientes en el mercado.",
   "key_section_product_btn_details": "Ver detalles",
   "key_section_product_features": "Características",
-  "key_section_product_modal_juntas_descriptiton_1": "Junta de Cabeza DC Graf Tech Seal, tiene Garantia en sellado, mayor resistencia a temperaturas altas, gran termoestabilidad, disipa el calor, evita puntos calientes, mejor durabilidad en sellado, ultra duración.",
-  "key_section_product_modal_juntas_descriptiton_2": "Multilamina con acero de alta resistencia al igual que sus recubrimientos en: Viton®, NBR y Alta calidad para alta presición",
+  "key_section_product_modal_juntas_descriptiton_1": "Junta de Cabeza DC Graf Tech Seal, tiene Garantia en sellado y mayor resistencia a temperaturas altas, gran termoestabilidad, disipa el calor, evita puntos calientes, mejor durabilidad en sellado, ultra duración.",
+  "key_section_product_modal_juntas_descriptiton_2": "Multilamina con acero de alta resistencia al igual que sus recubrimientos en: Viton®, NBR y Alta calidad para alta presición.",
   "key_section_product_modal_juntas_descriptiton_3": "Mayor adapatación a superficies, permite un sellado óptimo.",
   "key_section_product_modal_juntas_descriptiton_4": "DESCUBRE NUEVA TECNOLOGÍA DCGraf <button type='button' id='btnModalNewTech' class='btn btn-primary btn-sm ms-3'>AQUÍ</button>",
   "key_section_product_modal_download_pdf": "<i class='fa-solid fa-download'></i> Descargar catálogo en PDF",
-  "key_section_product_modal_empaques_descriptiton_1": "Múltiples de Admisión/Escape/Pleno y otras juntas fabricados en grafito y fibras especiales de alta calidad y resistencia a elevadas temperaturas y excelente compresibilidad para absorber imperfecciones en las superficies a sellar.",
+  "key_section_product_modal_empaques_descriptiton_1": "Múltiples de Admisión/Escape/Pleno y otras juntas fabricados en grafito y fibras especiales de alta calidad y resistencia a elevadas temperaturas, así como excelente compresibilidad para absorber imperfecciones en las superficies a sellar.",
   "key_section_product_modal_empaques_descriptiton_2": "Juntas y sellos de Hule con materias primas de alto desempeño para uso automotriz como son el vitón, silicón, poliacrílico y nitrilo.",
 
   "key_section_product_modal_pistones_descriptiton_1": "Acabados con Diamante y maquinados en equipo de control numérico (CNC) que brindan mayor precisión.",
@@ -85,6 +85,18 @@
   "key_contact_enviar": "Enviar",
   "key_modal_title_pistones_informaciontecnica": "<i class='fa-solid fa-file-lines'></i>  Información técnica",
 
-  "key_modal_title_pistones_claro_cilindro": "<i class='fa-solid fa-file-lines'></i>  Claros pistón y cilindro"
+  "key_modal_title_pistones_claro_cilindro": "<i class='fa-solid fa-file-lines'></i>  Claros pistón y cilindro",
+
+  "key_modal_btn_download": "<i class='fa-solid fa-download'></i>  Descargar",
+
+  "key_news_section_btn_verevento": "Ver evento",
+
+  "key_contact_form_select_1": "Ventas y atención al cliente",
+  "key_contact_form_select_2": "Soporte técnico",
+  "key_contact_form_select_3": "Compras & proveedores",
+
+  "key_tech_info_pistons_1": "Boletines técnicos",
+  "key_tech_info_pistons_2": "Información técnica",
+  "key_tech_info_pistons_3": "Claros piston y cilindro"
 }
 

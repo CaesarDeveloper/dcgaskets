@@ -83,7 +83,7 @@ export default class ModalProduct {
                                             </p>
                                             
                                             <div class="cart mt-4 align-items-center"> 
-                                                <button class="btn btn-danger text-uppercase mr-2 px-4 i18nelement" data-i18n="key_section_product_modal_download_pdf"><i class="fa-solid fa-download"></i> Descargar catálogo en PDF</button>
+                                                <button class="btn btn-danger text-uppercase mr-2 px-4 i18nelement" data-i18n="key_modal_btn_download"><i class="fa-solid fa-download"></i> Descargar</button>
                                             </div>
                                         </div>
                                     </div>

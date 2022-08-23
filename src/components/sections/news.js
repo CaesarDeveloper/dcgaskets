@@ -26,9 +26,9 @@ export default class SectionNews {
                       <img class="card-img border-15 img-technical-info" src="${imgEventoChihuahua}" alt="Card image">
                       <div class="card-img-overlay overflow-hidden border-15">
                       <span class="text-white font-weight-normal">Sep 8, 2022</span>
-                      <h3 class="fw-bold">Evento chavitar - ciudad Chihuahua Chihuahua</h3>                  
+                      <h3 class="fw-bold">EVENTO CHAVITAR <br/> Chihuahua, Chih.</h3>                  
                       <div class="d-flex align-items-center">
-                          <a href="https://kty.li/9R8ef" target="_blank" class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal">Ver evento</a>
+                          <a href="https://kty.li/9R8ef" target="_blank" class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal i18nelement" data-i18n="key_news_section_btn_verevento">Ver evento</a>
                       </div>
                       <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>-->
                       </div>
@@ -43,9 +43,9 @@ export default class SectionNews {
                       <img class="card-img border-15 img-technical-info" src="${imgEventoLasVegas}" alt="Card image">
                       <div class="card-img-overlay overflow-hidden border-15">
                       <span class="text-white font-weight-normal">Nov 1 - 3, 2022</span>
-                      <h3 class="fw-bold">AAPEX 2022 Las Vegas Nevada</h3>                                           
+                      <h3 class="fw-bold">AAPEX 2022 Las Vegas, NV USA</h3>                                           
                       <div class="d-flex align-items-center">
-                          <a href="https://kty.li/Rk3Ss" target="_blank" class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal">Ver evento</a>
+                          <a href="https://kty.li/Rk3Ss" target="_blank" class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal i18nelement" data-i18n="key_news_section_btn_verevento">Ver evento</a>
                       </div>
                       <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>-->
                       </div>
@@ -58,9 +58,9 @@ export default class SectionNews {
                       <img class="card-img border-15 img-technical-info" src="${imgEventoRujacGuadalajara}" alt="Card image">
                       <div class="card-img-overlay overflow-hidden border-15">
                       <span class="text-white font-weight-normal">Ago 31 - Sep 2, 2022</span>
-                      <h3 class="fw-bold">EXPO INTERNACIONAL RUJAC 2022</h3>                                           
+                      <h3 class="fw-bold">EXPO INTERNACIONAL RUJAJ 2022 <br/> Guadalajara, Jal.</h3>                                           
                       <div class="d-flex align-items-center">
-                          <a href="https://kty.li/8fYxN" target="_blank" class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal">Ver evento</a>
+                          <a href="https://kty.li/8fYxN" target="_blank" class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal i18nelement" data-i18n="key_news_section_btn_verevento">Ver evento</a>
                       </div>
                       <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>-->
                       </div>

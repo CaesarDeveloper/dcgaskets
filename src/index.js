@@ -26,6 +26,9 @@ import json_es from './assets/i18n/es.json';
                 console.log('Iniciando app...');
                 i18Jsons.push(json_es);
                 i18Jsons.push(json_en);
+
+                Object.freeze(i18Jsons);
+
                 document.body.insertAdjacentHTML("afterbegin", loadingScreen.render());
                 // document.querySelector('body').classList.add('stop-scrolling');
                 document.getElementById("app").insertAdjacentHTML("afterbegin", app.render());

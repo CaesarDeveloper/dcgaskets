@@ -155,7 +155,7 @@ export default class ModalInfoTecnica {
                             </div>                                                
                         </div>    
                         <div class="modal-footer">                            
-                            <a id="${this.downloadId}" class="btn btn-lg btn-danger text-uppercase mr-auto px-4 i18nelement" data-i18n="key_section_product_modal_download_pdf"><i class="fa-solid fa-download"></i> Descargar catálogo en PDF</a>                            
+                            <a id="${this.downloadId}" class="btn btn-lg btn-danger text-uppercase mr-auto px-4 i18nelement" data-i18n="key_modal_btn_download"><i class="fa-solid fa-download"></i> Descargar</a>                            
                         </div>                        
                         
                     </div>

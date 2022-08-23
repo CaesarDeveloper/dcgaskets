@@ -24,7 +24,7 @@ export default class ModalLogin {
                             </div>
                             <div class="mb-3">
                                 <label for="txtPassword" class="col-form-label i18nelement" data-i18n="key_password_login_modal">Contraseña</label>
-                                <input type="text" class="form-control" id="txtPassword">
+                                <input type="password" class="form-control" id="txtPassword">
                             </div>
                             <div class="mb-3">
                                 <a href="#" class="float-end i18nelement" data-i18n="key_forgotpassword_login_modal">¿Has olvidado tu contraseña?</a>

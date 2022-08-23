@@ -105,7 +105,7 @@ export default class SectionInfoTecnica {
                          <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
                             <img class="card-img border-15 img-technical-info" src="${PORTADA_PISTONES_BOLETINES_TECNICOS}" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
-                            <h2 class="fw-bold">Boletines técnicos</h2>
+                            <h2 class="fw-bold i18nelement" data-i18n="key_tech_info_pistons_1">Boletines técnicos</h2>
                             <div class="d-flex align-items-center">
                                 <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal i18nelement" data-i18n="key_section_product_btn_details" id="btnViewDetailsPistonesBoletinesTecnicos">Ver detalles</button>
                             </div>
@@ -119,7 +119,7 @@ export default class SectionInfoTecnica {
                         <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
                             <img class="card-img border-15 img-technical-info" src="${PORTADA_PISTONES_INFORMACION_TECNICA}" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
-                            <h2 class="fw-bold">Información tecnica</h2>
+                            <h2 class="fw-bold i18nelement" data-i18n="key_tech_info_pistons_2">Información tecnica</h2>
                             <div class="d-flex align-items-center">
                                 <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal i18nelement" data-i18n="key_section_product_btn_details" id="btnViewDetailsPistonesInformacionTecnica">Ver detalles</button>
                             </div>
@@ -132,7 +132,7 @@ export default class SectionInfoTecnica {
                         <div class="card b-h-box position-relative font-14 mb-4 border-15 box-shadow-light" style="height: 335px;">
                             <img class="card-img border-15 img-technical-info" src="${PORTADA_PISTONES_CLAROS_PISTON_CILINDRO}" alt="Card image">
                             <div class="card-img-overlay overflow-hidden border-15">
-                            <h2 class="fw-bold">Claros pistón y cilindro</h2>
+                            <h2 class="fw-bold i18nelement" data-i18n="key_tech_info_pistons_3">Claros pistón y cilindro</h2>
                             <div class="d-flex align-items-center">
                                 <button class="btn btn-grad-red btn-sm overflow-hidden text-white px-3 py-1 font-weight-normal i18nelement" data-i18n="key_section_product_btn_details" id="btnViewDetailsPistonesClarosCilindro">Ver detalles</button>
                             </div>

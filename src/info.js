@@ -51,10 +51,11 @@ import dataJuntasEmpaques from "./api/juntasempaques.json";
                 console.log('Iniciando app...');
                 i18Jsons.push(json_es);
                 i18Jsons.push(json_en);
-                document.querySelector('body').classList.add('stop-scrolling');
-                document.getElementById("app").insertAdjacentHTML("afterbegin", app.render());                
-                // renderCards();
 
+                Object.freeze(i18Jsons);
+
+                document.querySelector('body').classList.add('stop-scrolling');
+                document.getElementById("app").insertAdjacentHTML("afterbegin", app.render());
 
                 let nav = document.querySelector('nav');
                 window.addEventListener('scroll', function () {
@@ -160,6 +161,22 @@ import dataJuntasEmpaques from "./api/juntasempaques.json";
                     }
                 });
 
+
+                document.getElementById('mobileMenuInicio').addEventListener('click', function () {
+                    window.location.href = '/#';
+                });
+
+                document.getElementById('mobileMenuProductos').addEventListener('click', function () {
+                    window.location.href = '/#productos';
+                });
+
+                document.getElementById('mobileMenuNoticias').addEventListener('click', function () {
+                    window.location.href = '/#noticias';
+                });
+
+                document.getElementById('mobileMenuContact').addEventListener('click', function () {
+                    window.location.href = '/#contacto';
+                });
                 
                 
             } catch (error) {

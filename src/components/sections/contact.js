@@ -56,9 +56,9 @@ export default class SectionContact {
                             <div class="mb-3">
                                 <label for="form-area" class="i18nelement" data-i18n="key_contact_area">Área</label>                                
                                 <select class="form-select">
-                                    <option value="1" selected>Ventas y atención al cliente</option>
-                                    <option value="2">Soporte técnico</option>
-                                    <option value="3">Compras & proveedores</option>
+                                    <option class="i18nelement" data-i18n="key_contact_form_select_1" value="1" selected>Ventas y atención al cliente</option>
+                                    <option class="i18nelement" data-i18n="key_contact_form_select_2" value="2">Soporte técnico</option>
+                                    <option class="i18nelement" data-i18n="key_contact_form_select_3" value="3">Compras & proveedores</option>
                                 </select>
                             </div>
                             <div class="mb-3">

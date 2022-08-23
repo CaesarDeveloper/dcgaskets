@@ -14,7 +14,7 @@
   "key_products_title": "What are you looking for?",
   "key_section_development_title": "R&D",
   "key_section_development_description": "With our engineering and product development, DC Gaskets manufactures products designed to meet the most challenging demands in each engine to achieve their maximum performance.",
-  "key_section_banner": "We have the most complete line, 2 out of 3 mechanics prefer DC.",
+  "key_section_banner": "We have the most complete line, 2 out of 3 mechanics use DC.",
   "key_section_product_modal_title": "<i class='fa-solid fa-file-lines'></i> Product detail",
   "key_section_product_1": "Engine gaskets",
   "key_section_product_2": "Engine seals",
@@ -24,7 +24,7 @@
   "key_section_product_subtitle_3": "Original equipment quality. applications of the latest engines on the market.",
   "key_section_product_btn_details": "View details",
   "key_section_product_features": "Features",
-  "key_section_product_modal_juntas_descriptiton_1": "DC Graf Tech Seal Head Gasket, has a sealing guarantee, greater resistance to high temperatures, great thermostability, dissipates heat, avoids hot spots, better sealing durability, ultra-duration.",
+  "key_section_product_modal_juntas_descriptiton_1": "DC Graf Tech Seal Head Gasket, has a sealing guarantee, greater resistance to high temperatures, great thermostability, dissipates heat, avoids hot spots, better sealing durability, ultra-performance.",
   "key_section_product_modal_juntas_descriptiton_2": "Multilayer with high resistance steel as well as its coatings in: Viton®, NBR and High quality for high precision.",
   "key_section_product_modal_juntas_descriptiton_3": "Greater adaptation to surfaces, allows an optimal sealing.",
   "key_section_product_modal_juntas_descriptiton_4": "DISCOVER NEW DCGraf TECHNOLOGY <button type='button' id='btnModalNewTech' class='btn btn-primary btn-sm ms-3'>HERE</button>",
@@ -32,7 +32,7 @@
   "key_section_product_modal_empaques_descriptiton_1": "Intake / Exhaust / Plenum Manifolds and other gaskets manufactured in graphite and special fibers of high quality and resistance to high temperatures and excellent compressibility to absorb imperfections in the surfaces to be sealed.",
   "key_section_product_modal_empaques_descriptiton_2": "Rubber gaskets and seals with high performance raw materials for automotive use such as viton, silicone, polyacrylic and nitrile.",
 
-  "key_section_product_modal_pistones_descriptiton_1": "Diamond finishes and machined in computer numerical control (CNC) that provide greater precision.",
+  "key_section_product_modal_pistones_descriptiton_1": "Diamond finish and machined in computer numerical control (CNC) that provide greater precision.",
   "key_section_product_modal_pistones_descriptiton_2": "Monolithic Heart that provides greater resistance due to its design cast in one piece.",
   "key_section_product_modal_pistones_descriptiton_3": "Graphitized skirts to improve piston performance.",
   "key_section_product_modal_pistones_descriptiton_4": "Manufactured under Original Equipment specifications.",
@@ -47,7 +47,7 @@
   "key_forgotpassword_login_modal": "Forgot password?",
   "key_btn_cancel_login_modal": "Cancel",
   "key_client_section_title": "Customers",
-  "key_client_section_description": "100% Mexican company highly integrated with engineering and development departments, tooling manufacturing, materials evaluation laboratories, research and development laboratories, mixture of polymeric compounds and the manufacture of the widest range of joints and gaskets in the market.",
+  "key_client_section_description": "100% Mexican company highly integrated with engineering and development departments, tooling manufacturing, materials evaluation laboratories, research and development laboratories, mixture of polymeric compounds and the manufacture of the widest range of seals and gaskets in the market.",
   "key_client_section_title_logos": "Some of our customers",
   "key_footer_section_right_reserved": "All rights reserved",
   "key_footer_section_right_terms_conditions": "Terms of use",
@@ -86,5 +86,17 @@
   "key_contact_enviar": "Send",
   "key_modal_title_pistones_informaciontecnica": "<i class='fa-solid fa-file-lines'></i>  Technical information",
 
-  "key_modal_title_pistones_claro_cilindro": "<i class='fa-solid fa-file-lines'></i>  Piston and cylinder"
+  "key_modal_title_pistones_claro_cilindro": "<i class='fa-solid fa-file-lines'></i>  Piston and cylinder",
+
+  "key_modal_btn_download": "<i class='fa-solid fa-download'></i>  Download",
+
+  "key_news_section_btn_verevento": "See event",
+
+  "key_contact_form_select_1": "Sales and customer service",
+  "key_contact_form_select_2": "Technical support",
+  "key_contact_form_select_3": "Purchases & suppliers",
+
+  "key_tech_info_pistons_1": "Technical bulletins",
+  "key_tech_info_pistons_2": "Technical information",
+  "key_tech_info_pistons_3": "Piston and cylinder"
 }
